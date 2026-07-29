@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- VibeCoding实战篇 封面模板 -->
+  <defs>
+    <linearGradient id="vibeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="vibeAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4ECDC4"/>
+      <stop offset="100%" style="stop-color:#44B09E"/>
+    </linearGradient>
+    <filter id="vibeGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#vibeGrad)"/>
+
+  <!-- Code grid pattern (subtle) -->
+  <g opacity="0.06" fill="#4ECDC4">
+    <text x="50" y="80" font-family="monospace" font-size="14">const agent = new AgentFlow();</text>
+    <text x="50" y="110" font-family="monospace" font-size="14">await agent.configure({ model: "claude-4" });</text>
+    <text x="50" y="140" font-family="monospace" font-size="14">agent.addTool(mcpServer);</text>
+    <text x="50" y="170" font-family="monospace" font-size="14">agent.enableRAG(vectorDB);</text>
+    <text x="50" y="600" font-family="monospace" font-size="14">await agent.deploy({ container: true });</text>
+    <text x="50" y="630" font-family="monospace" font-size="14">console.log("AgentFlow is running!");</text>
+    <text x="600" y="80" font-family="monospace" font-size="14">import { Workflow } from './engine';</text>
+    <text x="600" y="110" font-family="monospace" font-size="14">const flow = new Workflow();</text>
+    <text x="600" y="600" font-family="monospace" font-size="14">export default agent;</text>
+  </g>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1280" height="6" fill="url(#vibeAccent)"/>
+
+  <!-- Series badge (top left) -->
+  <g transform="translate(50, 30)">
+    <rect x="0" y="0" width="260" height="45" rx="22" fill="#4ECDC4" opacity="0.2"/>
+    <rect x="0" y="0" width="260" height="45" rx="22" fill="none" stroke="#4ECDC4" stroke-width="2"/>
+    <text x="18" y="30" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="bold" fill="#4ECDC4">⚡ VibeCoding实战篇</text>
+  </g>
+
+  <!-- Episode number (top right) -->
+  <g transform="translate(1130, 30)">
+    <rect x="0" y="0" width="100" height="45" rx="22" fill="#4ECDC4" opacity="0.3"/>
+    <text x="50" y="30" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">E01</text>
+  </g>
+
+  <!-- Project name -->
+  <text x="640" y="230" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="bold" fill="#4ECDC4" text-anchor="middle" opacity="0.4">AgentFlow</text>
+
+  <!-- Main title (placeholder - to be replaced per episode) -->
+  <text x="640" y="340" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="64" font-weight="bold" fill="white" text-anchor="middle">我要用Claude Code</text>
+  <text x="640" y="420" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="64" font-weight="bold" fill="white" text-anchor="middle">搭一个AgentFlow</text>
+
+  <!-- Subtitle -->
+  <text x="640" y="490" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="26" fill="#8899aa" text-anchor="middle">从零搭建企业级Agent平台 · 第一期</text>
+
+  <!-- Bottom: channel name -->
+  <g transform="translate(50, 645)">
+    <rect x="0" y="0" width="180" height="40" rx="8" fill="white" opacity="0.1"/>
+    <text x="15" y="27" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="bold" fill="white">🎓 AI大家学</text>
+  </g>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="714" width="1280" height="6" fill="url(#vibeAccent)"/>
+</svg>

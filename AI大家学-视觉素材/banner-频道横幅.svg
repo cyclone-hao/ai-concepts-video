@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 480" width="1920" height="480">
+  <!-- 频道Banner - B站/YouTube通用尺寸 -->
+  <defs>
+    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F0E8"/>
+      <stop offset="50%" style="stop-color:#FAF7F2"/>
+      <stop offset="100%" style="stop-color:#F5F0E8"/>
+    </linearGradient>
+    <linearGradient id="bannerAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#E8A87C;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#E8A87C;stop-opacity:0.6"/>
+      <stop offset="70%" style="stop-color:#E8A87C;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#E8A87C;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="480" fill="url(#bannerBg)"/>
+
+  <!-- Decorative top line -->
+  <rect x="0" y="0" width="1920" height="5" fill="url(#bannerAccent)"/>
+
+  <!-- Left decorative dots pattern -->
+  <g opacity="0.15">
+    <circle cx="100" cy="120" r="6" fill="#8B6F47"/>
+    <circle cx="140" cy="120" r="6" fill="#8B6F47"/>
+    <circle cx="180" cy="120" r="6" fill="#8B6F47"/>
+    <circle cx="100" cy="160" r="6" fill="#8B6F47"/>
+    <circle cx="140" cy="160" r="6" fill="#8B6F47"/>
+    <circle cx="180" cy="160" r="6" fill="#8B6F47"/>
+    <circle cx="100" cy="200" r="6" fill="#8B6F47"/>
+    <circle cx="140" cy="200" r="6" fill="#8B6F47"/>
+    <circle cx="180" cy="200" r="6" fill="#8B6F47"/>
+    <circle cx="100" cy="320" r="6" fill="#8B6F47"/>
+    <circle cx="140" cy="320" r="6" fill="#8B6F47"/>
+    <circle cx="180" cy="320" r="6" fill="#8B6F47"/>
+    <circle cx="100" cy="360" r="6" fill="#8B6F47"/>
+    <circle cx="140" cy="360" r="6" fill="#8B6F47"/>
+    <circle cx="180" cy="360" r="6" fill="#8B6F47"/>
+  </g>
+
+  <!-- Right decorative dots pattern -->
+  <g opacity="0.15">
+    <circle cx="1740" cy="120" r="6" fill="#8B6F47"/>
+    <circle cx="1780" cy="120" r="6" fill="#8B6F47"/>
+    <circle cx="1820" cy="120" r="6" fill="#8B6F47"/>
+    <circle cx="1740" cy="160" r="6" fill="#8B6F47"/>
+    <circle cx="1780" cy="160" r="6" fill="#8B6F47"/>
+    <circle cx="1820" cy="160" r="6" fill="#8B6F47"/>
+    <circle cx="1740" cy="200" r="6" fill="#8B6F47"/>
+    <circle cx="1780" cy="200" r="6" fill="#8B6F47"/>
+    <circle cx="1820" cy="200" r="6" fill="#8B6F47"/>
+    <circle cx="1740" cy="320" r="6" fill="#8B6F47"/>
+    <circle cx="1780" cy="320" r="6" fill="#8B6F47"/>
+    <circle cx="1820" cy="320" r="6" fill="#8B6F47"/>
+    <circle cx="1740" cy="360" r="6" fill="#8B6F47"/>
+    <circle cx="1780" cy="360" r="6" fill="#8B6F47"/>
+    <circle cx="1820" cy="360" r="6" fill="#8B6F47"/>
+  </g>
+
+  <!-- Main channel name -->
+  <text x="960" y="195" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="90" font-weight="bold" fill="#5D4E37" text-anchor="middle">AI大家学</text>
+
+  <!-- Slogan -->
+  <text x="960" y="265" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="32" fill="#8B7D6B" text-anchor="middle">从零到一，搞懂AI的每一个关键概念</text>
+
+  <!-- Divider line -->
+  <line x1="760" y1="300" x2="1160" y2="300" stroke="#EDE5D5" stroke-width="2"/>
+
+  <!-- Three series badges -->
+  <!-- Series 1: VibeCoding -->
+  <g transform="translate(560, 340)">
+    <rect x="0" y="0" width="220" height="50" rx="25" fill="#4ECDC4" opacity="0.15"/>
+    <rect x="0" y="0" width="220" height="50" rx="25" fill="none" stroke="#4ECDC4" stroke-width="2"/>
+    <text x="25" y="33" font-family="Arial" font-size="20" fill="#4ECDC4">⚡</text>
+    <text x="52" y="33" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="bold" fill="#3AA89F">VibeCoding实战</text>
+  </g>
+
+  <!-- Series 2: 大模型技术 -->
+  <g transform="translate(840, 340)">
+    <rect x="0" y="0" width="220" height="50" rx="25" fill="#E8A87C" opacity="0.15"/>
+    <rect x="0" y="0" width="220" height="50" rx="25" fill="none" stroke="#E8A87C" stroke-width="2"/>
+    <text x="25" y="33" font-family="Arial" font-size="20" fill="#E8A87C">🧩</text>
+    <text x="52" y="33" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="bold" fill="#D4845C">大模型技术篇</text>
+  </g>
+
+  <!-- Series 3: 前沿认知 -->
+  <g transform="translate(1120, 340)">
+    <rect x="0" y="0" width="220" height="50" rx="25" fill="#667EEA" opacity="0.15"/>
+    <rect x="0" y="0" width="220" height="50" rx="25" fill="none" stroke="#667EEA" stroke-width="2"/>
+    <text x="25" y="33" font-family="Arial" font-size="20" fill="#667EEA">🔭</text>
+    <text x="52" y="33" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" font-weight="bold" fill="#5A6FD6">前沿AI认知篇</text>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="475" width="1920" height="5" fill="url(#bannerAccent)"/>
+</svg>

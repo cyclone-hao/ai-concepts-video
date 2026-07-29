@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Logo A: 简洁文字+图标型 -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAF7F2"/>
+      <stop offset="100%" style="stop-color:#F5F0E8"/>
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8A87C"/>
+      <stop offset="100%" style="stop-color:#D4845C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="40" fill="url(#bgGrad)"/>
+
+  <!-- Decorative circle -->
+  <circle cx="200" cy="155" r="72" fill="none" stroke="#EDE5D5" stroke-width="3"/>
+
+  <!-- AI chip icon in circle -->
+  <rect x="165" y="120" width="70" height="70" rx="12" fill="url(#iconGrad)" opacity="0.9"/>
+  <!-- Circuit lines from chip -->
+  <line x1="200" y1="115" x2="200" y2="100" stroke="#E8A87C" stroke-width="3" stroke-linecap="round"/>
+  <line x1="200" y1="195" x2="200" y2="210" stroke="#E8A87C" stroke-width="3" stroke-linecap="round"/>
+  <line x1="160" y1="155" x2="145" y2="155" stroke="#E8A87C" stroke-width="3" stroke-linecap="round"/>
+  <line x1="240" y1="155" x2="255" y2="155" stroke="#E8A87C" stroke-width="3" stroke-linecap="round"/>
+  <!-- Circuit dots -->
+  <circle cx="200" cy="97" r="4" fill="#E8A87C"/>
+  <circle cx="200" cy="213" r="4" fill="#E8A87C"/>
+  <circle cx="142" cy="155" r="4" fill="#E8A87C"/>
+  <circle cx="258" cy="155" r="4" fill="#E8A87C"/>
+  <!-- AI text inside chip -->
+  <text x="200" y="164" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">AI</text>
+
+  <!-- Channel name -->
+  <text x="200" y="275" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="52" font-weight="bold" fill="#5D4E37" text-anchor="middle">大家学</text>
+
+  <!-- Slogan -->
+  <text x="200" y="315" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="18" fill="#8B7D6B" text-anchor="middle">从零到一，搞懂AI</text>
+
+  <!-- Bottom decorative line -->
+  <line x1="140" y1="340" x2="260" y2="340" stroke="#EDE5D5" stroke-width="2" stroke-linecap="round"/>
+</svg>

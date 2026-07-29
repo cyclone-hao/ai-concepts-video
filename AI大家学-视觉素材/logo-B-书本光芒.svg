@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Logo B: 书本+光芒型 -->
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5F0E8"/>
+      <stop offset="100%" style="stop-color:#FAF7F2"/>
+    </linearGradient>
+    <linearGradient id="bookGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B6F47"/>
+      <stop offset="100%" style="stop-color:#6B5535"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8A87C;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#E8A87C;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="40" fill="url(#bgGrad2)"/>
+
+  <!-- Glow effect behind book -->
+  <ellipse cx="200" cy="140" rx="80" ry="60" fill="url(#glowGrad)" opacity="0.4"/>
+
+  <!-- Open book -->
+  <path d="M130 175 Q130 135 200 125 Q270 135 270 175 L270 185 Q270 155 200 145 Q130 155 130 185 Z" fill="url(#bookGrad)"/>
+  <!-- Book pages -->
+  <line x1="200" y1="128" x2="200" y2="185" stroke="#FAF7F2" stroke-width="2"/>
+  <!-- Left page lines -->
+  <line x1="150" y1="152" x2="190" y2="148" stroke="#FAF7F2" stroke-width="1.5" opacity="0.5"/>
+  <line x1="150" y1="162" x2="190" y2="158" stroke="#FAF7F2" stroke-width="1.5" opacity="0.5"/>
+  <line x1="150" y1="172" x2="190" y2="168" stroke="#FAF7F2" stroke-width="1.5" opacity="0.5"/>
+  <!-- Right page lines -->
+  <line x1="210" y1="148" x2="250" y2="152" stroke="#FAF7F2" stroke-width="1.5" opacity="0.5"/>
+  <line x1="210" y1="158" x2="250" y2="162" stroke="#FAF7F2" stroke-width="1.5" opacity="0.5"/>
+  <line x1="210" y1="168" x2="250" y2="172" stroke="#FAF7F2" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Sparkles / light rays from book -->
+  <line x1="200" y1="115" x2="200" y2="95" stroke="#E8A87C" stroke-width="3" stroke-linecap="round"/>
+  <line x1="170" y1="118" x2="158" y2="100" stroke="#E8A87C" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <line x1="230" y1="118" x2="242" y2="100" stroke="#E8A87C" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  <!-- Sparkle dots -->
+  <circle cx="200" cy="90" r="5" fill="#E8A87C"/>
+  <circle cx="155" cy="96" r="3.5" fill="#E8A87C" opacity="0.7"/>
+  <circle cx="245" cy="96" r="3.5" fill="#E8A87C" opacity="0.7"/>
+  <circle cx="180" cy="88" r="2.5" fill="#E8A87C" opacity="0.5"/>
+  <circle cx="220" cy="88" r="2.5" fill="#E8A87C" opacity="0.5"/>
+
+  <!-- "AI" floating above book -->
+  <text x="200" y="80" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="bold" fill="#8B6F47" text-anchor="middle" opacity="0.7">AI</text>
+
+  <!-- Channel name -->
+  <text x="200" y="250" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="56" font-weight="bold" fill="#5D4E37" text-anchor="middle">AI大家学</text>
+
+  <!-- Slogan line 1 -->
+  <text x="200" y="295" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#8B7D6B" text-anchor="middle">从零到一</text>
+  <!-- Slogan line 2 -->
+  <text x="200" y="325" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="20" fill="#8B7D6B" text-anchor="middle">搞懂AI的每一个关键概念</text>
+
+  <!-- Bottom accent -->
+  <rect x="170" y="350" width="60" height="4" rx="2" fill="#E8A87C" opacity="0.6"/>
+</svg>

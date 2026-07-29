@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Logo C: 灯泡+神经网络型 -->
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAF7F2"/>
+      <stop offset="100%" style="stop-color:#F5F0E8"/>
+    </linearGradient>
+    <linearGradient id="bulbGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8A87C"/>
+      <stop offset="70%" style="stop-color:#D4845C"/>
+      <stop offset="100%" style="stop-color:#8B6F47"/>
+    </linearGradient>
+    <radialGradient id="glowRad" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" style="stop-color:#E8A87C;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#E8A87C;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="40" fill="url(#bgGrad3)"/>
+
+  <!-- Glow behind bulb -->
+  <circle cx="200" cy="135" r="90" fill="url(#glowRad)"/>
+
+  <!-- Lightbulb shape -->
+  <path d="M200 60 C155 60 125 95 125 135 C125 160 140 178 160 190 L160 205 L240 205 L240 190 C260 178 275 160 275 135 C275 95 245 60 200 60Z" fill="url(#bulbGrad)" opacity="0.9"/>
+  <!-- Bulb base -->
+  <rect x="168" y="205" width="64" height="8" rx="3" fill="#8B6F47"/>
+  <rect x="172" y="215" width="56" height="6" rx="3" fill="#8B6F47" opacity="0.7"/>
+  <rect x="176" y="223" width="48" height="6" rx="3" fill="#8B6F47" opacity="0.5"/>
+
+  <!-- Neural network nodes inside bulb -->
+  <!-- Center node -->
+  <circle cx="200" cy="135" r="8" fill="white" opacity="0.9"/>
+  <!-- Surrounding nodes -->
+  <circle cx="175" cy="115" r="5" fill="white" opacity="0.7"/>
+  <circle cx="225" cy="115" r="5" fill="white" opacity="0.7"/>
+  <circle cx="170" cy="150" r="5" fill="white" opacity="0.7"/>
+  <circle cx="230" cy="150" r="5" fill="white" opacity="0.7"/>
+  <circle cx="200" cy="165" r="5" fill="white" opacity="0.7"/>
+  <!-- Connections -->
+  <line x1="200" y1="135" x2="175" y2="115" stroke="white" stroke-width="1.5" opacity="0.5"/>
+  <line x1="200" y1="135" x2="225" y2="115" stroke="white" stroke-width="1.5" opacity="0.5"/>
+  <line x1="200" y1="135" x2="170" y2="150" stroke="white" stroke-width="1.5" opacity="0.5"/>
+  <line x1="200" y1="135" x2="230" y2="150" stroke="white" stroke-width="1.5" opacity="0.5"/>
+  <line x1="200" y1="135" x2="200" y2="165" stroke="white" stroke-width="1.5" opacity="0.5"/>
+  <line x1="175" y1="115" x2="225" y2="115" stroke="white" stroke-width="1" opacity="0.3"/>
+  <line x1="170" y1="150" x2="200" y2="165" stroke="white" stroke-width="1" opacity="0.3"/>
+  <line x1="230" y1="150" x2="200" y2="165" stroke="white" stroke-width="1" opacity="0.3"/>
+
+  <!-- Channel name - "AI" big, "大家学" below -->
+  <text x="200" y="285" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="bold" fill="#8B6F47" text-anchor="middle">AI</text>
+  <text x="200" y="330" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="42" font-weight="bold" fill="#5D4E37" text-anchor="middle">大家学</text>
+
+  <!-- Bottom tagline -->
+  <text x="200" y="365" font-family="'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="16" fill="#8B7D6B" text-anchor="middle">从零到一 · 搞懂AI</text>
+</svg>
