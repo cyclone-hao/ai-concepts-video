@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kimi K3 · 前沿AI认知篇 · 投屏动画</title>
+<style>
+  :root{
+    --bg:#0a0e1a; --bg2:#0f1626; --card:#131c2e; --line:#22304a;
+    --text:#e8eef9; --muted:#8b9bb4;
+    --accent:#7c5cff; --accent2:#29b6ff; --red:#ff4d5e; --green:#2ee6a6; --gold:#ffce4f;
+    --mono:"SF Mono",ui-monospace,Consolas,Menlo,monospace;
+    --sans:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Segoe UI,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%;background:var(--bg);color:var(--text);font-family:var(--sans);overflow:hidden}
+  .deck{position:relative;width:100vw;height:100vh}
+  /* progress */
+  .progress{position:fixed;top:0;left:0;height:4px;background:linear-gradient(90deg,var(--accent),var(--accent2));width:0;z-index:50;transition:width .5s}
+  .brand{position:fixed;top:22px;left:28px;font-size:14px;color:var(--muted);letter-spacing:.5px;z-index:40}
+  .brand b{color:var(--accent2)}
+  .src{position:fixed;bottom:20px;right:26px;font-size:12px;color:var(--muted);z-index:40;opacity:.8}
+  .caption{position:fixed;left:50%;bottom:58px;transform:translateX(-50%);max-width:78vw;
+    font-size:19px;line-height:1.5;text-align:center;color:#cdd8ec;z-index:40;
+    background:rgba(10,14,26,.55);padding:10px 20px;border-radius:12px;border:1px solid var(--line);
+    opacity:0;transition:opacity .4s}
+  .slide.active .caption{opacity:1}
+
+  .slide{position:absolute;inset:0;display:none;flex-direction:column;align-items:center;justify-content:center;
+    padding:80px 8vw;background:radial-gradient(1200px 600px at 70% 10%,rgba(124,92,255,.12),transparent),
+    radial-gradient(900px 500px at 10% 90%,rgba(41,182,255,.10),transparent),var(--bg)}
+  .slide.active{display:flex;animation:fade .5s ease}
+  @keyframes fade{from{opacity:0;transform:scale(.99)}to{opacity:1;transform:scale(1)}}
+
+  .kicker{font-size:15px;letter-spacing:3px;color:var(--accent2);text-transform:uppercase;margin-bottom:14px}
+  h1{font-size:60px;line-height:1.12;font-weight:800;letter-spacing:-1px;text-align:center}
+  h1 .hl{background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+  h1 .red{color:var(--red)}
+  h1 .grn{color:var(--green)}
+  .sub{font-size:22px;color:var(--muted);margin-top:18px;text-align:center;max-width:60vw}
+  .big{font-family:var(--mono);font-weight:700}
+
+  /* tags */
+  .tags{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap;justify-content:center}
+  .tag{font-size:15px;padding:8px 16px;border:1px solid var(--line);border-radius:30px;color:var(--muted)}
+  .tag.r{border-color:var(--red);color:var(--red)}
+  .tag.g{border-color:var(--green);color:var(--green)}
+
+  /* MoE grid */
+  .moe{display:grid;grid-template-columns:repeat(32,14px);grid-auto-rows:14px;gap:4px;margin:30px 0}
+  .moe i{width:14px;height:14px;border-radius:3px;background:#1c2740;transition:all .4s}
+  .moe i.on{background:var(--accent);box-shadow:0 0 10px var(--accent);animation:pulse 1.6s infinite}
+  @keyframes pulse{0%,100%{box-shadow:0 0 6px var(--accent)}50%{box-shadow:0 0 16px var(--accent2)}}
+
+  /* bars */
+  .bars{width:100%;max-width:760px;margin-top:24px}
+  .row{display:flex;align-items:center;gap:14px;margin:14px 0}
+  .rlabel{width:200px;text-align:right;font-size:16px;color:var(--muted)}
+  .rbar{flex:1;height:30px;background:#16203a;border-radius:8px;overflow:hidden;position:relative}
+  .rbar > span{display:block;height:100%;width:0;border-radius:8px;transition:width 1s cubic-bezier(.2,.8,.2,1) .25s;
+    background:linear-gradient(90deg,var(--accent),var(--accent2))}
+  .rbar.k3 > span{background:linear-gradient(90deg,var(--accent),var(--accent2))}
+  .rbar.oth > span{background:#34425f}
+  .rval{width:90px;font-family:var(--mono);font-size:18px;font-weight:700}
+  .rval.k3{color:var(--accent2)}
+  .slide.active .rbar > span{width:var(--w)}
+
+  /* clock */
+  .clocks{display:flex;gap:60px;align-items:center;margin-top:24px}
+  .clock{text-align:center}
+  .clock .ring{width:150px;height:150px;border-radius:50%;border:8px solid var(--line);display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:26px;font-weight:700}
+  .clock.k .ring{border-color:var(--green);color:var(--green)}
+  .clock.s .ring{border-color:var(--red);color:var(--red);font-size:20px}
+  .clock small{display:block;margin-top:10px;color:var(--muted);font-size:15px}
+
+  /* pillars */
+  .pillars{display:flex;gap:22px;margin-top:30px}
+  .pill{width:240px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;text-align:left}
+  .pill h3{font-size:20px;margin-bottom:8px;color:var(--accent2)}
+  .pill p{font-size:15px;color:var(--muted);line-height:1.5}
+  .pill .n{font-family:var(--mono);color:var(--green);font-size:14px;margin-top:12px;display:block}
+
+  /* loop */
+  .loop{position:relative;width:520px;height:320px;margin-top:20px}
+  .loop .node{position:absolute;width:150px;padding:14px;border-radius:14px;background:var(--card);border:1px solid var(--line);font-size:15px;text-align:center}
+  .loop .node b{color:var(--accent2);display:block;font-size:17px;margin-bottom:4px}
+  .loop .n1{top:0;left:185px}
+  .loop .n2{top:140px;left:0}
+  .loop .n3{top:140px;right:0}
+  .loop .n4{bottom:0;left:185px}
+  .loop svg{position:absolute;inset:0;pointer-events:none}
+
+  /* timeline */
+  .tl{position:relative;width:880px;height:6px;background:var(--line);margin-top:50px;border-radius:6px}
+  .tl .dot{position:absolute;top:-9px;width:22px;height:22px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px var(--accent)}
+  .tl .lab{position:absolute;top:30px;transform:translateX(-50%);font-size:15px;color:var(--muted);text-align:center;width:160px}
+  .tl .lab b{display:block;color:var(--text);font-size:17px}
+
+  /* controls */
+  .ctrl{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);display:flex;gap:14px;align-items:center;z-index:45}
+  .ctrl button{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:10px;
+    width:42px;height:38px;font-size:16px;cursor:pointer}
+  .ctrl button:hover{border-color:var(--accent2)}
+  .ctrl .pg{font-family:var(--mono);font-size:13px;color:var(--muted);min-width:54px;text-align:center}
+  .hint{position:fixed;bottom:18px;left:26px;font-size:12px;color:var(--muted);z-index:40;opacity:.7}
+</style>
+</head>
+<body>
+<div class="deck">
+  <div class="progress" id="prog"></div>
+  <div class="brand">🔭 <b>AI大家学</b> · 前沿AI认知篇</div>
+
+  <!-- 1 HOOK -->
+  <section class="slide active" data-src="据多家财经媒体统计 · 2026.7.16 WAIC">
+    <div class="kicker">KIMI 时刻</div>
+    <h1>72 小时<br><span class="red big">4700 亿美元</span> 蒸发</h1>
+    <div class="sub">2026.7.16，月之暗面在 WAIC 前夕发布 Kimi K3<br>三天后美股 AI 板块市值合计蒸发约 4700 亿美元</div>
+    <div class="tags">
+      <span class="tag r">白宫指控"蒸馏"</span>
+      <span class="tag">华尔街震动</span>
+      <span class="tag g">马斯克：Impressive</span>
+    </div>
+    <div class="caption">72小时，4700亿美元蒸发。一个中国模型，让全球科技股抖了三抖。今天扒干净 Kimi K3。</div>
+  </section>
+
+  <!-- 2 MOE -->
+  <section class="slide" data-src="月之暗面官方技术报告 · 新华社">
+    <div class="kicker">它有多强 · 参数</div>
+    <h1><span class="hl big">2.8 万亿</span> 参数<br><span style="font-size:34px;color:var(--muted)">全球参数规模最大的开源模型</span></h1>
+    <div class="moe" id="moe"></div>
+    <div class="sub">896 个专家 · 每次推理只激活 <span class="hl">16</span> 个 — 知识极大，成本可控</div>
+    <div class="caption">2.8万亿参数，全球最大开源模型。但它不是傻大个：896个专家，每次只激活16个，干活的成本很低。</div>
+  </section>
+
+  <!-- 3 BENCHMARKS -->
+  <section class="slide" data-src="Artificial Analysis · Frontend Code Arena · GDPval">
+    <div class="kicker">它有多强 · 成绩单</div>
+    <h1 style="font-size:42px">榜单：开源第一次打进全球前三</h1>
+    <div class="bars">
+      <div class="row"><div class="rlabel">Frontend Code Arena</div>
+        <div class="rbar k3"><span style="--w:100%"></span></div><div class="rval k3">1679 #1</div></div>
+      <div class="row"><div class="rlabel">Claude Fable 5</div>
+        <div class="rbar oth"><span style="--w:97%"></span></div><div class="rval">1631</div></div>
+      <div class="row"><div class="rlabel">GPT-5.6 Sol</div>
+        <div class="rbar oth"><span style="--w:96%"></span></div><div class="rval">1618</div></div>
+    </div>
+    <div class="tags">
+      <span class="tag">AA 智能指数 全球第三 (57)</span>
+      <span class="tag">BrowseComp 91.2 全球第一</span>
+      <span class="tag g">月之暗面坦承：仍落后最强闭源</span>
+    </div>
+    <div class="caption">前端代码榜1679分全球第一，压过Fable5和GPT-5.6 Sol。AA智能指数全球第三。它自己都承认：还落后最强闭源。</div>
+  </section>
+
+  <!-- 4 I-LOVE-Q -->
+  <section class="slide" data-src="月之暗面官方演示 · 马斯克 X">
+    <div class="kicker">它有多强 · 真实生产力</div>
+    <h1 style="font-size:40px">复现中子星关系<br><span class="hl">I-Love-Q</span></h1>
+    <div class="clocks">
+      <div class="clock k"><div class="ring">2h</div><small>Kimi K3<br>3000+ 行代码</small></div>
+      <div class="clock s"><div class="ring">1–2 周</div><small>资深研究者<br>通常所需</small></div>
+    </div>
+    <div class="sub">自主读 20+ 篇论文 · 评估 300+ 状态方程 — 马斯克留言：<span class="grn">Impressive</span></div>
+    <div class="caption">官方演示里，K3两小时复现了中子星I-Love-Q关系，干了资深研究者一到两周的活。马斯克都点赞。</div>
+  </section>
+
+  <!-- 5 KDA -->
+  <section class="slide" data-src="月之暗面技术报告 · GTC 2026 杨植麟">
+    <div class="kicker">怎么做到的 · 底层重写</div>
+    <h1 style="font-size:40px">KDA：<span class="hl">混合线性注意力</span></h1>
+    <svg width="640" height="220" viewBox="0 0 640 220" style="margin-top:18px">
+      <line x1="40" y1="180" x2="610" y2="180" stroke="#22304a" stroke-width="2"/>
+      <polyline id="decay" points="40,180 120,150 220,120 320,110 430,128 540,150 610,165"
+        fill="none" stroke="#7c5cff" stroke-width="3"
+        style="stroke-dasharray:900;stroke-dashoffset:900;transition:stroke-dashoffset 1.4s ease .3s"/>
+      <text x="40" y="205" fill="#8b9bb4" font-size="13">短上下文</text>
+      <text x="540" y="205" fill="#8b9bb4" font-size="13">长上下文</text>
+    </svg>
+    <div class="sub">不同通道用不同衰减速率管理记忆 · 配合 <span class="hl">Attention Residuals</span> 推理效率 +25%</div>
+    <div class="caption">KDA混合线性注意力，不同通道不同衰减速率管记忆，长文本效率大增。配注意力残差，推理效率提升25%。</div>
+  </section>
+
+  <!-- 6 PILLARS -->
+  <section class="slide" data-src="月之暗面高管回应（黄震昕）">
+    <div class="kicker">怎么做到的 · 三大自研</div>
+    <h1 style="font-size:38px">支撑 K3 的三项底层技术</h1>
+    <div class="pillars">
+      <div class="pill"><h3>KDA</h3><p>自研混合线性注意力，解决长任务性能衰减</p><span class="n">+ 长上下文能力</span></div>
+      <div class="pill"><h3>Kimi Linear Tension</h3><p>线性注意力机制，上下文扩大10倍成本仅10倍</p><span class="n">+ Token 效率</span></div>
+      <div class="pill"><h3>Moon Clip</h3><p>全新二阶优化器，20T 数据跑出 40T 效果</p><span class="n">训练成本减半</span></div>
+    </div>
+    <div class="sub">整体扩展效率较 K2 提升约 <span class="hl big">2.5×</span></div>
+    <div class="caption">三项自研：KDA注意力、Linear Tension线性机制、Moon Clip优化器。叠加起来，扩展效率比K2高2.5倍。</div>
+  </section>
+
+  <!-- 7 算力挤兑 -->
+  <section class="slide" data-src="月之暗面公告 · 多家媒体">
+    <div class="kicker">为什么紧张 · 需求爆炸</div>
+    <h1>发布 <span class="red big">48 小时</span><br>暂停新用户注册</h1>
+    <div class="rbar" style="max-width:600px;margin-top:24px;height:36px">
+      <span style="--w:96%;background:linear-gradient(90deg,var(--red),#ff8a5e)"></span></div>
+    <div class="sub">请求量逼近集群极限 · 业内称 <span class="red">"DeepSeek 2.0 时刻"</span></div>
+    <div class="caption">发布48小时，请求量爆了，月之暗面直接暂停新用户注册。这叫DeepSeek 2.0时刻——真实需求的铁证。</div>
+  </section>
+
+  <!-- 8 蒸馏争议 -->
+  <section class="slide" data-src="BBC中文 · 科技日报 · 商务部回应">
+    <div class="kicker">为什么紧张 · 白宫指控</div>
+    <h1 style="font-size:38px">"偷技术"？<span class="grn">三条反驳</span></h1>
+    <div class="tags" style="flex-direction:column;align-items:flex-start;gap:12px;margin-top:26px">
+      <span class="tag g">✓ 性能无法靠蒸馏获得（Vals AI 第二 / AA 第三 / 代码榜第一）</span>
+      <span class="tag g">✓ 开源权重 + 全公开技术报告，最好验证</span>
+      <span class="tag g">✓ 蒸馏不出自己的架构（KDA 是原创）</span>
+    </div>
+    <div class="sub">商务部：美方"双重标准、典型 AI 霸权主义" — 遏制从"卡芯片"到"卡算法"</div>
+    <div class="caption">白宫说它蒸馏Fable。专家三条反驳：性能蒸不出来、开源可复核、架构是原创。这恰恰说明他们慌了。</div>
+  </section>
+
+  <!-- 9 趋势 -->
+  <section class="slide" data-src="公开发布时间线梳理">
+    <div class="kicker">为什么重要 · 趋势</div>
+    <h1 style="font-size:38px">不是偶然，是<span class="hl">趋势</span></h1>
+    <div class="tl">
+      <div class="dot" style="left:0"></div>
+      <div class="dot" style="left:33%"></div>
+      <div class="dot" style="left:66%"></div>
+      <div class="dot" style="left:100%"></div>
+      <div class="lab" style="left:0"><b>DeepSeek R1</b>2025 年初</div>
+      <div class="lab" style="left:33%"><b>DeepSeek V3</b>2025</div>
+      <div class="lab" style="left:66%"><b>Kimi K2</b>2025.07</div>
+      <div class="lab" style="left:100%"><b>Kimi K3</b>2026.07</div>
+    </div>
+    <div class="caption">从DeepSeek到Kimi，密度越来越高，不是一次灵光，是系统性逼近。中国AI正在成群突破。</div>
+  </section>
+
+  <!-- 10 生态闭环 -->
+  <section class="slide" data-src="华为/沐曦/燧原适配 · vLLM 支持">
+    <div class="kicker">为什么重要 · 开源突围</div>
+    <h1 style="font-size:38px">中国 AI 基础设施<span class="hl">闭环</span></h1>
+    <div class="loop">
+      <svg viewBox="0 0 520 320">
+        <path d="M260,40 C120,60 60,140 60,170" fill="none" stroke="#7c5cff" stroke-width="2" stroke-dasharray="4"/>
+        <path d="M60,170 C60,230 180,250 260,250" fill="none" stroke="#29b6ff" stroke-width="2" stroke-dasharray="4"/>
+        <path d="M260,250 C360,250 460,230 460,170" fill="none" stroke="#2ee6a6" stroke-width="2" stroke-dasharray="4"/>
+        <path d="M460,170 C460,120 360,60 260,40" fill="none" stroke="#ffce4f" stroke-width="2" stroke-dasharray="4"/>
+      </svg>
+      <div class="node n1"><b>国产芯片</b>昇腾 / 沐曦 / 燧原</div>
+      <div class="node n2"><b>开源模型</b>Kimi K3 权重</div>
+      <div class="node n3"><b>部署框架</b>vLLM 等</div>
+      <div class="node n4"><b>应用生态</b>开发者 / 企业</div>
+    </div>
+    <div class="caption">国芯、开源模型、部署框架、应用——中国AI正在形成自己的闭环。华为昇腾、vLLM都已适配。</div>
+  </section>
+
+  <!-- 11 估值 -->
+  <section class="slide" data-src="腾讯新闻 · 大湾区经济网 · 彭博社">
+    <div class="kicker">为什么重要 · 资本定价</div>
+    <h1 style="font-size:38px">半年估值翻 <span class="hl big">约 7 倍</span></h1>
+    <svg width="720" height="260" viewBox="0 0 720 260" style="margin-top:18px">
+      <line x1="50" y1="220" x2="690" y2="220" stroke="#22304a" stroke-width="2"/>
+      <line x1="50" y1="20" x2="50" y2="220" stroke="#22304a" stroke-width="2"/>
+      <polyline id="val" points="50,200 210,170 370,130 530,90 690,30"
+        fill="none" stroke="#2ee6a6" stroke-width="4"
+        style="stroke-dasharray:1000;stroke-dashoffset:1000;transition:stroke-dashoffset 1.6s ease .3s"/>
+      <text x="20" y="205" fill="#8b9bb4" font-size="12">43亿</text>
+      <text x="180" y="160" fill="#8b9bb4" font-size="12">100亿</text>
+      <text x="340" y="120" fill="#8b9bb4" font-size="12">200亿</text>
+      <text x="500" y="80" fill="#8b9bb4" font-size="12">315亿</text>
+      <text x="630" y="24" fill="#2ee6a6" font-size="13" font-weight="700">目标500亿</text>
+    </svg>
+    <div class="sub">中金、高盛任保荐 · 冲刺港股 — 黄震昕："中国大模型不该被贴低价标签"</div>
+    <div class="caption">估值从43亿冲到315亿，目标500亿，中金高盛保荐冲刺港股。从便宜到敢定价，这是成熟。</div>
+  </section>
+
+  <!-- 12 收尾 -->
+  <section class="slide" data-src="Artificial Analysis（AA-Omniscience）">
+    <div class="kicker">我的判断</div>
+    <h1 style="font-size:40px">不完美，但<span class="hl">能原创</span></h1>
+    <div class="tags" style="margin-top:24px">
+      <span class="tag r">对抗性幻觉率 51%（Fable 5 为 54.9%）</span>
+      <span class="tag">复杂编程仍略逊 Claude</span>
+    </div>
+    <div class="sub">KDA / Moon Clip / 注意力残差 — 中国团队在最前沿做底层原创<br>多极竞争，对普通人、开发者、小企业，是大好事</div>
+    <div class="caption">K3不完美，幻觉率51%，但同基准下Fable5是54.9%。它证明中国团队能做底层原创。开源vs闭源，你站哪边？</div>
+  </section>
+
+  <div class="src" id="src"></div>
+  <div class="caption" id="cap"></div>
+  <div class="hint">← → 翻页 · 空格 播放/暂停 · 直接点击画面也行</div>
+  <div class="ctrl">
+    <button id="prev">◀</button>
+    <button id="play">⏸</button>
+    <button id="next">▶</button>
+    <div class="pg" id="pg">1 / 12</div>
+  </div>
+</div>
+
+<script>
+  const slides=[...document.querySelectorAll('.slide')];
+  let cur=0, playing=true, timer=null;
+  const prog=document.getElementById('prog'), pg=document.getElementById('pg'),
+        srcEl=document.getElementById('src'), capEl=document.getElementById('cap');
+
+  // build MoE grid (896 = 32*28)
+  const moe=document.getElementById('moe');
+  const total=32*28;
+  const onSet=new Set();
+  while(onSet.size<16) onSet.add(Math.floor(Math.random()*total));
+  for(let i=0;i<total;i++){const d=document.createElement('i');if(onSet.has(i))d.className='on';moe.appendChild(d);}
+
+  function show(i){
+    slides.forEach(s=>s.classList.remove('active'));
+    cur=(i+slides.length)%slides.length;
+    const s=slides[cur];
+    s.classList.add('active');
+    // trigger svg draw
+    s.querySelectorAll('polyline').forEach(p=>{p.style.strokeDashoffset='0';});
+    prog.style.width=((cur+1)/slides.length*100)+'%';
+    pg.textContent=(cur+1)+' / '+slides.length;
+    srcEl.textContent=s.dataset.src||'';
+    capEl.textContent=s.querySelector('.caption')?.textContent||'';
+  }
+  function next(){show(cur+1);}
+  function prev(){show(cur-1);}
+  function toggle(){playing?stop():start();}
+  function start(){playing=true;document.getElementById('play').textContent='⏸';timer=setInterval(next,8000);}
+  function stop(){playing=false;document.getElementById('play').textContent='▶';clearInterval(timer);}
+
+  document.getElementById('next').onclick=next;
+  document.getElementById('prev').onclick=prev;
+  document.getElementById('play').onclick=toggle;
+  document.querySelector('.deck').addEventListener('click',e=>{
+    if(e.target.closest('.ctrl')||e.target.closest('.caption')||e.target.closest('.hint'))return;
+    const x=e.clientX; if(x<window.innerWidth/2)prev(); else next();
+  });
+  document.addEventListener('keydown',e=>{
+    if(e.key==='ArrowRight')next();
+    else if(e.key==='ArrowLeft')prev();
+    else if(e.key===' '){e.preventDefault();toggle();}
+  });
+
+  // init caption/progress and start autoplay
+  show(0);
+  start();
+</script>
+</body>
+</html>

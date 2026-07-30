@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1a1025"/>
+    </linearGradient>
+    <marker id="arr-gray" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#64748b"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "SF Pro Display","PingFang SC","Microsoft YaHei",sans-serif; }
+    @keyframes fadeRight { from { opacity:0; transform:translateX(-15px); } to { opacity:1; transform:translateX(0); } }
+    @keyframes fadeUp { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+    .title { font-size:16px; font-weight:700; fill:#e2e8f0; }
+    .body { font-size:12px; fill:#cbd5e1; }
+    .label { font-size:11px; fill:#94a3b8; }
+    .small { font-size:10px; fill:#64748b; }
+    .card { fill:#1e293b; stroke:#334155; stroke-width:1.5; rx:8; }
+    .phase { font-size:13px; font-weight:600; }
+    .year { font-size:10px; fill:#64748b; }
+    .s1 { animation: fadeRight 0.5s ease-out 0.3s both; }
+    .s2 { animation: fadeRight 0.5s ease-out 0.6s both; }
+    .s3 { animation: fadeRight 0.5s ease-out 0.9s both; }
+    .s4 { animation: fadeRight 0.5s ease-out 1.2s both; }
+    .s5 { animation: fadeUp 0.6s ease-out 1.5s both; }
+  </style>
+
+  <rect width="960" height="540" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="480" y="38" text-anchor="middle" class="title">从"卡芯片"到"卡算法" — 遏制链条升级</text>
+
+  <!-- Timeline axis -->
+  <line x1="80" y1="200" x2="880" y2="200" stroke="#334155" stroke-width="2"/>
+
+  <!-- Phase 1 -->
+  <g class="s1">
+    <circle cx="140" cy="200" r="8" fill="#ef4444"/>
+    <rect x="60" y="120" width="160" height="65" class="card"/>
+    <text x="140" y="148" text-anchor="middle" class="phase" fill="#ef4444">卡芯片</text>
+    <text x="140" y="168" text-anchor="middle" class="year">2022-2024</text>
+    <text x="140" y="245" text-anchor="middle" class="label">禁运高端GPU</text>
+    <text x="140" y="262" text-anchor="middle" class="small">H100/A100 出口限制</text>
+  </g>
+
+  <!-- Arrow -->
+  <g class="s1">
+    <line x1="230" y1="200" x2="295" y2="200" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  </g>
+
+  <!-- Phase 2 -->
+  <g class="s2">
+    <circle cx="380" cy="200" r="8" fill="#E8A87C"/>
+    <rect x="300" y="120" width="160" height="65" class="card"/>
+    <text x="380" y="148" text-anchor="middle" class="phase" fill="#E8A87C">指控蒸馏</text>
+    <text x="380" y="168" text-anchor="middle" class="year">2025-2026</text>
+    <text x="380" y="245" text-anchor="middle" class="label">DeepSeek + Kimi K3</text>
+    <text x="380" y="262" text-anchor="middle" class="small">白宫指控"偷技术"</text>
+  </g>
+
+  <!-- Arrow -->
+  <g class="s2">
+    <line x1="470" y1="200" x2="535" y2="200" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  </g>
+
+  <!-- Phase 3 -->
+  <g class="s3">
+    <circle cx="620" cy="200" r="8" fill="#ef4444"/>
+    <rect x="540" y="120" width="160" height="65" class="card"/>
+    <text x="620" y="148" text-anchor="middle" class="phase" fill="#ef4444">实体清单</text>
+    <text x="620" y="168" text-anchor="middle" class="year">2026</text>
+    <text x="620" y="245" text-anchor="middle" class="label">威胁制裁</text>
+    <text x="620" y="262" text-anchor="middle" class="small">贝森特威胁实体清单</text>
+  </g>
+
+  <!-- Arrow -->
+  <g class="s3">
+    <line x1="710" y1="200" x2="775" y2="200" stroke="#64748b" stroke-width="1.5" marker-end="url(#arr-gray)"/>
+  </g>
+
+  <!-- Phase 4: ? -->
+  <g class="s4">
+    <circle cx="840" cy="200" r="8" fill="#8b5cf6" opacity="0.5"/>
+    <rect x="780" y="120" width="140" height="65" class="card" stroke="#8b5cf6" stroke-dasharray="4,3"/>
+    <text x="850" y="148" text-anchor="middle" class="phase" fill="#8b5cf6">下一步？</text>
+    <text x="850" y="168" text-anchor="middle" class="year">全面封锁？</text>
+    <text x="850" y="245" text-anchor="middle" class="label">还是被迫合作？</text>
+  </g>
+
+  <!-- Bottom pattern analysis -->
+  <g class="s5">
+    <rect x="80" y="310" width="800" height="190" class="card"/>
+    <text x="480" y="342" text-anchor="middle" font-size="14" font-weight="600" fill="#e2e8f0">Pattern：你强了，就说你偷</text>
+
+    <line x1="120" y1="358" x2="840" y2="358" stroke="#334155" stroke-width="1"/>
+
+    <circle cx="140" cy="385" r="4" fill="#E8A87C"/>
+    <text x="158" y="389" class="body">6月：Anthropic 指控阿里巴巴"蒸馏攻击"</text>
+
+    <circle cx="140" cy="415" r="4" fill="#ef4444"/>
+    <text x="158" y="419" class="body">7月：白宫指控月之暗面蒸馏 Fable 模型</text>
+
+    <circle cx="140" cy="445" r="4" fill="#4ECDC4"/>
+    <text x="158" y="449" class="body">专家反驳：性能无法靠蒸馏获得，KDA架构完全原创</text>
+
+    <line x1="120" y1="465" x2="840" y2="465" stroke="#334155" stroke-width="1"/>
+
+    <text x="480" y="488" text-anchor="middle" class="small">中国商务部：美方"缺乏事实依据、双重标准，是典型的 AI 霸权主义"</text>
+  </g>
+</svg>

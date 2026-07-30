@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1a1025"/>
+    </linearGradient>
+    <marker id="arr-b" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#3b82f6"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "SF Pro Display","PingFang SC","Microsoft YaHei",sans-serif; }
+    @keyframes fadeUp { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes spinIn { from { opacity:0; transform:rotate(-30deg) scale(0.8); } to { opacity:1; transform:rotate(0deg) scale(1); } }
+    @keyframes dashDraw { from { stroke-dashoffset:600; } to { stroke-dashoffset:0; } }
+    .title { font-size:16px; font-weight:700; fill:#e2e8f0; }
+    .body { font-size:12px; fill:#cbd5e1; }
+    .label { font-size:11px; fill:#94a3b8; }
+    .small { font-size:10px; fill:#64748b; }
+    .node-title { font-size:13px; font-weight:600; }
+    .card { fill:#1e293b; stroke:#334155; stroke-width:1.5; rx:8; }
+    .t1 { animation: fadeUp 0.5s ease-out 0.3s both; }
+    .t2 { animation: fadeUp 0.5s ease-out 0.5s both; }
+    .t3 { animation: fadeUp 0.5s ease-out 0.7s both; }
+    .t4 { animation: fadeUp 0.5s ease-out 0.9s both; }
+    .loop { stroke-dasharray:600; animation: dashDraw 1.5s ease-out 1.2s both; }
+    .center { animation: fadeUp 0.6s ease-out 1.8s both; }
+    .note { animation: fadeUp 0.5s ease-out 2.2s both; }
+  </style>
+
+  <rect width="960" height="540" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="480" y="38" text-anchor="middle" class="title">中国AI基础设施闭环</text>
+
+  <!-- Circular loop arrows -->
+  <!-- Top: 国产芯片 -->
+  <g class="t1">
+    <rect x="370" y="70" width="220" height="75" class="card" stroke="#ef4444"/>
+    <text x="480" y="100" text-anchor="middle" class="node-title" fill="#ef4444">国产芯片</text>
+    <text x="480" y="120" text-anchor="middle" class="small">华为昇腾 · 沐曦 · 燧原</text>
+  </g>
+
+  <!-- Right: 开源模型 -->
+  <g class="t2">
+    <rect x="680" y="210" width="220" height="75" class="card" stroke="#4ECDC4"/>
+    <text x="790" y="240" text-anchor="middle" class="node-title" fill="#4ECDC4">开源模型</text>
+    <text x="790" y="260" text-anchor="middle" class="small">Kimi K3 · DeepSeek</text>
+  </g>
+
+  <!-- Bottom: 部署框架 -->
+  <g class="t3">
+    <rect x="370" y="350" width="220" height="75" class="card" stroke="#E8A87C"/>
+    <text x="480" y="380" text-anchor="middle" class="node-title" fill="#E8A87C">部署框架</text>
+    <text x="480" y="400" text-anchor="middle" class="small">vLLM · SGLang</text>
+  </g>
+
+  <!-- Left: 应用生态 -->
+  <g class="t4">
+    <rect x="60" y="210" width="220" height="75" class="card" stroke="#8b5cf6"/>
+    <text x="170" y="240" text-anchor="middle" class="node-title" fill="#8b5cf6">应用生态</text>
+    <text x="170" y="260" text-anchor="middle" class="small">企业应用 · 开发者</text>
+  </g>
+
+  <!-- Connecting arrows forming a loop -->
+  <!-- Top → Right -->
+  <path d="M590,107 Q680,130 680,210" fill="none" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#arr-b)" class="loop"/>
+  <text x="660" y="155" class="small" fill="#3b82f6">适配</text>
+
+  <!-- Right → Bottom -->
+  <path d="M790,285 Q790,360 590,387" fill="none" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#arr-b)" class="loop"/>
+  <text x="720" y="345" class="small" fill="#3b82f6">部署</text>
+
+  <!-- Bottom → Left -->
+  <path d="M370,387 Q280,370 280,285" fill="none" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#arr-b)" class="loop"/>
+  <text x="290" y="345" class="small" fill="#3b82f6">支撑</text>
+
+  <!-- Left → Top -->
+  <path d="M170,210 Q170,130 370,107" fill="none" stroke="#3b82f6" stroke-width="1.5" marker-end="url(#arr-b)" class="loop"/>
+  <text x="240" y="155" class="small" fill="#3b82f6">需求</text>
+
+  <!-- Center text -->
+  <g class="center">
+    <text x="480" y="240" text-anchor="middle" font-size="15" font-weight="700" fill="#3b82f6">自主可控</text>
+    <text x="480" y="262" text-anchor="middle" class="label">完整闭环</text>
+  </g>
+
+  <!-- Bottom note -->
+  <g class="note">
+    <rect x="160" y="450" width="640" height="48" class="card"/>
+    <text x="480" y="480" text-anchor="middle" class="body">自己的芯片 + 自己的模型 + 自己的框架 = 不再被卡脖子</text>
+  </g>
+
+  <text x="480" y="525" text-anchor="middle" class="small">华为昇腾、沐曦、燧原已适配 K3 · vLLM 提供生产级支持</text>
+</svg>

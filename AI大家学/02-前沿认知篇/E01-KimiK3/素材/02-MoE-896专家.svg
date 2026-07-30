@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1a1025"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: "SF Pro Display","PingFang SC","Microsoft YaHei",sans-serif; }
+    @keyframes fadeUp { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes popIn { from { opacity:0; transform:scale(0.5); } to { opacity:1; transform:scale(1); } }
+    .title { font-size:16px; font-weight:700; fill:#e2e8f0; }
+    .stat { font-size:14px; font-weight:600; }
+    .body { font-size:12px; fill:#cbd5e1; }
+    .label { font-size:11px; fill:#94a3b8; }
+    .small { font-size:10px; fill:#64748b; }
+    .card-title { animation: fadeUp 0.8s ease-out 0.3s both; }
+    .dots-gray { animation: fadeUp 1s ease-out 1s both; }
+    .active { animation: popIn 0.4s ease-out both; }
+    .a1{animation-delay:2s}.a2{animation-delay:2.15s}.a3{animation-delay:2.3s}.a4{animation-delay:2.45s}
+    .a5{animation-delay:2.6s}.a6{animation-delay:2.75s}.a7{animation-delay:2.9s}.a8{animation-delay:3.05s}
+    .a9{animation-delay:3.2s}.a10{animation-delay:3.35s}.a11{animation-delay:3.5s}.a12{animation-delay:3.65s}
+    .a13{animation-delay:3.8s}.a14{animation-delay:3.95s}.a15{animation-delay:4.1s}.a16{animation-delay:4.25s}
+    .stats-bar { animation: fadeUp 0.8s ease-out 5s both; }
+    .legend { animation: fadeUp 0.8s ease-out 5.8s both; }
+  </style>
+
+  <rect width="960" height="540" fill="url(#bg)"/>
+
+  <g class="card-title">
+    <text x="480" y="42" text-anchor="middle" class="title">MoE 混合专家架构</text>
+    <text x="480" y="62" text-anchor="middle" class="label">2.8万亿参数 · 896个专家 · 每次仅激活16个</text>
+  </g>
+
+  <g class="dots-gray" opacity="0.15">
+    <g fill="#64748b">
+      <circle cx="230" cy="120" r="3"/><circle cx="248" cy="120" r="3"/><circle cx="266" cy="120" r="3"/><circle cx="284" cy="120" r="3"/><circle cx="302" cy="120" r="3"/><circle cx="320" cy="120" r="3"/><circle cx="338" cy="120" r="3"/><circle cx="356" cy="120" r="3"/><circle cx="374" cy="120" r="3"/><circle cx="392" cy="120" r="3"/><circle cx="410" cy="120" r="3"/><circle cx="428" cy="120" r="3"/><circle cx="446" cy="120" r="3"/><circle cx="464" cy="120" r="3"/><circle cx="482" cy="120" r="3"/><circle cx="500" cy="120" r="3"/><circle cx="518" cy="120" r="3"/><circle cx="536" cy="120" r="3"/><circle cx="554" cy="120" r="3"/><circle cx="572" cy="120" r="3"/><circle cx="590" cy="120" r="3"/><circle cx="608" cy="120" r="3"/><circle cx="626" cy="120" r="3"/><circle cx="644" cy="120" r="3"/><circle cx="662" cy="120" r="3"/><circle cx="680" cy="120" r="3"/><circle cx="698" cy="120" r="3"/><circle cx="716" cy="120" r="3"/>
+      <circle cx="230" cy="138" r="3"/><circle cx="248" cy="138" r="3"/><circle cx="266" cy="138" r="3"/><circle cx="284" cy="138" r="3"/><circle cx="302" cy="138" r="3"/><circle cx="320" cy="138" r="3"/><circle cx="338" cy="138" r="3"/><circle cx="356" cy="138" r="3"/><circle cx="374" cy="138" r="3"/><circle cx="392" cy="138" r="3"/><circle cx="410" cy="138" r="3"/><circle cx="428" cy="138" r="3"/><circle cx="446" cy="138" r="3"/><circle cx="464" cy="138" r="3"/><circle cx="482" cy="138" r="3"/><circle cx="500" cy="138" r="3"/><circle cx="518" cy="138" r="3"/><circle cx="536" cy="138" r="3"/><circle cx="554" cy="138" r="3"/><circle cx="572" cy="138" r="3"/><circle cx="590" cy="138" r="3"/><circle cx="608" cy="138" r="3"/><circle cx="626" cy="138" r="3"/><circle cx="644" cy="138" r="3"/><circle cx="662" cy="138" r="3"/><circle cx="680" cy="138" r="3"/><circle cx="698" cy="138" r="3"/><circle cx="716" cy="138" r="3"/>
+      <circle cx="230" cy="156" r="3"/><circle cx="248" cy="156" r="3"/><circle cx="266" cy="156" r="3"/><circle cx="284" cy="156" r="3"/><circle cx="302" cy="156" r="3"/><circle cx="320" cy="156" r="3"/><circle cx="338" cy="156" r="3"/><circle cx="356" cy="156" r="3"/><circle cx="374" cy="156" r="3"/><circle cx="392" cy="156" r="3"/><circle cx="410" cy="156" r="3"/><circle cx="428" cy="156" r="3"/><circle cx="446" cy="156" r="3"/><circle cx="464" cy="156" r="3"/><circle cx="482" cy="156" r="3"/><circle cx="500" cy="156" r="3"/><circle cx="518" cy="156" r="3"/><circle cx="536" cy="156" r="3"/><circle cx="554" cy="156" r="3"/><circle cx="572" cy="156" r="3"/><circle cx="590" cy="156" r="3"/><circle cx="608" cy="156" r="3"/><circle cx="626" cy="156" r="3"/><circle cx="644" cy="156" r="3"/><circle cx="662" cy="156" r="3"/><circle cx="680" cy="156" r="3"/><circle cx="698" cy="156" r="3"/><circle cx="716" cy="156" r="3"/>
+      <circle cx="230" cy="174" r="3"/><circle cx="248" cy="174" r="3"/><circle cx="266" cy="174" r="3"/><circle cx="284" cy="174" r="3"/><circle cx="302" cy="174" r="3"/><circle cx="320" cy="174" r="3"/><circle cx="338" cy="174" r="3"/><circle cx="356" cy="174" r="3"/><circle cx="374" cy="174" r="3"/><circle cx="392" cy="174" r="3"/><circle cx="410" cy="174" r="3"/><circle cx="428" cy="174" r="3"/><circle cx="446" cy="174" r="3"/><circle cx="464" cy="174" r="3"/><circle cx="482" cy="174" r="3"/><circle cx="500" cy="174" r="3"/><circle cx="518" cy="174" r="3"/><circle cx="536" cy="174" r="3"/><circle cx="554" cy="174" r="3"/><circle cx="572" cy="174" r="3"/><circle cx="590" cy="174" r="3"/><circle cx="608" cy="174" r="3"/><circle cx="626" cy="174" r="3"/><circle cx="644" cy="174" r="3"/><circle cx="662" cy="174" r="3"/><circle cx="680" cy="174" r="3"/><circle cx="698" cy="174" r="3"/><circle cx="716" cy="174" r="3"/>
+      <circle cx="230" cy="192" r="3"/><circle cx="248" cy="192" r="3"/><circle cx="266" cy="192" r="3"/><circle cx="284" cy="192" r="3"/><circle cx="302" cy="192" r="3"/><circle cx="320" cy="192" r="3"/><circle cx="338" cy="192" r="3"/><circle cx="356" cy="192" r="3"/><circle cx="374" cy="192" r="3"/><circle cx="392" cy="192" r="3"/><circle cx="410" cy="192" r="3"/><circle cx="428" cy="192" r="3"/><circle cx="446" cy="192" r="3"/><circle cx="464" cy="192" r="3"/><circle cx="482" cy="192" r="3"/><circle cx="500" cy="192" r="3"/><circle cx="518" cy="192" r="3"/><circle cx="536" cy="192" r="3"/><circle cx="554" cy="192" r="3"/><circle cx="572" cy="192" r="3"/><circle cx="590" cy="192" r="3"/><circle cx="608" cy="192" r="3"/><circle cx="626" cy="192" r="3"/><circle cx="644" cy="192" r="3"/><circle cx="662" cy="192" r="3"/><circle cx="680" cy="192" r="3"/><circle cx="698" cy="192" r="3"/><circle cx="716" cy="192" r="3"/>
+      <circle cx="230" cy="210" r="3"/><circle cx="248" cy="210" r="3"/><circle cx="266" cy="210" r="3"/><circle cx="284" cy="210" r="3"/><circle cx="302" cy="210" r="3"/><circle cx="320" cy="210" r="3"/><circle cx="338" cy="210" r="3"/><circle cx="356" cy="210" r="3"/><circle cx="374" cy="210" r="3"/><circle cx="392" cy="210" r="3"/><circle cx="410" cy="210" r="3"/><circle cx="428" cy="210" r="3"/><circle cx="446" cy="210" r="3"/><circle cx="464" cy="210" r="3"/><circle cx="482" cy="210" r="3"/><circle cx="500" cy="210" r="3"/><circle cx="518" cy="210" r="3"/><circle cx="536" cy="210" r="3"/><circle cx="554" cy="210" r="3"/><circle cx="572" cy="210" r="3"/><circle cx="590" cy="210" r="3"/><circle cx="608" cy="210" r="3"/><circle cx="626" cy="210" r="3"/><circle cx="644" cy="210" r="3"/><circle cx="662" cy="210" r="3"/><circle cx="680" cy="210" r="3"/><circle cx="698" cy="210" r="3"/><circle cx="716" cy="210" r="3"/>
+      <circle cx="230" cy="228" r="3"/><circle cx="248" cy="228" r="3"/><circle cx="266" cy="228" r="3"/><circle cx="284" cy="228" r="3"/><circle cx="302" cy="228" r="3"/><circle cx="320" cy="228" r="3"/><circle cx="338" cy="228" r="3"/><circle cx="356" cy="228" r="3"/><circle cx="374" cy="228" r="3"/><circle cx="392" cy="228" r="3"/><circle cx="410" cy="228" r="3"/><circle cx="428" cy="228" r="3"/><circle cx="446" cy="228" r="3"/><circle cx="464" cy="228" r="3"/><circle cx="482" cy="228" r="3"/><circle cx="500" cy="228" r="3"/><circle cx="518" cy="228" r="3"/><circle cx="536" cy="228" r="3"/><circle cx="554" cy="228" r="3"/><circle cx="572" cy="228" r="3"/><circle cx="590" cy="228" r="3"/><circle cx="608" cy="228" r="3"/><circle cx="626" cy="228" r="3"/><circle cx="644" cy="228" r="3"/><circle cx="662" cy="228" r="3"/><circle cx="680" cy="228" r="3"/><circle cx="698" cy="228" r="3"/><circle cx="716" cy="228" r="3"/>
+      <circle cx="230" cy="246" r="3"/><circle cx="248" cy="246" r="3"/><circle cx="266" cy="246" r="3"/><circle cx="284" cy="246" r="3"/><circle cx="302" cy="246" r="3"/><circle cx="320" cy="246" r="3"/><circle cx="338" cy="246" r="3"/><circle cx="356" cy="246" r="3"/><circle cx="374" cy="246" r="3"/><circle cx="392" cy="246" r="3"/><circle cx="410" cy="246" r="3"/><circle cx="428" cy="246" r="3"/><circle cx="446" cy="246" r="3"/><circle cx="464" cy="246" r="3"/><circle cx="482" cy="246" r="3"/><circle cx="500" cy="246" r="3"/><circle cx="518" cy="246" r="3"/><circle cx="536" cy="246" r="3"/><circle cx="554" cy="246" r="3"/><circle cx="572" cy="246" r="3"/><circle cx="590" cy="246" r="3"/><circle cx="608" cy="246" r="3"/><circle cx="626" cy="246" r="3"/><circle cx="644" cy="246" r="3"/><circle cx="662" cy="246" r="3"/><circle cx="680" cy="246" r="3"/><circle cx="698" cy="246" r="3"/><circle cx="716" cy="246" r="3"/>
+      <circle cx="230" cy="264" r="3"/><circle cx="248" cy="264" r="3"/><circle cx="266" cy="264" r="3"/><circle cx="284" cy="264" r="3"/><circle cx="302" cy="264" r="3"/><circle cx="320" cy="264" r="3"/><circle cx="338" cy="264" r="3"/><circle cx="356" cy="264" r="3"/><circle cx="374" cy="264" r="3"/><circle cx="392" cy="264" r="3"/><circle cx="410" cy="264" r="3"/><circle cx="428" cy="264" r="3"/><circle cx="446" cy="264" r="3"/><circle cx="464" cy="264" r="3"/><circle cx="482" cy="264" r="3"/><circle cx="500" cy="264" r="3"/><circle cx="518" cy="264" r="3"/><circle cx="536" cy="264" r="3"/><circle cx="554" cy="264" r="3"/><circle cx="572" cy="264" r="3"/><circle cx="590" cy="264" r="3"/><circle cx="608" cy="264" r="3"/><circle cx="626" cy="264" r="3"/><circle cx="644" cy="264" r="3"/><circle cx="662" cy="264" r="3"/><circle cx="680" cy="264" r="3"/><circle cx="698" cy="264" r="3"/><circle cx="716" cy="264" r="3"/>
+      <circle cx="230" cy="282" r="3"/><circle cx="248" cy="282" r="3"/><circle cx="266" cy="282" r="3"/><circle cx="284" cy="282" r="3"/><circle cx="302" cy="282" r="3"/><circle cx="320" cy="282" r="3"/><circle cx="338" cy="282" r="3"/><circle cx="356" cy="282" r="3"/><circle cx="374" cy="282" r="3"/><circle cx="392" cy="282" r="3"/><circle cx="410" cy="282" r="3"/><circle cx="428" cy="282" r="3"/><circle cx="446" cy="282" r="3"/><circle cx="464" cy="282" r="3"/><circle cx="482" cy="282" r="3"/><circle cx="500" cy="282" r="3"/><circle cx="518" cy="282" r="3"/><circle cx="536" cy="282" r="3"/><circle cx="554" cy="282" r="3"/><circle cx="572" cy="282" r="3"/><circle cx="590" cy="282" r="3"/><circle cx="608" cy="282" r="3"/><circle cx="626" cy="282" r="3"/><circle cx="644" cy="282" r="3"/><circle cx="662" cy="282" r="3"/><circle cx="680" cy="282" r="3"/><circle cx="698" cy="282" r="3"/><circle cx="716" cy="282" r="3"/>
+    </g>
+  </g>
+
+  <!-- 16 active experts -->
+  <circle cx="266" cy="138" r="6" fill="#4ECDC4" class="active a1"/>
+  <circle cx="374" cy="120" r="6" fill="#4ECDC4" class="active a2"/>
+  <circle cx="500" cy="156" r="6" fill="#4ECDC4" class="active a3"/>
+  <circle cx="644" cy="138" r="6" fill="#4ECDC4" class="active a4"/>
+  <circle cx="302" cy="192" r="6" fill="#4ECDC4" class="active a5"/>
+  <circle cx="446" cy="210" r="6" fill="#4ECDC4" class="active a6"/>
+  <circle cx="572" cy="192" r="6" fill="#4ECDC4" class="active a7"/>
+  <circle cx="698" cy="210" r="6" fill="#4ECDC4" class="active a8"/>
+  <circle cx="248" cy="246" r="6" fill="#4ECDC4" class="active a9"/>
+  <circle cx="410" cy="264" r="6" fill="#4ECDC4" class="active a10"/>
+  <circle cx="536" cy="246" r="6" fill="#4ECDC4" class="active a11"/>
+  <circle cx="680" cy="264" r="6" fill="#4ECDC4" class="active a12"/>
+  <circle cx="338" cy="282" r="6" fill="#4ECDC4" class="active a13"/>
+  <circle cx="482" cy="282" r="6" fill="#4ECDC4" class="active a14"/>
+  <circle cx="608" cy="282" r="6" fill="#4ECDC4" class="active a15"/>
+  <circle cx="716" cy="282" r="6" fill="#4ECDC4" class="active a16"/>
+
+  <g class="stats-bar">
+    <rect x="140" y="340" width="680" height="90" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <text x="240" y="372" text-anchor="middle" class="label">总参数</text>
+    <text x="240" y="400" text-anchor="middle" class="stat" fill="#e2e8f0">2.8万亿</text>
+    <line x1="345" y1="355" x2="345" y2="418" stroke="#334155" stroke-width="1"/>
+    <text x="450" y="372" text-anchor="middle" class="label">专家总数</text>
+    <text x="450" y="400" text-anchor="middle" class="stat" fill="#e2e8f0">896</text>
+    <line x1="555" y1="355" x2="555" y2="418" stroke="#334155" stroke-width="1"/>
+    <text x="660" y="372" text-anchor="middle" class="label">每次激活</text>
+    <text x="660" y="400" text-anchor="middle" class="stat" fill="#4ECDC4">16个</text>
+    <text x="770" y="372" text-anchor="middle" class="label">激活比例</text>
+    <text x="770" y="400" text-anchor="middle" class="stat" fill="#4ECDC4">1.8%</text>
+  </g>
+
+  <g class="legend">
+    <circle cx="340" cy="470" r="5" fill="#4ECDC4"/>
+    <text x="352" y="474" class="small">= 当前激活的专家</text>
+    <circle cx="510" cy="470" r="3" fill="#64748b" opacity="0.3"/>
+    <text x="520" y="474" class="small">= 待命专家 (880个)</text>
+    <text x="480" y="510" text-anchor="middle" class="small">知识储备极大，单次推理只调用1.8%的专家 → 成本低、部署可控</text>
+  </g>
+</svg>

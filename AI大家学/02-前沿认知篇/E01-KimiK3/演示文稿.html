@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>Kimi K3 — 视频素材</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background: #0a0a14;
+    color: #e2e8f0;
+    font-family: "SF Pro Display","PingFang SC","Microsoft YaHei",sans-serif;
+    overflow: hidden;
+    height: 100vh;
+    cursor: none;
+  }
+  /* Slide container */
+  .deck {
+    width: 100vw; height: 100vh;
+    position: relative;
+  }
+  .slide {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+    pointer-events: none;
+  }
+  .slide.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .slide svg {
+    max-width: 92vw;
+    max-height: 88vh;
+    filter: drop-shadow(0 4px 24px rgba(0,0,0,0.4));
+  }
+
+  /* Progress bar */
+  .progress {
+    position: fixed; bottom: 0; left: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #4ECDC4, #8b5cf6);
+    transition: width 0.6s ease-out;
+    z-index: 100;
+  }
+
+  /* Slide counter - subtle */
+  .counter {
+    position: fixed; bottom: 16px; right: 24px;
+    font-size: 12px; color: #334155;
+    letter-spacing: 2px;
+    z-index: 100;
+    transition: opacity 0.3s;
+  }
+
+  /* Nav hint - shows briefly then fades */
+  .nav-hint {
+    position: fixed; bottom: 40px; left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px; color: #334155;
+    letter-spacing: 1px;
+    z-index: 100;
+    animation: hintFade 4s ease-out 2s forwards;
+  }
+  @keyframes hintFade {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  /* Title slide style */
+  .title-slide {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .title-slide h1 {
+    font-size: 42px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #4ECDC4, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -1px;
+  }
+  .title-slide p {
+    font-size: 18px;
+    color: #64748b;
+    font-weight: 400;
+  }
+
+  /* Section divider */
+  .section-slide {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .section-slide .section-num {
+    font-size: 72px;
+    font-weight: 800;
+    color: #1e293b;
+    line-height: 1;
+  }
+  .section-slide .section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #e2e8f0;
+  }
+  .section-slide .section-sub {
+    font-size: 16px;
+    color: #64748b;
+    max-width: 600px;
+    text-align: center;
+    line-height: 1.6;
+  }
+</style>
+</head>
+<body>
+
+<div class="deck" id="deck">
+
+  <!-- Slide 0: Title -->
+  <div class="slide title-slide active" data-index="0">
+    <h1>Kimi K3</h1>
+    <p>当开源模型第一次逼到闭源喉咙口</p>
+  </div>
+
+  <!-- Slide 1: 股市下跌 -->
+  <div class="slide" data-index="1" data-src="素材/01-股市下跌-4700亿.svg"></div>
+
+  <!-- Slide 2: Section - 它有多强 -->
+  <div class="slide section-slide" data-index="2">
+    <div class="section-num">01</div>
+    <div class="section-title">它有多强</div>
+    <div class="section-sub">2.8万亿参数 · MoE 896专家 · 100万Token上下文</div>
+  </div>
+
+  <!-- Slide 3: MoE -->
+  <div class="slide" data-index="3" data-src="素材/02-MoE-896专家.svg"></div>
+
+  <!-- Slide 4: 榜单 (放截图) -->
+  <div class="slide section-slide" data-index="4">
+    <div class="section-num" style="font-size:48px;">📸</div>
+    <div class="section-title">榜单成绩</div>
+    <div class="section-sub">此处替换为截图：Frontend Code Arena #1 / AA Index #3 / BrowseComp #1</div>
+  </div>
+
+  <!-- Slide 5: 时钟对比 -->
+  <div class="slide" data-index="5" data-src="素材/04-时钟对比-2h-vs-1-2周.svg"></div>
+
+  <!-- Slide 6: Section - 怎么做到的 -->
+  <div class="slide section-slide" data-index="6">
+    <div class="section-num">02</div>
+    <div class="section-title">怎么做到的</div>
+    <div class="section-sub">不是堆参数，是改地基</div>
+  </div>
+
+  <!-- Slide 7: 三大技术 -->
+  <div class="slide" data-index="7" data-src="素材/05-底层重构-三大技术.svg"></div>
+
+  <!-- Slide 8: KDA -->
+  <div class="slide" data-index="8" data-src="素材/12-KDA注意力原理.svg"></div>
+
+  <!-- Slide 9: Section - 为什么全球紧张 -->
+  <div class="slide section-slide" data-index="9">
+    <div class="section-num">03</div>
+    <div class="section-title">为什么全球都紧张</div>
+    <div class="section-sub">算力挤兑 · 蒸馏争议 · 从卡芯片到卡算法</div>
+  </div>
+
+  <!-- Slide 10: 蒸馏争议 (放新闻截图) -->
+  <div class="slide section-slide" data-index="10">
+    <div class="section-num" style="font-size:48px;">📸</div>
+    <div class="section-title">蒸馏争议</div>
+    <div class="section-sub">此处替换为新闻标题截图</div>
+  </div>
+
+  <!-- Slide 11: 卡芯片到卡算法 -->
+  <div class="slide" data-index="11" data-src="素材/08-卡芯片到卡算法.svg"></div>
+
+  <!-- Slide 12: Section - 为什么重要 -->
+  <div class="slide section-slide" data-index="12">
+    <div class="section-num">04</div>
+    <div class="section-title">为什么重要</div>
+    <div class="section-sub">趋势信号 · 开源突围 · 资本定价</div>
+  </div>
+
+  <!-- Slide 13: 趋势时间轴 -->
+  <div class="slide" data-index="13" data-src="素材/09-趋势时间轴-DeepSeek到Kimi.svg"></div>
+
+  <!-- Slide 14: 生态闭环 -->
+  <div class="slide" data-index="14" data-src="素材/10-生态闭环图.svg"></div>
+
+  <!-- Slide 15: 估值 -->
+  <div class="slide" data-index="15" data-src="素材/11-估值折线图.svg"></div>
+
+  <!-- Slide 16: Section - 我的判断 -->
+  <div class="slide section-slide" data-index="16">
+    <div class="section-num">05</div>
+    <div class="section-title">我的判断</div>
+    <div class="section-sub">中国团队可以在最前沿的底层机制上做原创</div>
+  </div>
+
+  <!-- Slide 17: End -->
+  <div class="slide title-slide" data-index="17">
+    <h1 style="font-size:28px;">关注 AI大家学</h1>
+    <p>AI 世界快人一步</p>
+  </div>
+
+</div>
+
+<div class="progress" id="progress"></div>
+<div class="counter" id="counter">1 / 18</div>
+<div class="nav-hint">← → 或点击翻页</div>
+
+<script>
+  var slides = document.querySelectorAll('.slide');
+  var total = slides.length;
+  var current = 0;
+  var progress = document.getElementById('progress');
+  var counter = document.getElementById('counter');
+
+  // Load SVGs into slides
+  slides.forEach(function(slide) {
+    var src = slide.getAttribute('data-src');
+    if (src) {
+      fetch(src)
+        .then(function(r) { return r.text(); })
+        .then(function(svg) { slide.innerHTML = svg; })
+        .catch(function() {
+          slide.innerHTML = '<div class="section-slide"><div class="section-sub" style="color:#ef4444;">素材未找到: ' + src + '</div></div>';
+        });
+    }
+  });
+
+  function go(index) {
+    if (index < 0 || index >= total) return;
+    slides[current].classList.remove('active');
+    current = index;
+    slides[current].classList.add('active');
+    progress.style.width = ((current + 1) / total * 100) + '%';
+    counter.textContent = (current + 1) + ' / ' + total;
+  }
+
+  // Keyboard
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'ArrowDown' || e.key === 'PageDown') {
+      e.preventDefault(); go(current + 1);
+    } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp' || e.key === 'PageUp') {
+      e.preventDefault(); go(current - 1);
+    } else if (e.key === 'Home') {
+      go(0);
+    } else if (e.key === 'End') {
+      go(total - 1);
+    } else if (e.key === 'f' || e.key === 'F') {
+      // Toggle fullscreen
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen();
+      } else {
+        document.exitFullscreen();
+      }
+    }
+  });
+
+  // Click - left half = prev, right half = next
+  document.addEventListener('click', function(e) {
+    if (e.clientX < window.innerWidth * 0.3) {
+      go(current - 1);
+    } else {
+      go(current + 1);
+    }
+  });
+
+  // Touch swipe
+  var touchX = 0;
+  document.addEventListener('touchstart', function(e) { touchX = e.touches[0].clientX; });
+  document.addEventListener('touchend', function(e) {
+    var dx = e.changedTouches[0].clientX - touchX;
+    if (Math.abs(dx) > 50) {
+      go(current + (dx < 0 ? 1 : -1));
+    }
+  });
+
+  // Init
+  progress.style.width = (1 / total * 100) + '%';
+</script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1a1025"/>
+    </linearGradient>
+    <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4ECDC4" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#4ECDC4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: "SF Pro Display","PingFang SC","Microsoft YaHei",sans-serif; }
+    @keyframes fadeUp { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes drawLine { from { stroke-dashoffset:800; } to { stroke-dashoffset:0; } }
+    @keyframes popIn { from { opacity:0; transform:scale(0.5); } to { opacity:1; transform:scale(1); } }
+    @keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+    .title { font-size:16px; font-weight:700; fill:#e2e8f0; }
+    .body { font-size:12px; fill:#cbd5e1; }
+    .label { font-size:11px; fill:#94a3b8; }
+    .small { font-size:10px; fill:#64748b; }
+    .score { font-size:14px; font-weight:700; }
+    .chart-line { stroke-dasharray:800; animation: drawLine 1.5s ease-out 0.5s both; }
+    .area { animation: fadeIn 1s ease-out 1s both; }
+    .dot { animation: popIn 0.3s ease-out both; }
+    .d1 { animation-delay: 1.2s; }
+    .d2 { animation-delay: 1.4s; }
+    .d3 { animation-delay: 1.6s; }
+    .d4 { animation-delay: 1.8s; }
+    .d5 { animation-delay: 2.0s; }
+    .d6 { animation-delay: 2.2s; }
+    .g1 { animation: fadeUp 0.5s ease-out 0.2s both; }
+    .g2 { animation: fadeUp 0.5s ease-out 2.5s both; }
+  </style>
+
+  <rect width="960" height="540" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <g class="g1">
+    <text x="480" y="38" text-anchor="middle" class="title">月之暗面估值飙升</text>
+    <text x="480" y="58" text-anchor="middle" class="label">真金白银的市场定价 · 两年翻了约10倍</text>
+  </g>
+
+  <!-- Chart grid -->
+  <g opacity="0.3">
+    <line x1="100" y1="100" x2="860" y2="100" stroke="#334155" stroke-width="1"/>
+    <line x1="100" y1="170" x2="860" y2="170" stroke="#334155" stroke-width="1"/>
+    <line x1="100" y1="240" x2="860" y2="240" stroke="#334155" stroke-width="1"/>
+    <line x1="100" y1="310" x2="860" y2="310" stroke="#334155" stroke-width="1"/>
+    <line x1="100" y1="380" x2="860" y2="380" stroke="#334155" stroke-width="1"/>
+    <line x1="100" y1="420" x2="860" y2="420" stroke="#334155" stroke-width="1"/>
+  </g>
+
+  <!-- Y axis labels -->
+  <text x="90" y="104" text-anchor="end" class="small">$500亿</text>
+  <text x="90" y="174" text-anchor="end" class="small">$400亿</text>
+  <text x="90" y="244" text-anchor="end" class="small">$300亿</text>
+  <text x="90" y="314" text-anchor="end" class="small">$200亿</text>
+  <text x="90" y="384" text-anchor="end" class="small">$100亿</text>
+  <text x="90" y="424" text-anchor="end" class="small">$0</text>
+
+  <!-- Area fill -->
+  <polygon fill="url(#areaGrad)" class="area"
+    points="140,407 300,402 460,374 620,310 780,244 860,120 860,420 140,420"/>
+
+  <!-- Valuation line -->
+  <polyline fill="none" stroke="#4ECDC4" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="chart-line"
+    points="140,407 300,402 460,374 620,310 780,244 860,120"/>
+
+  <!-- Data points -->
+  <!-- 2024.08: $33亿 -->
+  <g class="dot d1">
+    <circle cx="140" cy="407" r="5" fill="#E8A87C"/>
+    <text x="140" y="395" text-anchor="middle" class="score" fill="#E8A87C">$33亿</text>
+  </g>
+
+  <!-- 2025.12: $43亿 -->
+  <g class="dot d2">
+    <circle cx="300" cy="402" r="5" fill="#E8A87C"/>
+    <text x="300" y="390" text-anchor="middle" class="score" fill="#E8A87C">$43亿</text>
+  </g>
+
+  <!-- 2026.01: $100亿+ -->
+  <g class="dot d3">
+    <circle cx="460" cy="374" r="5" fill="#E8A87C"/>
+    <text x="460" y="362" text-anchor="middle" class="score" fill="#E8A87C">$100亿+</text>
+  </g>
+
+  <!-- 2026.05: $200亿 -->
+  <g class="dot d4">
+    <circle cx="620" cy="310" r="5" fill="#E8A87C"/>
+    <text x="620" y="298" text-anchor="middle" class="score" fill="#E8A87C">$200亿</text>
+  </g>
+
+  <!-- 2026.07: $315亿 -->
+  <g class="dot d5">
+    <circle cx="780" cy="244" r="7" fill="#4ECDC4"/>
+    <text x="780" y="230" text-anchor="middle" font-size="16" font-weight="700" fill="#4ECDC4">$315亿</text>
+    <text x="780" y="268" text-anchor="middle" class="small" fill="#4ECDC4">K3发布后</text>
+  </g>
+
+  <!-- Target: $500亿 -->
+  <g class="dot d6">
+    <circle cx="860" cy="120" r="7" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="3,3"/>
+    <text x="860" y="108" text-anchor="middle" font-size="14" font-weight="700" fill="#8b5cf6">$500亿?</text>
+    <text x="860" y="145" text-anchor="middle" class="small" fill="#8b5cf6">Pre-IPO</text>
+    <text x="860" y="158" text-anchor="middle" class="small" fill="#8b5cf6">中金+高盛</text>
+  </g>
+
+  <!-- X axis labels -->
+  <text x="140" y="445" text-anchor="middle" class="small">2024.08</text>
+  <text x="300" y="445" text-anchor="middle" class="small">2025.12</text>
+  <text x="460" y="445" text-anchor="middle" class="small">2026.01</text>
+  <text x="620" y="445" text-anchor="middle" class="small">2026.05</text>
+  <text x="780" y="445" text-anchor="middle" class="small">2026.07</text>
+  <text x="860" y="445" text-anchor="middle" class="small" fill="#8b5cf6">目标</text>
+
+  <!-- Annotation -->
+  <g class="g2">
+    <rect x="300" y="468" width="360" height="36" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="480" y="492" text-anchor="middle" class="body" fill="#E8A87C">从$33亿到$315亿，冲刺港股IPO</text>
+  </g>
+
+  <text x="480" y="530" text-anchor="middle" class="small">Bloomberg · TechCrunch · The Decoder · 电子工程专辑</text>
+</svg>

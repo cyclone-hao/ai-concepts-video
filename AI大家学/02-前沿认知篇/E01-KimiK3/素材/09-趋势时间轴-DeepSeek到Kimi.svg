@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1a1025"/>
+    </linearGradient>
+    <linearGradient id="trendLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E8A87C"/>
+      <stop offset="100%" stop-color="#4ECDC4"/>
+    </linearGradient>
+    <marker id="arr-teal" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto">
+      <polygon points="0,0 8,4 0,8" fill="#4ECDC4"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "SF Pro Display","PingFang SC","Microsoft YaHei",sans-serif; }
+    @keyframes fadeUp { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes popIn { from { opacity:0; transform:scale(0.6); } to { opacity:1; transform:scale(1); } }
+    @keyframes drawLine { from { stroke-dashoffset:800; } to { stroke-dashoffset:0; } }
+    .title { font-size:16px; font-weight:700; fill:#e2e8f0; }
+    .body { font-size:12px; fill:#cbd5e1; }
+    .label { font-size:11px; fill:#94a3b8; }
+    .small { font-size:10px; fill:#64748b; }
+    .name { font-size:13px; font-weight:600; }
+    .card { fill:#1e293b; stroke:#334155; stroke-width:1.5; rx:8; }
+    .e1 { animation: popIn 0.4s ease-out 0.3s both; }
+    .e2 { animation: popIn 0.4s ease-out 0.6s both; }
+    .e3 { animation: popIn 0.4s ease-out 0.9s both; }
+    .e4 { animation: popIn 0.4s ease-out 1.2s both; }
+    .trend { stroke-dasharray:800; animation: drawLine 1.2s ease-out 1.5s both; }
+    .insight { animation: fadeUp 0.6s ease-out 2.0s both; }
+  </style>
+
+  <rect width="960" height="540" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="480" y="38" text-anchor="middle" class="title">中国AI突破密度 — 不是偶然，是趋势</text>
+
+  <!-- Timeline axis -->
+  <line x1="80" y1="210" x2="880" y2="210" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Event 1: DeepSeek R1 -->
+  <g class="e1">
+    <circle cx="140" cy="210" r="10" fill="#E8A87C" opacity="0.3"/>
+    <circle cx="140" cy="210" r="5" fill="#E8A87C"/>
+    <rect x="70" y="100" width="140" height="85" class="card"/>
+    <text x="140" y="125" text-anchor="middle" class="name" fill="#E8A87C">DeepSeek R1</text>
+    <text x="140" y="145" text-anchor="middle" class="small">2025年1月</text>
+    <text x="140" y="165" text-anchor="middle" class="label">推理模型</text>
+    <text x="140" y="180" text-anchor="middle" class="label">震惊华尔街</text>
+  </g>
+
+  <!-- Gap -->
+  <text x="255" y="230" text-anchor="middle" class="small">~6个月</text>
+
+  <!-- Event 2: DeepSeek V3 -->
+  <g class="e2">
+    <circle cx="350" cy="210" r="10" fill="#E8A87C" opacity="0.3"/>
+    <circle cx="350" cy="210" r="5" fill="#E8A87C"/>
+    <rect x="280" y="100" width="140" height="85" class="card"/>
+    <text x="350" y="125" text-anchor="middle" class="name" fill="#E8A87C">DeepSeek V3</text>
+    <text x="350" y="145" text-anchor="middle" class="small">2025年中</text>
+    <text x="350" y="165" text-anchor="middle" class="label">开源基座模型</text>
+    <text x="350" y="180" text-anchor="middle" class="label">逼近GPT-4级别</text>
+  </g>
+
+  <!-- Gap -->
+  <text x="465" y="230" text-anchor="middle" class="small">~6个月</text>
+
+  <!-- Event 3: Kimi K2 -->
+  <g class="e3">
+    <circle cx="560" cy="210" r="10" fill="#4ECDC4" opacity="0.3"/>
+    <circle cx="560" cy="210" r="5" fill="#4ECDC4"/>
+    <rect x="490" y="100" width="140" height="85" class="card"/>
+    <text x="560" y="125" text-anchor="middle" class="name" fill="#4ECDC4">Kimi K2</text>
+    <text x="560" y="145" text-anchor="middle" class="small">2025年底</text>
+    <text x="560" y="165" text-anchor="middle" class="label">MoE架构</text>
+    <text x="560" y="180" text-anchor="middle" class="label">1万亿参数</text>
+  </g>
+
+  <!-- Gap - shorter! -->
+  <text x="675" y="230" text-anchor="middle" font-size="11" font-weight="600" fill="#ef4444">~6个月!</text>
+
+  <!-- Event 4: Kimi K3 (highlighted) -->
+  <g class="e4">
+    <circle cx="790" cy="210" r="16" fill="#4ECDC4" opacity="0.15"/>
+    <circle cx="790" cy="210" r="8" fill="#4ECDC4"/>
+    <rect x="700" y="75" width="180" height="110" class="card" stroke="#4ECDC4"/>
+    <rect x="700" y="75" width="180" height="110" rx="8" fill="#4ECDC4" opacity="0.05"/>
+    <text x="790" y="103" text-anchor="middle" font-size="15" font-weight="700" fill="#4ECDC4">Kimi K3</text>
+    <text x="790" y="123" text-anchor="middle" class="small">2026年7月</text>
+    <text x="790" y="143" text-anchor="middle" class="label">2.8万亿参数</text>
+    <text x="790" y="160" text-anchor="middle" class="label">全球第三 · 开源第一</text>
+    <text x="790" y="178" text-anchor="middle" font-size="10" font-weight="600" fill="#4ECDC4">"Kimi 时刻"</text>
+  </g>
+
+  <!-- Trend line underneath -->
+  <polyline fill="none" stroke="url(#trendLine)" stroke-width="2" stroke-linecap="round" class="trend"
+    points="140,260 350,255 560,248 790,235"/>
+  <text x="480" y="290" text-anchor="middle" class="label">密度越来越高 · 间隔越来越短</text>
+
+  <!-- Insight box -->
+  <g class="insight">
+    <rect x="120" y="320" width="720" height="180" class="card"/>
+    <text x="480" y="355" text-anchor="middle" font-size="14" font-weight="600" fill="#e2e8f0">关键判断</text>
+    <line x1="160" y1="370" x2="800" y2="370" stroke="#334155" stroke-width="1"/>
+    <text x="480" y="400" text-anchor="middle" class="body">DeepSeek 出来时，有人说是灵光一现</text>
+    <text x="480" y="425" text-anchor="middle" class="body">K3 出来，你不能再这么说了</text>
+    <line x1="160" y1="442" x2="800" y2="442" stroke="#334155" stroke-width="1"/>
+    <text x="480" y="472" text-anchor="middle" font-size="13" font-weight="600" fill="#4ECDC4">中国AI公司正在系统性逼近、甚至局部超越美国顶级实验室</text>
+    <text x="480" y="492" text-anchor="middle" class="small">不是一次，是一种趋势</text>
+  </g>
+</svg>

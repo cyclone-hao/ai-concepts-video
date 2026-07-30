@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1a1025"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: "SF Pro Display","PingFang SC","Microsoft YaHei",sans-serif; }
+    @keyframes fadeUp { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+    @keyframes growBar { from { transform:scaleX(0); } to { transform:scaleX(1); } }
+    @keyframes pulseGlow { 0%,100%{ filter:drop-shadow(0 0 4px rgba(78,205,196,0.3)); } 50%{ filter:drop-shadow(0 0 12px rgba(78,205,196,0.6)); } }
+    .title { font-size:16px; font-weight:700; fill:#e2e8f0; }
+    .body { font-size:12px; fill:#cbd5e1; }
+    .label { font-size:11px; fill:#94a3b8; }
+    .small { font-size:10px; fill:#64748b; }
+    .big { font-size:28px; font-weight:800; }
+    .g1 { animation: fadeUp 0.5s ease-out 0.2s both; }
+    .g2 { animation: fadeUp 0.5s ease-out 0.5s both; }
+    .g3 { animation: fadeUp 0.5s ease-out 0.8s both; }
+    .bar-k3 { transform-origin: 300px center; animation: growBar 0.8s ease-out 1.2s both; }
+    .bar-human { transform-origin: 300px center; animation: growBar 0.8s ease-out 1.5s both; }
+    .glow { animation: pulseGlow 2.5s ease-in-out 2s infinite; }
+  </style>
+
+  <rect width="960" height="540" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <g class="g1">
+    <text x="480" y="42" text-anchor="middle" class="title">I-Love-Q 中子星研究 — 真实生产力测试</text>
+    <text x="480" y="62" text-anchor="middle" class="label">来源：月之暗面官方演示</text>
+  </g>
+
+  <!-- Left: K3 -->
+  <g class="g2">
+    <rect x="60" y="90" width="400" height="340" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <rect x="60" y="90" width="400" height="36" rx="8" fill="#4ECDC4" opacity="0.12"/>
+    <rect x="60" y="90" width="400" height="36" rx="8" fill="none" stroke="#334155" stroke-width="1.5"/>
+    <text x="260" y="114" text-anchor="middle" font-size="14" font-weight="600" fill="#4ECDC4">Kimi K3</text>
+
+    <!-- Clock circle -->
+    <circle cx="260" cy="210" r="55" fill="none" stroke="#4ECDC4" stroke-width="2.5" opacity="0.3"/>
+    <circle cx="260" cy="210" r="3" fill="#4ECDC4"/>
+    <line x1="260" y1="210" x2="260" y2="170" stroke="#4ECDC4" stroke-width="2" stroke-linecap="round"/>
+    <line x1="260" y1="210" x2="282" y2="200" stroke="#4ECDC4" stroke-width="1.5" stroke-linecap="round"/>
+
+    <text x="260" y="300" text-anchor="middle" class="big" fill="#4ECDC4">~2小时</text>
+
+    <!-- Details -->
+    <text x="260" y="340" text-anchor="middle" class="body">自主阅读 20+ 篇论文</text>
+    <text x="260" y="362" text-anchor="middle" class="body">评估 300+ 种状态方程</text>
+    <text x="260" y="384" text-anchor="middle" class="body">生成 3000+ 行 Python</text>
+    <text x="260" y="412" text-anchor="middle" class="small">马斯克评价："Impressive"</text>
+  </g>
+
+  <!-- VS -->
+  <g class="g3">
+    <text x="480" y="260" text-anchor="middle" font-size="16" font-weight="700" fill="#475569">VS</text>
+  </g>
+
+  <!-- Right: Human -->
+  <g class="g2">
+    <rect x="500" y="90" width="400" height="340" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <rect x="500" y="90" width="400" height="36" rx="8" fill="#E8A87C" opacity="0.12"/>
+    <rect x="500" y="90" width="400" height="36" rx="8" fill="none" stroke="#334155" stroke-width="1.5"/>
+    <text x="700" y="114" text-anchor="middle" font-size="14" font-weight="600" fill="#E8A87C">资深研究人员</text>
+
+    <!-- Clock circle - more rotations -->
+    <circle cx="700" cy="210" r="55" fill="none" stroke="#E8A87C" stroke-width="2.5" opacity="0.3"/>
+    <circle cx="700" cy="210" r="3" fill="#E8A87C"/>
+    <line x1="700" y1="210" x2="700" y2="170" stroke="#E8A87C" stroke-width="2" stroke-linecap="round"/>
+    <line x1="700" y1="210" x2="730" y2="230" stroke="#E8A87C" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M700,155 A55,55 0 1,1 655,240" fill="none" stroke="#E8A87C" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.4"/>
+
+    <text x="700" y="300" text-anchor="middle" class="big" fill="#E8A87C">1-2周</text>
+
+    <!-- Details -->
+    <text x="700" y="340" text-anchor="middle" class="body">需要领域专业知识积累</text>
+    <text x="700" y="362" text-anchor="middle" class="body">手动检索和筛选文献</text>
+    <text x="700" y="384" text-anchor="middle" class="body">编写和调试计算代码</text>
+    <text x="700" y="412" text-anchor="middle" class="small">反复验证状态方程</text>
+  </g>
+
+  <!-- Bottom comparison bar -->
+  <g class="g3">
+    <rect x="100" y="460" width="760" height="50" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <text x="200" y="490" text-anchor="middle" class="label">K3 用时</text>
+    <rect x="280" y="476" width="80" height="18" rx="9" fill="#4ECDC4" opacity="0.2" class="bar-k3"/>
+    <rect x="280" y="476" width="80" height="18" rx="9" fill="#4ECDC4" opacity="0.6" class="bar-k3"/>
+
+    <text x="480" y="490" text-anchor="middle" class="label">人类用时</text>
+    <rect x="560" y="476" width="240" height="18" rx="9" fill="#E8A87C" opacity="0.2" class="bar-human"/>
+    <rect x="560" y="476" width="240" height="18" rx="9" fill="#E8A87C" opacity="0.5" class="bar-human"/>
+  </g>
+
+  <text x="480" y="530" text-anchor="middle" class="small">这不是刷榜，是真实生产力</text>
+</svg>

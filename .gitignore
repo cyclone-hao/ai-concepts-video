@@ -1,0 +1,16 @@
+
+# Node
+node_modules/
+package.json
+package-lock.json
+
+# PowerPoint temp files
+~$*.pptx
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
