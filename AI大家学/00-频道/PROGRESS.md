@@ -41,6 +41,8 @@
 - [x] 9个SVG动画素材（股市下跌、MoE专家、时钟对比、三大技术、KDA原理、地缘时间轴、趋势时间轴、生态闭环、估值折线）
 - [x] PPT演示文稿（胡桃色温馨风格，18页，python-pptx生成）
 - [x] PPT动画系统：元素逐条入场动画（afterEffect链式自动播放）
+- [x] v5 PPT生成（24页）：新增开源三件套、商业数据、本地部署番外（64卡/B300显存/三条路线），更新蒸馏争议+估值+Hook
+- [x] v5脚本更新（8月）：F轮35亿融资/350亿估值、开源三件套(MoonEP/FlashKDA/AgentEnv)、蒸馏争议后续(商务部调查+200家硅谷反对)、日销6倍增长、IPO进展、新增本地部署番外(64卡/8×B300/显存分析)
 - [ ] 待截图：Frontend Code Arena榜单、AA Index榜单、Kimi官方博客（替换PPT中对应页面）
 
 ### 起号视频
@@ -128,13 +130,15 @@ AI大家学/
 │
 └── 04-大模型技术篇/                       ← 技术科普+代码实战系列
     ├── README.md
-    └── E01-全景串联/
-        ├── 素材/                         ← 待制作
-        └── （脚本复用仓库根目录的 ai-video-script-v3.md）
+    └── E02-ai-concepts/
+        ├── ai-video-script-v3.md         ← E01全景串联脚本v3（13-15min，13概念递进链）
+        ├── storyboard-v3.md              ← 分镜脚本（42镜）
+        ├── ai-concepts-video-v3.pptx     ← v3版PPT（米色系温馨风格）
+        ├── CLAUDE.md                     ← Claude Code项目规范
+        ├── CSDN_LLM_AgentSkill_原文*.docx← CSDN原文参考
+        └── csdn_raw.html / csdn_to_docx.py
 
 仓库根目录还有：
-├── ai-video-script-v3.md                 ← 大模型技术篇E01脚本（全景串联，13-15min）
-├── storyboard-v3.md                      ← 分镜脚本（42镜）
-├── ai-concepts-video-v3.pptx             ← v3版PPT
+├── csdn_images/                          ← CSDN抓取图片素材（49张）
 └── projects/                             ← PPT项目源文件
 ```
