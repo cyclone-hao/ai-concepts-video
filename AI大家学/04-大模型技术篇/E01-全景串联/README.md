@@ -34,6 +34,6 @@ LLM → Token → Embedding → Context/Window → Prompt → System Prompt
 
 ## 脚本更新记录
 
-- **v3**（2026-08）：更新MoE→DeepSeek-V4、上下文窗口→100万Token、MCP生态数据、Harness 40万+Stars、Hermes 22万Stars、Agentic Coding四大阵营；新增Harness/OpenClaw介绍
+- **v3**（2026-08）：大改 Agent/Harness 板块（引入 Anthropic 六部件架构、Agent = Model + Harness 公式）；简化 MCP 并添加出行建议例子；Token 板块重写为中文 BPE 示例；上下文窗口更新为最新模型（GPT-5.6 105万/Claude Opus 5 100万）；Agentic Coding 改为 Vibe Coding + 实战系列预告；新增 KV Cache/Kimi K3 案例
 - **v2**：补充递进链逻辑
 - **v1**：初版脚本
