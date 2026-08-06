@@ -10,11 +10,12 @@
 
 ## 仓库结构
 
-- `ai-video-script-v3.md` — 当前脚本（13 个板块，约 12-15 分钟）
-- `ai-video-script-v2.md` — 上一版（保留供参考）
-- `storyboard-v3.md` — 42 镜分镜脚本，含画面/音频/转场细节
-- `ai-concepts-video-v3.pptx` — 最新 PPT 导出（20 页，米色系温馨风格）
-- `projects/ai-concepts-video_ppt169_20260726/` — PPT 项目文件（SVG 源文件、设计规范、spec_lock、演讲备注）
+- `脚本-v3.md` — 当前脚本（13 个板块，约 12-15 分钟）
+- `分镜-v3.md` — 42 镜分镜脚本，含画面/音频/转场细节
+- `全景串联-v3.pptx` — 最新 PPT 导出（米色系温馨风格）
+- `CSDN_LLM_AgentSkill_原文.docx` — CSDN 原文参考
+- `csdn_raw.html` / `csdn_to_docx.py` — 原文抓取与转换工具
+- `素材/` — 视频素材（待制作）
 
 ## 设计规范
 
@@ -26,8 +27,8 @@
 
 ## 约定
 
-- 脚本版本命名：`ai-video-script-v{N}.md`（保留历史版本）
-- PPTX 版本命名：`ai-concepts-video-v{N}.pptx`（上一版可能被 PowerPoint 占用）
+- 脚本版本命名：`脚本-v{N}.md`（保留历史版本）
+- PPTX 版本命名：`全景串联-v{N}.pptx`
 - PPT 源 SVG 存放在 `projects/*/svg_output/`；修改 PPT 应从 SVG 重新导出，不要直接编辑 PPTX
 - 分镜按镜头编号（镜1–镜42）；脚本板块变更时需同步更新分镜
 - 所有对话默认使用中文
