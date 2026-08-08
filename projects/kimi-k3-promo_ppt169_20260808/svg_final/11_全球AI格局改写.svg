@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg-layer">
+    <rect width="1280" height="720" fill="#F5F0E8" />
+  </g>
+
+  <g id="page-header">
+    <path fill="#E8A87C" d="M62,48 H62 A2,2 0 0 1 64,50 V90 A2,2 0 0 1 62,92 H62 A2,2 0 0 1 60,90 V50 A2,2 0 0 1 62,48 Z" />
+    <text x="78" y="72" font-family="KaiTi, Georgia, serif" font-size="32" font-weight="bold" fill="#8B6F47">全球AI格局改写</text>
+    <text x="440" y="72" font-family="KaiTi, Georgia, serif" font-size="24" fill="#E8A87C">不靠美国也能做到顶级</text>
+    <text x="78" y="100" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B">K3 开源对全球AI生态的三重冲击</text>
+  </g>
+
+  <g id="col-1-sovereign">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M72,130 H408 A12,12 0 0 1 420,142 V478 A12,12 0 0 1 408,490 H72 A12,12 0 0 1 60,478 V142 A12,12 0 0 1 72,130 Z" />
+    
+  <g transform="translate(80.0, 150.0) scale(1.6666666666666667)" fill="#8B6F47">
+    <path d="M21.165 16a10 10 0 0 1 -8.434 5.973a1 1 0 0 0 .617 -.444a18 18 0 0 0 2.28 -5.528z" />
+    <path d="M8.372 16a18 18 0 0 0 2.28 5.53a1 1 0 0 0 .616 .443a10 10 0 0 1 -8.433 -5.973z" />
+    <path d="M13.57 16a16 16 0 0 1 -1.57 3.884a16 16 0 0 1 -1.57 -3.884" />
+    <path d="M8.034 10a18 18 0 0 0 0 4h-5.832a10 10 0 0 1 -.002 -4z" />
+    <path d="M13.952 10a16 16 0 0 1 0 4h-3.904a16 16 0 0 1 0 -4z" />
+    <path d="M21.8 10a10.05 10.05 0 0 1 -.002 4h-5.832c.149 -1.329 .149 -2.67 0 -4z" />
+    <path d="M11.267 2.027a1 1 0 0 0 -.615 .444a18 18 0 0 0 -2.28 5.529h-5.54a10.01 10.01 0 0 1 8.334 -5.967z" />
+    <path d="M12 4.116a16 16 0 0 1 1.57 3.885h-3.14c.34 -1.317 .85 -2.6 1.53 -3.817z" />
+    <path d="M12.733 2.026a10.01 10.01 0 0 1 8.435 5.974h-5.54a18 18 0 0 0 -2.28 -5.53a1 1 0 0 0 -.517 -.414z" />
+  </g>
+    <text x="132" y="178" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#8B6F47">主权AI不再依赖美国</text>
+    <text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="100" y="225">过去各国想要部署顶级AI</text><text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="100" y="251">必须依赖美国的云服务</text><text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="100" y="277">和模型API</text><line x1="100" y1="310" x2="360" y2="310" stroke="#EDE5D5" stroke-width="1" />
+    <text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#C75C3A" font-size="15" x="100" y="340" font-weight="bold">K3 开源 + 可本地部署</text><text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#C75C3A" font-size="15" x="100" y="366">= 任何国家都能拥有</text><text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#C75C3A" font-size="15" x="100" y="392">自己的顶级AI</text><path fill="#8B6F47" fill-opacity="0.06" d="M88,430 H392 A8,8 0 0 1 400,438 V462 A8,8 0 0 1 392,470 H88 A8,8 0 0 1 80,462 V438 A8,8 0 0 1 88,430 Z" />
+    <text x="240" y="456" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">欧洲、中东、东南亚已开始部署</text>
+  </g>
+
+  <g id="col-2-innovation">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M472,130 H808 A12,12 0 0 1 820,142 V478 A12,12 0 0 1 808,490 H472 A12,12 0 0 1 460,478 V142 A12,12 0 0 1 472,130 Z" />
+    
+  <g transform="translate(480.0, 150.0) scale(1.6666666666666667)" fill="#E8A87C">
+    <path d="M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-3.658 5.22a1 1 0 0 0 -1.282 .598l-2 5.5a1 1 0 0 0 1.88 .684l2 -5.5a1 1 0 0 0 -.598 -1.282m-4.135 1.233a1 1 0 0 0 -1.414 0l-1.5 1.5a1 1 0 0 0 0 1.414l1.5 1.5a1 1 0 0 0 1.414 0l.083 -.094a1 1 0 0 0 -.083 -1.32l-.792 -.793l.792 -.793a1 1 0 0 0 0 -1.414m7 0a1 1 0 0 0 -1.414 0l-.083 .094a1 1 0 0 0 .083 1.32l.792 .793l-.792 .793a1 1 0 0 0 1.414 1.414l1.5 -1.5a1 1 0 0 0 0 -1.414z" />
+  </g>
+    <text x="532" y="178" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#E8A87C">开源生态的范式转移</text>
+    <text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="500" y="225">以往开源模型 = 美国公司</text><text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="500" y="251">的"施舍"</text><line x1="500" y1="290" x2="760" y2="290" stroke="#EDE5D5" stroke-width="1" />
+    <text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#C75C3A" font-size="15" x="500" y="320" font-weight="bold">K3 证明：中国团队</text><text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#C75C3A" font-size="15" x="500" y="346">可以从零做出</text><text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#C75C3A" font-size="15" x="500" y="372">世界级的开源模型</text><text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#C75C3A" font-size="15" x="500" y="398" font-weight="bold">并免费分享给全世界</text><path fill="#E8A87C" fill-opacity="0.10" d="M488,430 H792 A8,8 0 0 1 800,438 V462 A8,8 0 0 1 792,470 H488 A8,8 0 0 1 480,462 V438 A8,8 0 0 1 488,430 Z" />
+    <text x="640" y="456" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">全球开发者社区争相微调和部署</text>
+  </g>
+
+  <g id="col-3-competition">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M872,130 H1208 A12,12 0 0 1 1220,142 V478 A12,12 0 0 1 1208,490 H872 A12,12 0 0 1 860,478 V142 A12,12 0 0 1 872,130 Z" />
+    
+  <g transform="translate(880.0, 150.0) scale(1.6666666666666667)" fill="#C75C3A">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-5 6.66a2 2 0 0 0 -1.977 1.697l-.018 .154l-.005 .149l.005 .15a2 2 0 1 0 1.995 -2.15z" />
+  </g>
+    <text x="932" y="178" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#C75C3A">倒逼美国巨头加速</text>
+    <text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="900" y="225">OpenAI、Google、Meta</text><text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="900" y="251">被迫加快开源节奏</text><line x1="900" y1="290" x2="1160" y2="290" stroke="#EDE5D5" stroke-width="1" />
+    <text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="900" y="320">AI不再是美国独大的游戏</text><text font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="900" y="346">而是全球多极竞争</text><path fill="#C75C3A" fill-opacity="0.06" d="M888,380 H1192 A8,8 0 0 1 1200,388 V462 A8,8 0 0 1 1192,470 H888 A8,8 0 0 1 880,462 V388 A8,8 0 0 1 888,380 Z" />
+    <text x="1040" y="415" font-family="KaiTi, Georgia, serif" font-size="16" font-weight="bold" fill="#C75C3A" text-anchor="middle">"AI竞赛的核心</text>
+    <text x="1040" y="445" font-family="KaiTi, Georgia, serif" font-size="16" font-weight="bold" fill="#C75C3A" text-anchor="middle">不再是谁有最强的闭源模型</text>
+    <text x="1040" y="475" font-family="KaiTi, Georgia, serif" font-size="14" fill="#8B7D6B" text-anchor="middle">而是谁能让更多人用上AI"</text>
+  </g>
+
+  <g id="bottom-summary">
+    <path fill="#8B6F47" fill-opacity="0.06" d="M70,520 H1210 A10,10 0 0 1 1220,530 V570 A10,10 0 0 1 1210,580 H70 A10,10 0 0 1 60,570 V530 A10,10 0 0 1 70,520 Z" />
+    <text x="640" y="558" font-family="KaiTi, Georgia, serif" font-size="18" fill="#5D4E37" text-anchor="middle">CNN、CNBC、BBC、Fortune 等西方主流媒体罕见地大规模正面报道中国AI成就</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="end">11 / 14</text>
+  </g>
+</svg>

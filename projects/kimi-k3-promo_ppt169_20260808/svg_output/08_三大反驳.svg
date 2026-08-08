@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg-layer">
+    <rect width="1280" height="720" fill="#F5F0E8"/>
+  </g>
+
+  <g id="page-header">
+    <rect x="60" y="48" width="4" height="44" rx="2" fill="#6B8E5A"/>
+    <text x="78" y="72" font-family="KaiTi, Georgia, serif" font-size="32" font-weight="bold" fill="#8B6F47">事情很快反转了</text>
+    <text x="78" y="100" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B">TechCrunch 深度调查 · 多位独立研究者反驳</text>
+  </g>
+
+  <g id="card-1-timeline">
+    <rect x="60" y="130" width="360" height="340" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <rect x="60" y="130" width="360" height="56" rx="12" fill="#6B8E5A"/>
+    <rect x="60" y="174" width="360" height="12" fill="#6B8E5A"/>
+    <text x="240" y="166" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="bold" fill="#FAF7F2" text-anchor="middle">1 时间线对不上</text>
+    <use data-icon="tabler-filled/circle-check" x="210" y="210" width="48" height="48" fill="#6B8E5A"/>
+    <text x="240" y="295" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5D4E37" text-anchor="middle">
+      <tspan x="240" dy="0">Fable 模型发布时间</tspan>
+      <tspan x="240" dy="24">到 K3 训练完成之间</tspan>
+      <tspan x="240" dy="24">根本不够走完</tspan>
+      <tspan x="240" dy="24" font-weight="bold" fill="#C75C3A">"蒸馏→训练→发布"</tspan>
+      <tspan x="240" dy="24">这个完整流程</tspan>
+    </text>
+  </g>
+
+  <g id="card-2-arch">
+    <rect x="460" y="130" width="360" height="340" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <rect x="460" y="130" width="360" height="56" rx="12" fill="#6B8E5A"/>
+    <rect x="460" y="174" width="360" height="12" fill="#6B8E5A"/>
+    <text x="640" y="166" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="bold" fill="#FAF7F2" text-anchor="middle">2 架构是原创的</text>
+    <use data-icon="tabler-filled/circle-check" x="610" y="210" width="48" height="48" fill="#6B8E5A"/>
+    <text x="640" y="295" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5D4E37" text-anchor="middle">
+      <tspan x="640" dy="0">896专家 MoE</tspan>
+      <tspan x="640" dy="24">+ KDA 注意力机制</tspan>
+      <tspan x="640" dy="32" fill="#8B7D6B">在 Anthropic 的</tspan>
+      <tspan x="640" dy="24" fill="#8B7D6B">任何模型里</tspan>
+      <tspan x="640" dy="24" font-weight="bold" fill="#C75C3A">都找不到</tspan>
+    </text>
+  </g>
+
+  <g id="card-3-original">
+    <rect x="860" y="130" width="360" height="340" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <rect x="860" y="130" width="360" height="56" rx="12" fill="#6B8E5A"/>
+    <rect x="860" y="174" width="360" height="12" fill="#6B8E5A"/>
+    <text x="1040" y="166" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="bold" fill="#FAF7F2" text-anchor="middle">3 蒸馏做不出突破</text>
+    <use data-icon="tabler-filled/circle-check" x="1010" y="210" width="48" height="48" fill="#6B8E5A"/>
+    <text x="1040" y="295" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5D4E37" text-anchor="middle">
+      <tspan x="1040" dy="0">蒸馏能走捷径</tspan>
+      <tspan x="1040" dy="24">但走不出</tspan>
+      <tspan x="1040" dy="24" font-weight="bold" fill="#C75C3A">原创性的</tspan>
+      <tspan x="1040" dy="24" font-weight="bold" fill="#C75C3A">架构创新</tspan>
+    </text>
+  </g>
+
+  <g id="pattern-observation">
+    <rect x="60" y="500" width="1160" height="80" rx="12" fill="#8B6F47" fill-opacity="0.06"/>
+    <text x="640" y="535" font-family="KaiTi, Georgia, serif" font-size="18" fill="#5D4E37" text-anchor="middle">
+      <tspan fill="#8B7D6B">DeepSeek 出来时同样的"作弊"指控也出现过 → 结果证实是原创</tspan>
+    </text>
+    <text x="640" y="565" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#8B6F47" text-anchor="middle">每次中国AI突破，第一反应都是"你作弊了"。但每次都证明是自己做的。</text>
+  </g>
+
+  <g id="china-response">
+    <text x="640" y="630" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#8B7D6B" text-anchor="middle">中国外交部公开驳斥：美方的指控是"无端打压"</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="end">08 / 14</text>
+  </g>
+</svg>

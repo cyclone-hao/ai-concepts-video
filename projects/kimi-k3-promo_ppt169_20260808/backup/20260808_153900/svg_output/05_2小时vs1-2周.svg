@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <radialGradient id="timeGlow" cx="30%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#E8A87C" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#E8A87C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g id="bg-layer">
+    <rect width="1280" height="720" fill="#F5F0E8"/>
+    <rect width="1280" height="720" fill="url(#timeGlow)"/>
+  </g>
+
+  <g id="page-header">
+    <text x="640" y="65" font-family="KaiTi, Georgia, serif" font-size="28" fill="#8B6F47" text-anchor="middle">真实案例：天体物理研究任务</text>
+    <text x="640" y="95" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B" text-anchor="middle">复现中子星 I-Love-Q 普适关系</text>
+  </g>
+
+  <g id="vs-divider">
+    <circle cx="640" cy="380" r="32" fill="#8B6F47"/>
+    <text x="640" y="389" font-family="KaiTi, Georgia, serif" font-size="22" font-weight="bold" fill="#FAF7F2" text-anchor="middle">VS</text>
+  </g>
+
+  <g id="k3-side">
+    <use data-icon="tabler-filled/bolt" x="240" y="145" width="48" height="48" fill="#E8A87C"/>
+    <text x="300" y="180" font-family="KaiTi, Georgia, serif" font-size="24" font-weight="bold" fill="#8B6F47">Kimi K3</text>
+    <text x="280" y="280" font-family="KaiTi, Georgia, serif" font-size="96" font-weight="bold" fill="#E8A87C" text-anchor="middle">2</text>
+    <text x="280" y="330" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="30" fill="#5D4E37" text-anchor="middle">小时</text>
+
+    <text x="280" y="400" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37" text-anchor="middle">自主阅读 20+ 篇论文</text>
+    <text x="280" y="430" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37" text-anchor="middle">评估 300+ 种状态方程</text>
+    <text x="280" y="460" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37" text-anchor="middle">生成 3000+ 行 Python 代码</text>
+  </g>
+
+  <g id="human-side">
+    <use data-icon="tabler-filled/clock" x="890" y="145" width="48" height="48" fill="#8B7D6B"/>
+    <text x="950" y="180" font-family="KaiTi, Georgia, serif" font-size="24" font-weight="bold" fill="#8B7D6B">资深研究人员</text>
+    <text x="1000" y="280" font-family="KaiTi, Georgia, serif" font-size="72" font-weight="bold" fill="#8B7D6B" text-anchor="middle">1-2</text>
+    <text x="1000" y="330" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="30" fill="#8B7D6B" text-anchor="middle">周</text>
+
+    <text x="1000" y="400" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#8B7D6B" text-anchor="middle">同样需要阅读的文献量</text>
+    <text x="1000" y="430" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#8B7D6B" text-anchor="middle">同样需要评估的方程数</text>
+    <text x="1000" y="460" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#8B7D6B" text-anchor="middle">同样需要编写的代码量</text>
+  </g>
+
+  <g id="speed-ratio">
+    <rect x="440" y="510" width="400" height="60" rx="12" fill="#8B6F47" fill-opacity="0.08"/>
+    <text x="640" y="548" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="bold" fill="#8B6F47" text-anchor="middle">效率提升 84-168 倍</text>
+  </g>
+
+  <g id="musk-quote">
+    <text x="640" y="625" font-family="KaiTi, Georgia, serif" font-size="20" fill="#8B6F47" text-anchor="middle" font-style="italic">连马斯克都点了赞。</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="end">05 / 14</text>
+  </g>
+</svg>

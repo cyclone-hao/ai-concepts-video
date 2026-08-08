@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <radialGradient id="hookGlow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#C75C3A" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#C75C3A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g id="bg-layer">
+    <rect width="1280" height="720" fill="#F5F0E8"/>
+    <rect width="1280" height="720" fill="url(#hookGlow)"/>
+  </g>
+
+  <g id="hero-section">
+    <text x="640" y="150" font-family="KaiTi, Georgia, serif" font-size="28" fill="#8B7D6B" text-anchor="middle" letter-spacing="4">2026年7月17日 — 7月20日</text>
+
+    <text x="640" y="280" font-family="KaiTi, Georgia, serif" font-size="120" font-weight="bold" fill="#C75C3A" text-anchor="middle">72小时</text>
+
+    <text x="640" y="360" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="48" font-weight="bold" fill="#5D4E37" text-anchor="middle">
+      <tspan fill="#C75C3A">4700亿美元</tspan><tspan fill="#5D4E37">蒸发</tspan>
+    </text>
+  </g>
+
+  <g id="divider">
+    <line x1="440" y1="400" x2="840" y2="400" stroke="#EDE5D5" stroke-width="2"/>
+  </g>
+
+  <g id="narrative">
+    <text x="640" y="450" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" fill="#5D4E37" text-anchor="middle">上海世界人工智能大会 → 全球科技股集体跳水 → 白宫亲自下场指控</text>
+  </g>
+
+  <g id="protagonist">
+    <rect x="380" y="490" width="520" height="80" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <text x="640" y="525" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" fill="#5D4E37" text-anchor="middle">
+      <tspan font-weight="bold" fill="#8B6F47">杨植麟</tspan><tspan fill="#8B7D6B"> · 92年 · 清华本科 · 卡内基梅隆博士</tspan>
+    </text>
+    <text x="640" y="555" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#8B7D6B" text-anchor="middle">月之暗面（Moonshot AI）创始人</text>
+  </g>
+
+  <g id="punchline">
+    <text x="640" y="630" font-family="KaiTi, Georgia, serif" font-size="22" font-weight="bold" fill="#8B6F47" text-anchor="middle">这不是科幻小说，这是2026年夏天真实发生的事。</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="end">02 / 14</text>
+  </g>
+</svg>

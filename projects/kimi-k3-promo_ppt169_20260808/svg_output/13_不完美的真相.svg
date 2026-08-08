@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg-layer">
+    <rect width="1280" height="720" fill="#F5F0E8"/>
+  </g>
+
+  <g id="page-header">
+    <rect x="60" y="48" width="4" height="44" rx="2" fill="#8B7D6B"/>
+    <text x="78" y="72" font-family="KaiTi, Georgia, serif" font-size="32" font-weight="bold" fill="#8B6F47">不完美的真相</text>
+    <text x="360" y="72" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#8B7D6B">客观评价，不吹不黑</text>
+    <text x="78" y="100" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#A89B8A">K3 很强，但距离GPT-5.3/Claude Opus 4.6仍有差距</text>
+  </g>
+
+  <g id="pros-section">
+    <rect x="60" y="130" width="560" height="400" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <rect x="60" y="130" width="560" height="48" rx="12" fill="#6B8E5A"/>
+    <rect x="60" y="166" width="560" height="12" fill="#6B8E5A"/>
+    <use data-icon="tabler-filled/circle-check" x="80" y="138" width="28" height="28" fill="#FAF7F2"/>
+    <text x="120" y="162" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#FAF7F2">值得骄傲的部分</text>
+
+    <g id="pro-1">
+      <use data-icon="tabler-filled/circle-check" x="80" y="205" width="22" height="22" fill="#6B8E5A"/>
+      <text x="115" y="222" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37">开源模型全球第一，没有争议</text>
+    </g>
+    <g id="pro-2">
+      <use data-icon="tabler-filled/circle-check" x="80" y="255" width="22" height="22" fill="#6B8E5A"/>
+      <text x="115" y="272" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37">KDA 架构创新是真正的技术突破</text>
+    </g>
+    <g id="pro-3">
+      <use data-icon="tabler-filled/circle-check" x="80" y="305" width="22" height="22" fill="#6B8E5A"/>
+      <text x="115" y="322" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37">成本效率远超美国同类模型</text>
+    </g>
+    <g id="pro-4">
+      <use data-icon="tabler-filled/circle-check" x="80" y="355" width="22" height="22" fill="#6B8E5A"/>
+      <text x="115" y="372" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37">中国AI从"追赶者"变成"竞争者"</text>
+    </g>
+    <g id="pro-5">
+      <use data-icon="tabler-filled/circle-check" x="80" y="405" width="22" height="22" fill="#6B8E5A"/>
+      <text x="115" y="422" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37">开源共享推动了全球AI民主化</text>
+    </g>
+    <g id="pro-6">
+      <use data-icon="tabler-filled/circle-check" x="80" y="455" width="22" height="22" fill="#6B8E5A"/>
+      <text x="115" y="472" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37">蒸馏指控已被技术和时间线彻底反驳</text>
+    </g>
+  </g>
+
+  <g id="cons-section">
+    <rect x="660" y="130" width="560" height="400" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <rect x="660" y="130" width="560" height="48" rx="12" fill="#C75C3A"/>
+    <rect x="660" y="166" width="560" height="12" fill="#C75C3A"/>
+    <use data-icon="tabler-filled/alert-triangle" x="680" y="138" width="28" height="28" fill="#FAF7F2"/>
+    <text x="720" y="162" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#FAF7F2">需要正视的差距</text>
+
+    <g id="con-1">
+      <use data-icon="tabler-filled/alert-triangle" x="680" y="205" width="22" height="22" fill="#C75C3A"/>
+      <text x="715" y="222" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37">综合排名仍落后 GPT-5.3 和 Claude Opus 4.6</text>
+    </g>
+    <g id="con-2">
+      <use data-icon="tabler-filled/alert-triangle" x="680" y="255" width="22" height="22" fill="#C75C3A"/>
+      <text x="715" y="272" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37">复杂推理和长文创作仍有差距</text>
+    </g>
+    <g id="con-3">
+      <use data-icon="tabler-filled/alert-triangle" x="680" y="305" width="22" height="22" fill="#C75C3A"/>
+      <text x="715" y="322" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37">国产GPU算力仍受限（芯片禁令影响）</text>
+    </g>
+    <g id="con-4">
+      <use data-icon="tabler-filled/alert-triangle" x="680" y="355" width="22" height="22" fill="#C75C3A"/>
+      <text x="715" y="372" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37">蒸馏争议虽被反驳，但信任需时间建立</text>
+    </g>
+    <g id="con-5">
+      <use data-icon="tabler-filled/alert-triangle" x="680" y="405" width="22" height="22" fill="#C75C3A"/>
+      <text x="715" y="422" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37">商业化落地仍在早期阶段</text>
+    </g>
+    <g id="con-6">
+      <use data-icon="tabler-filled/alert-triangle" x="680" y="455" width="22" height="22" fill="#C75C3A"/>
+      <text x="715" y="472" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37">生态建设距离美国巨头仍有差距</text>
+    </g>
+  </g>
+
+  <g id="bottom-verdict">
+    <rect x="240" y="560" width="800" height="70" rx="12" fill="#8B6F47" fill-opacity="0.08"/>
+    <text x="640" y="595" font-family="KaiTi, Georgia, serif" font-size="20" fill="#8B6F47" text-anchor="middle">"从追赶到竞争只用了两年"</text>
+    <text x="640" y="622" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#8B7D6B" text-anchor="middle">这个速度本身，就是最值得关注的信号</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="end">13 / 14</text>
+  </g>
+</svg>

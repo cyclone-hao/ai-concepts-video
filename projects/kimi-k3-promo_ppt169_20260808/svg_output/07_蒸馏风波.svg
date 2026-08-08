@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <radialGradient id="stormGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C75C3A" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#C75C3A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g id="bg-layer">
+    <rect width="1280" height="720" fill="#F5F0E8"/>
+    <rect width="1280" height="720" fill="url(#stormGlow)"/>
+  </g>
+
+  <g id="page-header">
+    <use data-icon="tabler-filled/alert-triangle" x="490" y="60" width="40" height="40" fill="#C75C3A"/>
+    <text x="640" y="135" font-family="KaiTi, Georgia, serif" font-size="40" font-weight="bold" fill="#C75C3A" text-anchor="middle">白宫指控"窃取技术"</text>
+  </g>
+
+  <g id="narrative-block">
+    <text x="640" y="210" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#5D4E37" text-anchor="middle">K3发布后不久，白宫科技政策办公室主任</text>
+    <text x="640" y="240" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#5D4E37" text-anchor="middle">
+      <tspan font-weight="bold">Michael Kratsios</tspan><tspan> 公开指控：</tspan>
+    </text>
+  </g>
+
+  <g id="accusation-card">
+    <rect x="240" y="275" width="800" height="120" rx="12" fill="#C75C3A" fill-opacity="0.06" stroke="#C75C3A" stroke-width="1.5" stroke-opacity="0.3"/>
+    <text x="640" y="320" font-family="KaiTi, Georgia, serif" font-size="22" fill="#C75C3A" text-anchor="middle">"月之暗面通过蒸馏 Anthropic 的 Claude 模型</text>
+    <text x="640" y="355" font-family="KaiTi, Georgia, serif" font-size="22" fill="#C75C3A" text-anchor="middle">来获取 K3 的能力"</text>
+  </g>
+
+  <g id="additional-claims">
+    <text x="640" y="440" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#8B7D6B" text-anchor="middle">美财长贝森特声称检出了美方大模型的"水印"，威胁制裁</text>
+  </g>
+
+  <g id="media-storm">
+    <rect x="320" y="480" width="640" height="50" rx="8" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <text x="640" y="512" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37" text-anchor="middle">CNN · CNBC · BBC 轮番报道 —— "中国AI偷技术"叙事铺天盖地</text>
+  </g>
+
+  <g id="transition">
+    <text x="640" y="600" font-family="KaiTi, Georgia, serif" font-size="26" font-weight="bold" fill="#8B6F47" text-anchor="middle">但事情很快反转了。</text>
+    <line x1="480" y1="620" x2="800" y2="620" stroke="#E8A87C" stroke-width="2"/>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="end">07 / 14</text>
+  </g>
+</svg>

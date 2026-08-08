@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg-layer">
+    <rect width="1280" height="720" fill="#F5F0E8" />
+  </g>
+
+  <g id="page-header">
+    <text x="640" y="70" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#8B6F47" text-anchor="middle">中国AI的完整闭环</text>
+    <text x="640" y="105" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#8B7D6B" text-anchor="middle">K3 补上了最后一块拼图</text>
+  </g>
+
+  <g id="center-hub">
+    <circle cx="640" cy="380" r="72" fill="#FAF7F2" stroke="#E8A87C" stroke-width="3" />
+    <text x="640" y="365" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#E8A87C" text-anchor="middle">Kimi K3</text>
+    <text x="640" y="390" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">基座模型</text>
+    <text x="640" y="410" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">+ 开源</text>
+  </g>
+
+  <g id="node-1-hardware">
+    <line x1="420" y1="240" x2="575" y2="325" stroke="#EDE5D5" stroke-width="2" />
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M292,180 H548 A12,12 0 0 1 560,192 V288 A12,12 0 0 1 548,300 H292 A12,12 0 0 1 280,288 V192 A12,12 0 0 1 292,180 Z" />
+    <text x="420" y="220" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#8B6F47" text-anchor="middle">国产算力</text>
+    <text x="420" y="255" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5D4E37" text-anchor="middle">K3 主要在国产GPU上训练</text>
+    <text x="420" y="278" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">证明了美国芯片禁令挡不住</text>
+  </g>
+
+  <g id="node-2-research">
+    <line x1="860" y1="240" x2="705" y2="325" stroke="#EDE5D5" stroke-width="2" />
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M732,180 H988 A12,12 0 0 1 1000,192 V288 A12,12 0 0 1 988,300 H732 A12,12 0 0 1 720,288 V192 A12,12 0 0 1 732,180 Z" />
+    <text x="860" y="220" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#E8A87C" text-anchor="middle">原创研究</text>
+    <text x="860" y="255" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5D4E37" text-anchor="middle">KDA 注意力机制等原创技术</text>
+    <text x="860" y="278" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">9年来首次重写Transformer底层</text>
+  </g>
+
+  <g id="node-3-talent">
+    <line x1="340" y1="510" x2="575" y2="435" stroke="#EDE5D5" stroke-width="2" />
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M212,460 H468 A12,12 0 0 1 480,472 V568 A12,12 0 0 1 468,580 H212 A12,12 0 0 1 200,568 V472 A12,12 0 0 1 212,460 Z" />
+    <text x="340" y="500" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#8B6F47" text-anchor="middle">人才聚集</text>
+    <text x="340" y="535" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5D4E37" text-anchor="middle">清华系 + 全球顶级研究者</text>
+    <text x="340" y="558" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">月之暗面 650 人团队</text>
+  </g>
+
+  <g id="node-4-capital">
+    <line x1="940" y1="510" x2="705" y2="435" stroke="#EDE5D5" stroke-width="2" />
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M812,460 H1068 A12,12 0 0 1 1080,472 V568 A12,12 0 0 1 1068,580 H812 A12,12 0 0 1 800,568 V472 A12,12 0 0 1 812,460 Z" />
+    <text x="940" y="500" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#E8A87C" text-anchor="middle">资本支持</text>
+    <text x="940" y="535" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#5D4E37" text-anchor="middle">腾讯、阿里、IDG、红杉中国</text>
+    <text x="940" y="558" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">累计融资超48亿美元</text>
+  </g>
+
+  <g id="conclusion-bar">
+    <path fill="#8B6F47" fill-opacity="0.08" d="M250,620 H1030 A10,10 0 0 1 1040,630 V660 A10,10 0 0 1 1030,670 H250 A10,10 0 0 1 240,660 V630 A10,10 0 0 1 250,620 Z" />
+    <text x="640" y="652" font-family="KaiTi, Georgia, serif" font-size="18" font-weight="bold" fill="#8B6F47" text-anchor="middle">硬件 → 研究 → 人才 → 资本 → 正循环，越转越快</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="end">12 / 14</text>
+  </g>
+</svg>

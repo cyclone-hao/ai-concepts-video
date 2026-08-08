@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="cardTopGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B6F47"/>
+      <stop offset="100%" stop-color="#E8A87C"/>
+    </linearGradient>
+  </defs>
+
+  <g id="bg-layer">
+    <rect width="1280" height="720" fill="#F5F0E8"/>
+  </g>
+
+  <g id="page-header">
+    <rect x="60" y="48" width="4" height="44" rx="2" fill="#E8A87C"/>
+    <text x="78" y="72" font-family="KaiTi, Georgia, serif" font-size="32" font-weight="bold" fill="#8B6F47">Kimi K3 到底强在哪？</text>
+    <text x="78" y="100" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B">硬参数：全球开源模型之王</text>
+  </g>
+
+  <g id="card-1-params">
+    <rect x="60" y="130" width="560" height="250" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <use data-icon="tabler-filled/flame" x="88" y="158" width="36" height="36" fill="#E8A87C"/>
+    <text x="136" y="183" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#8B6F47">2.8万亿参数</text>
+    <text x="88" y="220" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#5D4E37">全球参数最大的开源模型，没有之一</text>
+    <text x="88" y="250" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B">稀疏混合专家架构（MoE），896个专家</text>
+    <text x="88" y="278" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B">每次推理仅激活16个专家</text>
+    <rect x="88" y="305" width="200" height="32" rx="8" fill="#8B6F47" fill-opacity="0.10"/>
+    <text x="188" y="327" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="bold" fill="#8B6F47" text-anchor="middle">实际干活约1000亿参数</text>
+  </g>
+
+  <g id="card-2-context">
+    <rect x="660" y="130" width="560" height="250" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <use data-icon="tabler-filled/bolt" x="688" y="158" width="36" height="36" fill="#E8A87C"/>
+    <text x="736" y="183" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#8B6F47">100万 Token 上下文</text>
+    <text x="688" y="220" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#5D4E37">一口气读完七八本中篇小说</text>
+    <text x="688" y="250" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B">还能记住第一页写了什么</text>
+    <text x="688" y="278" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B">超长文本理解和处理能力</text>
+    <rect x="688" y="305" width="180" height="32" rx="8" fill="#E8A87C" fill-opacity="0.15"/>
+    <text x="778" y="327" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="bold" fill="#C75C3A" text-anchor="middle">约750万字容量</text>
+  </g>
+
+  <g id="card-3-cost">
+    <rect x="60" y="410" width="560" height="250" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <use data-icon="tabler-filled/coin-yuan" x="88" y="438" width="36" height="36" fill="#E8A87C"/>
+    <text x="136" y="463" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="20" font-weight="bold" fill="#8B6F47">~$15 / 百万Token输出</text>
+    <text x="88" y="500" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" fill="#5D4E37">比 Claude、GPT 便宜约 2-3 倍</text>
+    <text x="88" y="530" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B">MoE架构让每次推理成本极低</text>
+    <text x="88" y="558" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B">知识储备极大，但干活成本很低</text>
+    <rect x="88" y="585" width="240" height="32" rx="8" fill="#6B8E5A" fill-opacity="0.12"/>
+    <text x="208" y="607" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="bold" fill="#6B8E5A" text-anchor="middle">性价比几乎没有对手</text>
+  </g>
+
+  <g id="card-4-summary">
+    <rect x="660" y="410" width="560" height="250" rx="12" fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1.5" stroke-opacity="0.3"/>
+    <text x="940" y="470" font-family="KaiTi, Georgia, serif" font-size="24" font-weight="bold" fill="#8B6F47" text-anchor="middle">一句话总结</text>
+    <line x1="840" y1="490" x2="1040" y2="490" stroke="#E8A87C" stroke-width="2"/>
+    <text x="940" y="535" font-family="KaiTi, Georgia, serif" font-size="28" fill="#5D4E37" text-anchor="middle">开源模型</text>
+    <text x="940" y="575" font-family="KaiTi, Georgia, serif" font-size="28" fill="#5D4E37" text-anchor="middle">打败了大部分</text>
+    <text x="940" y="615" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#E8A87C" text-anchor="middle">闭源模型</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="end">03 / 14</text>
+  </g>
+</svg>

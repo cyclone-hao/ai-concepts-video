@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="coverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B6F47" />
+      <stop offset="100%" stop-color="#E8A87C" />
+    </linearGradient>
+    <radialGradient id="coverGlow" cx="70%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#E8A87C" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#E8A87C" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E8A87C" />
+      <stop offset="50%" stop-color="#C9A96E" />
+      <stop offset="100%" stop-color="#8B6F47" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg-layer">
+    <rect width="1280" height="720" fill="#F5F0E8" />
+    <rect width="1280" height="720" fill="url(#coverGlow)" />
+  </g>
+
+  <g id="decor-top-right">
+    <circle cx="1100" cy="120" r="200" fill="#E8A87C" fill-opacity="0.08" />
+    <circle cx="1150" cy="80" r="120" fill="#8B6F47" fill-opacity="0.06" />
+  </g>
+
+  <g id="decor-bottom-left">
+    <circle cx="180" cy="600" r="160" fill="#8B6F47" fill-opacity="0.06" />
+    <circle cx="100" cy="660" r="80" fill="#E8A87C" fill-opacity="0.10" />
+  </g>
+
+  <g id="series-badge">
+    <path fill="#8B6F47" fill-opacity="0.12" d="M78,60 H262 A18,18 0 0 1 280,78 V78 A18,18 0 0 1 262,96 H78 A18,18 0 0 1 60,78 V78 A18,18 0 0 1 78,60 Z" />
+    <text x="170" y="83" font-family="KaiTi, Georgia, serif" font-size="15" font-weight="bold" fill="#8B6F47" text-anchor="middle" letter-spacing="2">AI大家学 · 前沿认知篇</text>
+  </g>
+
+  <g id="main-title">
+    <text x="640" y="280" font-family="KaiTi, Georgia, serif" font-size="96" font-weight="bold" fill="#8B6F47" text-anchor="middle">Kimi K3</text>
+  </g>
+
+  <g id="accent-bar">
+    <path fill="url(#accentLine)" d="M442,310 H838 A2,2 0 0 1 840,312 V312 A2,2 0 0 1 838,314 H442 A2,2 0 0 1 440,312 V312 A2,2 0 0 1 442,310 Z" />
+  </g>
+
+  <g id="subtitle">
+    <text x="640" y="370" font-family="KaiTi, Georgia, serif" font-size="30" fill="#5D4E37" text-anchor="middle">一个中国90后造的AI</text>
+    <text x="640" y="415" font-family="KaiTi, Georgia, serif" font-size="30" fill="#5D4E37" text-anchor="middle">正在改写全球科技格局</text>
+  </g>
+
+  <g id="key-stats">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M252,470 H408 A12,12 0 0 1 420,482 V528 A12,12 0 0 1 408,540 H252 A12,12 0 0 1 240,528 V482 A12,12 0 0 1 252,470 Z" />
+    <text x="330" y="502" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="26" font-weight="bold" fill="#E8A87C" text-anchor="middle">2.8万亿</text>
+    <text x="330" y="528" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">参数规模</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M462,470 H618 A12,12 0 0 1 630,482 V528 A12,12 0 0 1 618,540 H462 A12,12 0 0 1 450,528 V482 A12,12 0 0 1 462,470 Z" />
+    <text x="540" y="502" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="26" font-weight="bold" fill="#E8A87C" text-anchor="middle">全球第三</text>
+    <text x="540" y="528" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">综合排名</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M672,470 H828 A12,12 0 0 1 840,482 V528 A12,12 0 0 1 828,540 H672 A12,12 0 0 1 660,528 V482 A12,12 0 0 1 672,470 Z" />
+    <text x="750" y="502" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="26" font-weight="bold" fill="#E8A87C" text-anchor="middle">开源第一</text>
+    <text x="750" y="528" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">同类模型</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M882,470 H1038 A12,12 0 0 1 1050,482 V528 A12,12 0 0 1 1038,540 H882 A12,12 0 0 1 870,528 V482 A12,12 0 0 1 882,470 Z" />
+    <text x="960" y="502" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="26" font-weight="bold" fill="#E8A87C" text-anchor="middle">350亿$</text>
+    <text x="960" y="528" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">估值（美元）</text>
+  </g>
+
+  <g id="cover-footer">
+    <text x="640" y="620" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#8B7D6B" text-anchor="middle">2026.08 | 频道宣传稿</text>
+    <text x="640" y="660" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#A89B8A" text-anchor="middle">关注「AI大家学」，AI世界快人一步</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="end">01 / 14</text>
+  </g>
+</svg>

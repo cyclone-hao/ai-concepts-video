@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg-layer">
+    <rect width="1280" height="720" fill="#F5F0E8"/>
+  </g>
+
+  <g id="page-header">
+    <rect x="60" y="48" width="4" height="44" rx="2" fill="#E8A87C"/>
+    <text x="78" y="72" font-family="KaiTi, Georgia, serif" font-size="32" font-weight="bold" fill="#8B6F47">全球AI格局改写</text>
+    <text x="440" y="72" font-family="KaiTi, Georgia, serif" font-size="24" fill="#E8A87C">不靠美国也能做到顶级</text>
+    <text x="78" y="100" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B">K3 开源对全球AI生态的三重冲击</text>
+  </g>
+
+  <g id="col-1-sovereign">
+    <rect x="60" y="130" width="360" height="360" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <use data-icon="tabler-filled/world" x="80" y="150" width="40" height="40" fill="#8B6F47"/>
+    <text x="132" y="178" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#8B6F47">主权AI不再依赖美国</text>
+    <text x="100" y="225" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5D4E37">
+      <tspan x="100" dy="0">过去各国想要部署顶级AI</tspan>
+      <tspan x="100" dy="26">必须依赖美国的云服务</tspan>
+      <tspan x="100" dy="26">和模型API</tspan>
+    </text>
+    <line x1="100" y1="310" x2="360" y2="310" stroke="#EDE5D5" stroke-width="1"/>
+    <text x="100" y="340" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#C75C3A">
+      <tspan x="100" dy="0" font-weight="bold">K3 开源 + 可本地部署</tspan>
+      <tspan x="100" dy="26">= 任何国家都能拥有</tspan>
+      <tspan x="100" dy="26">自己的顶级AI</tspan>
+    </text>
+    <rect x="80" y="430" width="320" height="40" rx="8" fill="#8B6F47" fill-opacity="0.06"/>
+    <text x="240" y="456" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">欧洲、中东、东南亚已开始部署</text>
+  </g>
+
+  <g id="col-2-innovation">
+    <rect x="460" y="130" width="360" height="360" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <use data-icon="tabler-filled/code-circle-2" x="480" y="150" width="40" height="40" fill="#E8A87C"/>
+    <text x="532" y="178" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#E8A87C">开源生态的范式转移</text>
+    <text x="500" y="225" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5D4E37">
+      <tspan x="500" dy="0">以往开源模型 = 美国公司</tspan>
+      <tspan x="500" dy="26">的"施舍"</tspan>
+    </text>
+    <line x1="500" y1="290" x2="760" y2="290" stroke="#EDE5D5" stroke-width="1"/>
+    <text x="500" y="320" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#C75C3A">
+      <tspan x="500" dy="0" font-weight="bold">K3 证明：中国团队</tspan>
+      <tspan x="500" dy="26">可以从零做出</tspan>
+      <tspan x="500" dy="26">世界级的开源模型</tspan>
+      <tspan x="500" dy="26" font-weight="bold">并免费分享给全世界</tspan>
+    </text>
+    <rect x="480" y="430" width="320" height="40" rx="8" fill="#E8A87C" fill-opacity="0.10"/>
+    <text x="640" y="456" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">全球开发者社区争相微调和部署</text>
+  </g>
+
+  <g id="col-3-competition">
+    <rect x="860" y="130" width="360" height="360" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <use data-icon="tabler-filled/circle-dot" x="880" y="150" width="40" height="40" fill="#C75C3A"/>
+    <text x="932" y="178" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#C75C3A">倒逼美国巨头加速</text>
+    <text x="900" y="225" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5D4E37">
+      <tspan x="900" dy="0">OpenAI、Google、Meta</tspan>
+      <tspan x="900" dy="26">被迫加快开源节奏</tspan>
+    </text>
+    <line x1="900" y1="290" x2="1160" y2="290" stroke="#EDE5D5" stroke-width="1"/>
+    <text x="900" y="320" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5D4E37">
+      <tspan x="900" dy="0">AI不再是美国独大的游戏</tspan>
+      <tspan x="900" dy="26">而是全球多极竞争</tspan>
+    </text>
+    <rect x="880" y="380" width="320" height="90" rx="8" fill="#C75C3A" fill-opacity="0.06"/>
+    <text x="1040" y="415" font-family="KaiTi, Georgia, serif" font-size="16" font-weight="bold" fill="#C75C3A" text-anchor="middle">"AI竞赛的核心</text>
+    <text x="1040" y="445" font-family="KaiTi, Georgia, serif" font-size="16" font-weight="bold" fill="#C75C3A" text-anchor="middle">不再是谁有最强的闭源模型</text>
+    <text x="1040" y="475" font-family="KaiTi, Georgia, serif" font-size="14" fill="#8B7D6B" text-anchor="middle">而是谁能让更多人用上AI"</text>
+  </g>
+
+  <g id="bottom-summary">
+    <rect x="60" y="520" width="1160" height="60" rx="10" fill="#8B6F47" fill-opacity="0.06"/>
+    <text x="640" y="558" font-family="KaiTi, Georgia, serif" font-size="18" fill="#5D4E37" text-anchor="middle">CNN、CNBC、BBC、Fortune 等西方主流媒体罕见地大规模正面报道中国AI成就</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="end">11 / 14</text>
+  </g>
+</svg>

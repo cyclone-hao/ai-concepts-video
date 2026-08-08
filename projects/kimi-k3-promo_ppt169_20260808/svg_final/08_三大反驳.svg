@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <g id="bg-layer">
+    <rect width="1280" height="720" fill="#F5F0E8" />
+  </g>
+
+  <g id="page-header">
+    <path fill="#6B8E5A" d="M62,48 H62 A2,2 0 0 1 64,50 V90 A2,2 0 0 1 62,92 H62 A2,2 0 0 1 60,90 V50 A2,2 0 0 1 62,48 Z" />
+    <text x="78" y="72" font-family="KaiTi, Georgia, serif" font-size="32" font-weight="bold" fill="#8B6F47">事情很快反转了</text>
+    <text x="78" y="100" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B">TechCrunch 深度调查 · 多位独立研究者反驳</text>
+  </g>
+
+  <g id="card-1-timeline">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M72,130 H408 A12,12 0 0 1 420,142 V458 A12,12 0 0 1 408,470 H72 A12,12 0 0 1 60,458 V142 A12,12 0 0 1 72,130 Z" />
+    <path fill="#6B8E5A" d="M72,130 H408 A12,12 0 0 1 420,142 V174 A12,12 0 0 1 408,186 H72 A12,12 0 0 1 60,174 V142 A12,12 0 0 1 72,130 Z" />
+    <rect x="60" y="174" width="360" height="12" fill="#6B8E5A" />
+    <text x="240" y="166" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="bold" fill="#FAF7F2" text-anchor="middle">1 时间线对不上</text>
+    
+  <g transform="translate(210.0, 210.0) scale(2.0)" fill="#6B8E5A">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+    <text text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="240" y="295">Fable 模型发布时间</text><text text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="240" y="319">到 K3 训练完成之间</text><text text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="240" y="343">根本不够走完</text><text text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" fill="#C75C3A" font-size="15" x="240" y="367" font-weight="bold">"蒸馏→训练→发布"</text><text text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="240" y="391">这个完整流程</text></g>
+
+  <g id="card-2-arch">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M472,130 H808 A12,12 0 0 1 820,142 V458 A12,12 0 0 1 808,470 H472 A12,12 0 0 1 460,458 V142 A12,12 0 0 1 472,130 Z" />
+    <path fill="#6B8E5A" d="M472,130 H808 A12,12 0 0 1 820,142 V174 A12,12 0 0 1 808,186 H472 A12,12 0 0 1 460,174 V142 A12,12 0 0 1 472,130 Z" />
+    <rect x="460" y="174" width="360" height="12" fill="#6B8E5A" />
+    <text x="640" y="166" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="bold" fill="#FAF7F2" text-anchor="middle">2 架构是原创的</text>
+    
+  <g transform="translate(610.0, 210.0) scale(2.0)" fill="#6B8E5A">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+    <text text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="640" y="295">896专家 MoE</text><text text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="640" y="319">+ KDA 注意力机制</text><text text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" fill="#8B7D6B" font-size="15" x="640" y="351">在 Anthropic 的</text><text text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" fill="#8B7D6B" font-size="15" x="640" y="375">任何模型里</text><text text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" fill="#C75C3A" font-size="15" x="640" y="399" font-weight="bold">都找不到</text></g>
+
+  <g id="card-3-original">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M872,130 H1208 A12,12 0 0 1 1220,142 V458 A12,12 0 0 1 1208,470 H872 A12,12 0 0 1 860,458 V142 A12,12 0 0 1 872,130 Z" />
+    <path fill="#6B8E5A" d="M872,130 H1208 A12,12 0 0 1 1220,142 V174 A12,12 0 0 1 1208,186 H872 A12,12 0 0 1 860,174 V142 A12,12 0 0 1 872,130 Z" />
+    <rect x="860" y="174" width="360" height="12" fill="#6B8E5A" />
+    <text x="1040" y="166" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="bold" fill="#FAF7F2" text-anchor="middle">3 蒸馏做不出突破</text>
+    
+  <g transform="translate(1010.0, 210.0) scale(2.0)" fill="#6B8E5A">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+    <text text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="1040" y="295">蒸馏能走捷径</text><text text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" fill="#5D4E37" font-size="15" x="1040" y="319">但走不出</text><text text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" fill="#C75C3A" font-size="15" x="1040" y="343" font-weight="bold">原创性的</text><text text-anchor="middle" font-family="'Microsoft YaHei', Arial, sans-serif" fill="#C75C3A" font-size="15" x="1040" y="367" font-weight="bold">架构创新</text></g>
+
+  <g id="pattern-observation">
+    <path fill="#8B6F47" fill-opacity="0.06" d="M72,500 H1208 A12,12 0 0 1 1220,512 V568 A12,12 0 0 1 1208,580 H72 A12,12 0 0 1 60,568 V512 A12,12 0 0 1 72,500 Z" />
+    <text x="640" y="535" font-family="KaiTi, Georgia, serif" font-size="18" fill="#5D4E37" text-anchor="middle">
+      <tspan fill="#8B7D6B">DeepSeek 出来时同样的"作弊"指控也出现过 → 结果证实是原创</tspan>
+    </text>
+    <text x="640" y="565" font-family="KaiTi, Georgia, serif" font-size="20" font-weight="bold" fill="#8B6F47" text-anchor="middle">每次中国AI突破，第一反应都是"你作弊了"。但每次都证明是自己做的。</text>
+  </g>
+
+  <g id="china-response">
+    <text x="640" y="630" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#8B7D6B" text-anchor="middle">中国外交部公开驳斥：美方的指控是"无端打压"</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="end">08 / 14</text>
+  </g>
+</svg>

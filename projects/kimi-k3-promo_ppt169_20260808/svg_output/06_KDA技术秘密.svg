@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="kdaGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B6F47"/>
+      <stop offset="100%" stop-color="#E8A87C"/>
+    </linearGradient>
+  </defs>
+
+  <g id="bg-layer">
+    <rect width="1280" height="720" fill="#F5F0E8"/>
+  </g>
+
+  <g id="page-header">
+    <rect x="60" y="48" width="4" height="44" rx="2" fill="#E8A87C"/>
+    <text x="78" y="72" font-family="KaiTi, Georgia, serif" font-size="32" font-weight="bold" fill="#8B6F47">9年来首次重写AI底层机制</text>
+    <text x="78" y="100" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B">KDA（Kimi Delta Attention）注意力机制</text>
+  </g>
+
+  <g id="timeline-context">
+    <rect x="60" y="120" width="1160" height="50" rx="8" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <text x="100" y="151" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37">
+      <tspan font-weight="bold" fill="#8B6F47">2017</tspan><tspan fill="#8B7D6B"> Transformer注意力机制发表</tspan>
+      <tspan dx="30" fill="#EDE5D5">──────────</tspan>
+      <tspan dx="10" font-weight="bold" fill="#E8A87C">2026</tspan>
+      <tspan fill="#8B7D6B"> K3首次系统性重写</tspan>
+    </text>
+  </g>
+
+  <g id="kda-diagram">
+    <rect x="60" y="195" width="700" height="380" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+
+    <text x="100" y="232" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="bold" fill="#8B6F47">3:1 混合注意力架构</text>
+
+    <g id="kda-bar">
+      <rect x="100" y="260" width="420" height="60" rx="8" fill="#8B6F47"/>
+      <text x="310" y="296" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="bold" fill="#FAF7F2" text-anchor="middle">75% KDA 线性注意力</text>
+
+      <rect x="530" y="260" width="140" height="60" rx="8" fill="#E8A87C"/>
+      <text x="600" y="296" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="bold" fill="#FAF7F2" text-anchor="middle">25% 完整</text>
+    </g>
+
+    <text x="100" y="360" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#5D4E37">
+      <tspan x="100" dy="0">KDA 线性注意力：不同通道使用不同衰减速率管理记忆</tspan>
+      <tspan x="100" dy="28">关键位置 → 完整注意力精细处理</tspan>
+      <tspan x="100" dy="28">不关键位置 → KDA 快速扫过</tspan>
+    </text>
+
+    <g id="kda-benefit">
+      <rect x="100" y="460" width="620" height="48" rx="8" fill="#6B8E5A" fill-opacity="0.10"/>
+      <use data-icon="tabler-filled/circle-dot" x="116" y="470" width="28" height="28" fill="#6B8E5A"/>
+      <text x="156" y="491" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="bold" fill="#6B8E5A">没有抛弃Transformer，在框架内找到效率与能力的最优平衡</text>
+    </g>
+  </g>
+
+  <g id="cost-comparison">
+    <rect x="800" y="195" width="420" height="380" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+
+    <text x="840" y="232" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="bold" fill="#8B6F47">训练成本对比</text>
+
+    <g id="cost-k3">
+      <rect x="840" y="260" width="160" height="100" rx="8" fill="#8B6F47" fill-opacity="0.08"/>
+      <text x="920" y="300" font-family="KaiTi, Georgia, serif" font-size="36" font-weight="bold" fill="#8B6F47" text-anchor="middle">460万</text>
+      <text x="920" y="330" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#8B7D6B" text-anchor="middle">美元 · K3</text>
+    </g>
+
+    <g id="cost-us">
+      <rect x="1020" y="260" width="160" height="100" rx="8" fill="#EDE5D5"/>
+      <text x="1100" y="300" font-family="KaiTi, Georgia, serif" font-size="28" font-weight="bold" fill="#8B7D6B" text-anchor="middle">千万~亿</text>
+      <text x="1100" y="330" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" fill="#A89B8A" text-anchor="middle">美元 · 美国同级</text>
+    </g>
+
+    <g id="cost-result">
+      <rect x="840" y="390" width="340" height="50" rx="8" fill="#E8A87C" fill-opacity="0.12"/>
+      <text x="1010" y="422" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="18" font-weight="bold" fill="#C75C3A" text-anchor="middle">成本砍了2-3倍</text>
+    </g>
+
+    <text x="840" y="480" font-family="KaiTi, Georgia, serif" font-size="16" fill="#5D4E37" font-style="italic">"同样的效果，不是靠钱，</text>
+    <text x="840" y="505" font-family="KaiTi, Georgia, serif" font-size="16" fill="#5D4E37" font-style="italic"> 是靠工程能力。"</text>
+
+    <g id="huang-quote">
+      <rect x="840" y="530" width="340" height="36" rx="8" fill="#8B6F47" fill-opacity="0.06"/>
+      <text x="1010" y="554" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">黄仁勋发推："开源模型实现主权"</text>
+    </g>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="end">06 / 14</text>
+  </g>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <radialGradient id="timeGlow" cx="30%" cy="50%" r="40%">
+      <stop offset="0%" stop-color="#E8A87C" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#E8A87C" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <g id="bg-layer">
+    <rect width="1280" height="720" fill="#F5F0E8" />
+    <rect width="1280" height="720" fill="url(#timeGlow)" />
+  </g>
+
+  <g id="page-header">
+    <text x="640" y="65" font-family="KaiTi, Georgia, serif" font-size="28" fill="#8B6F47" text-anchor="middle">真实案例：天体物理研究任务</text>
+    <text x="640" y="95" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B" text-anchor="middle">复现中子星 I-Love-Q 普适关系</text>
+  </g>
+
+  <g id="vs-divider">
+    <circle cx="640" cy="380" r="32" fill="#8B6F47" />
+    <text x="640" y="389" font-family="KaiTi, Georgia, serif" font-size="22" font-weight="bold" fill="#FAF7F2" text-anchor="middle">VS</text>
+  </g>
+
+  <g id="k3-side">
+    
+  <g transform="translate(240.0, 145.0) scale(2.0)" fill="#E8A87C">
+    <path d="M13 2l.018 .001l.016 .001l.083 .005l.011 .002h.011l.038 .009l.052 .008l.016 .006l.011 .001l.029 .011l.052 .014l.019 .009l.015 .004l.028 .014l.04 .017l.021 .012l.022 .01l.023 .015l.031 .017l.034 .024l.018 .011l.013 .012l.024 .017l.038 .034l.022 .017l.008 .01l.014 .012l.036 .041l.026 .027l.006 .009c.12 .147 .196 .322 .218 .513l.001 .012l.002 .041l.004 .064v6h5a1 1 0 0 1 .868 1.497l-.06 .091l-8 11c-.568 .783 -1.808 .38 -1.808 -.588v-6h-5a1 1 0 0 1 -.868 -1.497l.06 -.091l8 -11l.01 -.013l.018 -.024l.033 -.038l.018 -.022l.009 -.008l.013 -.014l.04 -.036l.028 -.026l.008 -.006a1 1 0 0 1 .402 -.199l.011 -.001l.027 -.005l.074 -.013l.011 -.001l.041 -.002z" />
+  </g>
+    <text x="300" y="180" font-family="KaiTi, Georgia, serif" font-size="24" font-weight="bold" fill="#8B6F47">Kimi K3</text>
+    <text x="280" y="280" font-family="KaiTi, Georgia, serif" font-size="96" font-weight="bold" fill="#E8A87C" text-anchor="middle">2</text>
+    <text x="280" y="330" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="30" fill="#5D4E37" text-anchor="middle">小时</text>
+
+    <text x="280" y="400" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37" text-anchor="middle">自主阅读 20+ 篇论文</text>
+    <text x="280" y="430" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37" text-anchor="middle">评估 300+ 种状态方程</text>
+    <text x="280" y="460" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#5D4E37" text-anchor="middle">生成 3000+ 行 Python 代码</text>
+  </g>
+
+  <g id="human-side">
+    
+  <g transform="translate(890.0, 145.0) scale(2.0)" fill="#8B7D6B">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-5 2.66a1 1 0 0 0 -.993 .883l-.007 .117v5l.009 .131a1 1 0 0 0 .197 .477l.087 .1l3 3l.094 .082a1 1 0 0 0 1.226 0l.094 -.083l.083 -.094a1 1 0 0 0 0 -1.226l-.083 -.094l-2.707 -2.708v-4.585l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
+  </g>
+    <text x="950" y="180" font-family="KaiTi, Georgia, serif" font-size="24" font-weight="bold" fill="#8B7D6B">资深研究人员</text>
+    <text x="1000" y="280" font-family="KaiTi, Georgia, serif" font-size="72" font-weight="bold" fill="#8B7D6B" text-anchor="middle">1-2</text>
+    <text x="1000" y="330" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="30" fill="#8B7D6B" text-anchor="middle">周</text>
+
+    <text x="1000" y="400" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#8B7D6B" text-anchor="middle">同样需要阅读的文献量</text>
+    <text x="1000" y="430" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#8B7D6B" text-anchor="middle">同样需要评估的方程数</text>
+    <text x="1000" y="460" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" fill="#8B7D6B" text-anchor="middle">同样需要编写的代码量</text>
+  </g>
+
+  <g id="speed-ratio">
+    <path fill="#8B6F47" fill-opacity="0.08" d="M452,510 H828 A12,12 0 0 1 840,522 V558 A12,12 0 0 1 828,570 H452 A12,12 0 0 1 440,558 V522 A12,12 0 0 1 452,510 Z" />
+    <text x="640" y="548" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="bold" fill="#8B6F47" text-anchor="middle">效率提升 84-168 倍</text>
+  </g>
+
+  <g id="musk-quote">
+    <text x="640" y="625" font-family="KaiTi, Georgia, serif" font-size="20" fill="#8B6F47" text-anchor="middle" font-style="italic">连马斯克都点了赞。</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="end">05 / 14</text>
+  </g>
+</svg>

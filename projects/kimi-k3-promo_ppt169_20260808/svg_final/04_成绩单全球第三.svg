@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="barK3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E8A87C" />
+      <stop offset="100%" stop-color="#8B6F47" />
+    </linearGradient>
+    <linearGradient id="barOther" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EDE5D5" />
+      <stop offset="100%" stop-color="#C9A96E" />
+    </linearGradient>
+  </defs>
+
+  <g id="bg-layer">
+    <rect width="1280" height="720" fill="#F5F0E8" />
+  </g>
+
+  <g id="page-header">
+    <path fill="#E8A87C" d="M62,48 H62 A2,2 0 0 1 64,50 V90 A2,2 0 0 1 62,92 H62 A2,2 0 0 1 60,90 V50 A2,2 0 0 1 62,48 Z" />
+    <text x="78" y="72" font-family="KaiTi, Georgia, serif" font-size="32" font-weight="bold" fill="#8B6F47">全球第三，开源第一</text>
+    <text x="78" y="100" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="15" fill="#8B7D6B">多项权威基准测试成绩</text>
+    
+  <g transform="translate(1170.0, 55.0) scale(1.5)" fill="#E8A87C">
+    <path d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" />
+  </g>
+  </g>
+
+  <g id="chartArea">
+    <g id="chart-grid">
+      <line x1="340" y1="130" x2="340" y2="640" stroke="#EDE5D5" stroke-width="1.5" />
+      <line x1="340" y1="640" x2="1200" y2="640" stroke="#EDE5D5" stroke-width="1" />
+      <line x1="512" y1="130" x2="512" y2="640" stroke="#EDE5D5" stroke-width="1" stroke-dasharray="4,4" />
+      <line x1="684" y1="130" x2="684" y2="640" stroke="#EDE5D5" stroke-width="1" stroke-dasharray="4,4" />
+      <line x1="856" y1="130" x2="856" y2="640" stroke="#EDE5D5" stroke-width="1" stroke-dasharray="4,4" />
+      <line x1="1028" y1="130" x2="1028" y2="640" stroke="#EDE5D5" stroke-width="1" stroke-dasharray="4,4" />
+      <line x1="1200" y1="130" x2="1200" y2="640" stroke="#EDE5D5" stroke-width="1" stroke-dasharray="4,4" />
+    </g>
+    <g id="chart-labels-x">
+      <text x="340" y="660" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="middle">0</text>
+      <text x="512" y="660" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="middle">20</text>
+      <text x="684" y="660" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="middle">40</text>
+      <text x="856" y="660" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="middle">60</text>
+      <text x="1028" y="660" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="middle">80</text>
+      <text x="1200" y="660" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="middle">100</text>
+    </g>
+    
+
+    <g id="bar-1-software">
+      <text x="330" y="180" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="bold" fill="#5D4E37" text-anchor="end">SWE Marathon</text>
+      <text x="330" y="198" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="end">软件工程</text>
+      <path fill="url(#barK3)" d="M344,165 H1116 A4,4 0 0 1 1120,169 V199 A4,4 0 0 1 1116,203 H344 A4,4 0 0 1 340,199 V169 A4,4 0 0 1 344,165 Z" />
+      <text x="1130" y="190" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="bold" fill="#8B6F47"> #1</text>
+      
+  <g transform="translate(1165.0, 172.0) scale(0.9166666666666666)" fill="#6B8E5A">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+    </g>
+
+    <g id="bar-2-frontend">
+      <text x="330" y="260" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="bold" fill="#5D4E37" text-anchor="end">前端代码 Arena</text>
+      <text x="330" y="278" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="end">Frontend Code</text>
+      <path fill="url(#barK3)" d="M344,245 H1086 A4,4 0 0 1 1090,249 V279 A4,4 0 0 1 1086,283 H344 A4,4 0 0 1 340,279 V249 A4,4 0 0 1 344,245 Z" />
+      <text x="1100" y="270" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="bold" fill="#8B6F47">#1</text>
+      
+  <g transform="translate(1165.0, 252.0) scale(0.9166666666666666)" fill="#6B8E5A">
+    <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" />
+  </g>
+    </g>
+
+    <g id="bar-3-agent">
+      <text x="330" y="340" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="bold" fill="#5D4E37" text-anchor="end">AA-Briefcase</text>
+      <text x="330" y="358" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="end">智能体知识工作</text>
+      <path fill="url(#barK3)" d="M344,325 H1056 A4,4 0 0 1 1060,329 V359 A4,4 0 0 1 1056,363 H344 A4,4 0 0 1 340,359 V329 A4,4 0 0 1 344,325 Z" />
+      <text x="1070" y="350" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="bold" fill="#8B6F47">1527分</text>
+      <text x="1165" y="350" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#8B7D6B">#2</text>
+    </g>
+
+    <g id="bar-4-terminal">
+      <text x="330" y="420" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="bold" fill="#5D4E37" text-anchor="end">Terminal Bench 2.1</text>
+      <text x="330" y="438" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="end">综合能力测试</text>
+      <path fill="url(#barK3)" d="M344,405 H996 A4,4 0 0 1 1000,409 V439 A4,4 0 0 1 996,443 H344 A4,4 0 0 1 340,439 V409 A4,4 0 0 1 344,405 Z" />
+      <text x="1010" y="430" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="bold" fill="#8B6F47">88.3分</text>
+    </g>
+
+    <g id="bar-5-math">
+      <text x="330" y="500" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="bold" fill="#5D4E37" text-anchor="end">MATH-500</text>
+      <text x="330" y="518" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="end">数学测试</text>
+      <path fill="url(#barK3)" d="M344,485 H1166 A4,4 0 0 1 1170,489 V519 A4,4 0 0 1 1166,523 H344 A4,4 0 0 1 340,519 V489 A4,4 0 0 1 344,485 Z" />
+      <text x="1180" y="510" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="bold" fill="#8B6F47">96.2%</text>
+    </g>
+
+    <g id="bar-6-mmlu">
+      <text x="330" y="580" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="14" font-weight="bold" fill="#5D4E37" text-anchor="end">MMLU-Pro</text>
+      <text x="330" y="598" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="end">通用知识</text>
+      <path fill="url(#barK3)" d="M344,565 H1066 A4,4 0 0 1 1070,569 V599 A4,4 0 0 1 1066,603 H344 A4,4 0 0 1 340,599 V569 A4,4 0 0 1 344,565 Z" />
+      <text x="1080" y="590" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="16" font-weight="bold" fill="#8B6F47">84.7</text>
+    </g>
+  </g>
+
+  <g id="legend-bar">
+    <path fill="url(#barK3)" d="M62,676 H72 A2,2 0 0 1 74,678 V688 A2,2 0 0 1 72,690 H62 A2,2 0 0 1 60,688 V678 A2,2 0 0 1 62,676 Z" />
+    <text x="82" y="688" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#8B7D6B">Kimi K3 成绩</text>
+    <text x="1220" y="695" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="11" fill="#A89B8A" text-anchor="end">AI Intelligence Index / BenchLM / SWE-bench</text>
+  </g>
+
+  <g id="page-number">
+    <text x="1220" y="712" font-family="'Microsoft YaHei', Arial, sans-serif" font-size="12" fill="#A89B8A" text-anchor="end">04 / 14</text>
+  </g>
+</svg>
