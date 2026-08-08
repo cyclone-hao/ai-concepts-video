@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+  <rect width="1280" height="720" fill="#F5F0E8" />
+
+  <g id="header">
+    <text x="60" y="55" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">五层叠加产生质变</text>
+    <path fill="#E8A87C" d="M61.50,66 H138.50 A1.50,1.50 0 0 1 140,67.50 V67.50 A1.50,1.50 0 0 1 138.50,69 H61.50 A1.50,1.50 0 0 1 60,67.50 V67.50 A1.50,1.50 0 0 1 61.50,66 Z" />
+    <text x="1220" y="50" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">GPT-3.5 爆火的真正原因</text>
+  </g>
+
+  
+  <g id="stack">
+    
+    <g id="layer-1">
+      <path fill="#8B6F47" d="M212,580 H1068 A12,12 0 0 1 1080,592 V648 A12,12 0 0 1 1068,660 H212 A12,12 0 0 1 200,648 V592 A12,12 0 0 1 212,580 Z" />
+      
+  <g transform="translate(225.0, 600.0) scale(1.3333333333333333)" fill="#FAF7F2">
+    <path d="M13 2l.018 .001l.016 .001l.083 .005l.011 .002h.011l.038 .009l.052 .008l.016 .006l.011 .001l.029 .011l.052 .014l.019 .009l.015 .004l.028 .014l.04 .017l.021 .012l.022 .01l.023 .015l.031 .017l.034 .024l.018 .011l.013 .012l.024 .017l.038 .034l.022 .017l.008 .01l.014 .012l.036 .041l.026 .027l.006 .009c.12 .147 .196 .322 .218 .513l.001 .012l.002 .041l.004 .064v6h5a1 1 0 0 1 .868 1.497l-.06 .091l-8 11c-.568 .783 -1.808 .38 -1.808 -.588v-6h-5a1 1 0 0 1 -.868 -1.497l.06 -.091l8 -11l.01 -.013l.018 -.024l.033 -.038l.018 -.022l.009 -.008l.013 -.014l.04 -.036l.028 -.026l.008 -.006a1 1 0 0 1 .402 -.199l.011 -.001l.027 -.005l.074 -.013l.011 -.001l.041 -.002z" />
+  </g>
+      <text x="275" y="618" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#FAF7F2" font-weight="bold">① 自回归架构 — 让它能学</text>
+      <text x="275" y="644" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#FAF7F2" fill-opacity="0.8">预测下一个词，一步步生成</text>
+    </g>
+
+    
+    <g id="layer-2">
+      <path fill="#9E7F57" d="M212,488 H1068 A12,12 0 0 1 1080,500 V556 A12,12 0 0 1 1068,568 H212 A12,12 0 0 1 200,556 V500 A12,12 0 0 1 212,488 Z" />
+      
+  <g transform="translate(225.0, 508.0) scale(1.3333333333333333)" fill="#FAF7F2">
+    <path d="M3 15.731c1.968 1.507 5.234 2.269 9 2.269c3.76 0 7.025 -.76 9 -2.252v2.252c0 2.425 -3.895 3.936 -8.693 3.998l-.307 .002c-4.938 0 -9 -1.523 -9 -4z" />
+    <path d="M3 9.731c1.968 1.507 5.234 2.269 9 2.269c3.76 0 7.025 -.76 9 -2.252v2.252c0 2.477 -4.062 4 -9 4c-4.798 0 -8.77 -1.438 -8.979 -3.795l-.016 -.101l-.005 -.104z" />
+    <path d="M12 2c1.041 0 2.044 .068 2.977 .198l.469 .071q .84 .14 1.586 .348l.44 .131l.075 .024a11 11 0 0 1 .805 .3l.199 .086q .535 .242 .967 .53q .165 .11 .313 .225a3.8 3.8 0 0 1 .669 .668l.091 .128q .07 .105 .129 .211l.07 .139q .163 .35 .2 .73l.01 .211c0 2.477 -4.062 4 -9 4c-4.798 0 -8.77 -1.438 -8.979 -3.795a1 1 0 0 1 -.021 -.205l.005 -.104l.016 -.1c.205 -2.306 4.01 -3.733 8.667 -3.794z" />
+  </g>
+      <text x="275" y="526" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#FAF7F2" font-weight="bold">② 海量预训练 — 让它学得广</text>
+      <text x="275" y="552" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#FAF7F2" fill-opacity="0.8">4500亿 Token 的文本训练</text>
+    </g>
+
+    
+    <g id="layer-3">
+      <path fill="#B08E67" d="M212,396 H1068 A12,12 0 0 1 1080,408 V464 A12,12 0 0 1 1068,476 H212 A12,12 0 0 1 200,464 V408 A12,12 0 0 1 212,396 Z" />
+      
+  <g transform="translate(225.0, 416.0) scale(1.3333333333333333)" fill="#FAF7F2">
+    <path d="M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-6.293 5.953a1 1 0 0 0 -1.414 0l-2 2a1 1 0 0 0 0 1.414l2 2a1 1 0 0 0 1.414 0l.083 -.094a1 1 0 0 0 -.083 -1.32l-1.292 -1.293l1.292 -1.293a1 1 0 0 0 0 -1.414m4 0a1 1 0 0 0 -1.414 0l-.083 .094a1 1 0 0 0 .083 1.32l1.292 1.293l-1.292 1.293a1 1 0 0 0 1.414 1.414l2 -2a1 1 0 0 0 0 -1.414z" />
+  </g>
+      <text x="275" y="434" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#FAF7F2" font-weight="bold">③ 代码训练 — 让它学得深</text>
+      <text x="275" y="460" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#FAF7F2" fill-opacity="0.8">逻辑推理、条件分支、变量追踪</text>
+    </g>
+
+    
+    <g id="layer-4">
+      <path fill="#C4956A" d="M212,304 H1068 A12,12 0 0 1 1080,316 V372 A12,12 0 0 1 1068,384 H212 A12,12 0 0 1 200,372 V316 A12,12 0 0 1 212,304 Z" />
+      
+  <g transform="translate(225.0, 324.0) scale(1.3333333333333333)" fill="#FAF7F2">
+    <path d="M18 3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-4.724l-4.762 2.857a1 1 0 0 1 -1.508 -.743l-.006 -.114v-2h-1a4 4 0 0 1 -3.995 -3.8l-.005 -.2v-8a4 4 0 0 1 4 -4zm-4 9h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2m2 -4h-8a1 1 0 1 0 0 2h8a1 1 0 0 0 0 -2" />
+  </g>
+      <text x="275" y="342" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#FAF7F2" font-weight="bold">④ SFT 指令微调 — 让它会对话</text>
+      <text x="275" y="368" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#FAF7F2" fill-opacity="0.8">从文本续写器变成对话助手</text>
+    </g>
+
+    
+    <g id="layer-5">
+      <path fill="#E8A87C" d="M212,212 H1068 A12,12 0 0 1 1080,224 V280 A12,12 0 0 1 1068,292 H212 A12,12 0 0 1 200,280 V224 A12,12 0 0 1 212,212 Z" />
+      
+  <g transform="translate(225.0, 232.0) scale(1.3333333333333333)" fill="#FAF7F2">
+    <path d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" />
+  </g>
+      <text x="275" y="250" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#FAF7F2" font-weight="bold">⑤ RLHF — 让它说得好</text>
+      <text x="275" y="276" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#FAF7F2" fill-opacity="0.8">人类偏好调教，回答更像人</text>
+    </g>
+
+    
+    <line x1="160" y1="640" x2="160" y2="220" stroke="#8B6F47" stroke-width="2" stroke-dasharray="6,4" />
+    <polygon points="160,215 152,230 168,230" fill="#8B6F47" />
+
+    
+    <text x="140" y="660" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="end">基础</text>
+    <text x="140" y="225" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="end">精调</text>
+  </g>
+
+  
+  <g id="insight">
+    <path fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1" d="M212,96 H1068 A12,12 0 0 1 1080,108 V164 A12,12 0 0 1 1068,176 H212 A12,12 0 0 1 200,164 V108 A12,12 0 0 1 212,96 Z" />
+    
+  <g transform="translate(225.0, 112.0) scale(1.3333333333333333)" fill="#8B6F47">
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z" />
+    <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z" />
+    <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z" />
+    <path d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z" />
+  </g>
+    <text x="275" y="130" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">五层叠在一起产生了质变</text>
+    <text x="275" y="156" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">不是发明了某个新算法，而是工程化落地的五层创新叠加</text>
+  </g>
+
+  
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">7</text>
+  </g>
+</svg>

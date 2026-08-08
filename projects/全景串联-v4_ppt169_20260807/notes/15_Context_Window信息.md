@@ -1,0 +1,1 @@
+这就引出了两个概念：Context 上下文——你发给模型的这整段内容；Context Window 上下文窗口——模型一次能"读"的最大 Token 数量。现在主流模型的窗口大小：GPT-5.6 达到了 105 万 Token，Claude Opus 5 是 100 万 Token，Gemini 也到了 100 万级别。国内的 DeepSeek-V3 和 Kimi K3 是 128K。100 万 Token 差不多能一次性读完三四本书的内容。但要注意：模型对不同位置的注意力是不均匀的，并不是窗口里的每个 Token 都能被同等关注。

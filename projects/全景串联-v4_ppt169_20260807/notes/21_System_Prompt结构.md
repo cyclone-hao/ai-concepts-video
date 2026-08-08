@@ -1,0 +1,1 @@
+但你有没有发现一个问题——每次对话你都得重新说一遍"我要 Python"、"我要简洁的代码"？能不能一次性设好？能。在 API 调用里，消息有个字段叫 role，可以是 user、assistant、还有一种叫 system。System 消息放在最前面，就是你给模型设的"人设"和"规矩"。它就像给新员工发的内部手册——你是谁、你的边界在哪里、你不能做什么。这里我要说一个很多开发者都不知道的事情：从技术实现上看，System Prompt 和 User Prompt 没有本质区别。它们都是 Token，都进入同一个 Context Window。System Prompt 就是一个被放在最前面的、优先级更高的 Prompt。

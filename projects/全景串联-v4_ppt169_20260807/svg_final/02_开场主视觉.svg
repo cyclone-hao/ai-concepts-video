@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+  <rect width="1280" height="720" fill="#F5F0E8" />
+
+  
+  <g id="decoration">
+    <circle cx="1100" cy="120" r="180" fill="#E8A87C" fill-opacity="0.06" />
+    <circle cx="180" cy="600" r="140" fill="#8B6F47" fill-opacity="0.04" />
+  </g>
+
+  <g id="header">
+    
+    <text x="640" y="200" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="42" fill="#8B6F47" text-anchor="middle" font-weight="bold">从 GPT、DeepSeek 到 OpenClaw、Hermes</text>
+    <path fill="#E8A87C" d="M502,218 H778 A2,2 0 0 1 780,220 V220 A2,2 0 0 1 778,222 H502 A2,2 0 0 1 500,220 V220 A2,2 0 0 1 502,218 Z" />
+
+    
+    <text x="640" y="268" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">一期视频打通 AI 底层逻辑</text>
+  </g>
+
+  <g id="keyword-cloud">
+    
+    
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M193,330 H237 A18,18 0 0 1 255,348 V348 A18,18 0 0 1 237,366 H193 A18,18 0 0 1 175,348 V348 A18,18 0 0 1 193,330 Z" />
+    <text x="215" y="354" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" text-anchor="middle" font-weight="bold">LLM</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M293,330 H347 A18,18 0 0 1 365,348 V348 A18,18 0 0 1 347,366 H293 A18,18 0 0 1 275,348 V348 A18,18 0 0 1 293,330 Z" />
+    <text x="320" y="354" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" text-anchor="middle" font-weight="bold">Token</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M403,330 H487 A18,18 0 0 1 505,348 V348 A18,18 0 0 1 487,366 H403 A18,18 0 0 1 385,348 V348 A18,18 0 0 1 403,330 Z" />
+    <text x="445" y="354" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" text-anchor="middle" font-weight="bold">Embedding</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M543,330 H587 A18,18 0 0 1 605,348 V348 A18,18 0 0 1 587,366 H543 A18,18 0 0 1 525,348 V348 A18,18 0 0 1 543,330 Z" />
+    <text x="565" y="354" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" text-anchor="middle" font-weight="bold">RAG</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M643,330 H707 A18,18 0 0 1 725,348 V348 A18,18 0 0 1 707,366 H643 A18,18 0 0 1 625,348 V348 A18,18 0 0 1 643,330 Z" />
+    <text x="675" y="354" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" text-anchor="middle" font-weight="bold">Prompt</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M763,330 H817 A18,18 0 0 1 835,348 V348 A18,18 0 0 1 817,366 H763 A18,18 0 0 1 745,348 V348 A18,18 0 0 1 763,330 Z" />
+    <text x="790" y="354" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" text-anchor="middle" font-weight="bold">Agent</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M873,330 H917 A18,18 0 0 1 935,348 V348 A18,18 0 0 1 917,366 H873 A18,18 0 0 1 855,348 V348 A18,18 0 0 1 873,330 Z" />
+    <text x="895" y="354" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" text-anchor="middle" font-weight="bold">Skill</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M973,330 H1017 A18,18 0 0 1 1035,348 V348 A18,18 0 0 1 1017,366 H973 A18,18 0 0 1 955,348 V348 A18,18 0 0 1 973,330 Z" />
+    <text x="995" y="354" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" text-anchor="middle" font-weight="bold">MCP</text>
+
+    
+    <path fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1" d="M313,386 H387 A18,18 0 0 1 405,404 V404 A18,18 0 0 1 387,422 H313 A18,18 0 0 1 295,404 V404 A18,18 0 0 1 313,386 Z" />
+    <text x="350" y="410" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#C4956A" text-anchor="middle" font-weight="bold">Harness</text>
+
+    <path fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1" d="M443,386 H527 A18,18 0 0 1 545,404 V404 A18,18 0 0 1 527,422 H443 A18,18 0 0 1 425,404 V404 A18,18 0 0 1 443,386 Z" />
+    <text x="485" y="410" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#C4956A" text-anchor="middle" font-weight="bold">OpenClaw</text>
+
+    <path fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1" d="M583,386 H647 A18,18 0 0 1 665,404 V404 A18,18 0 0 1 647,422 H583 A18,18 0 0 1 565,404 V404 A18,18 0 0 1 583,386 Z" />
+    <text x="615" y="410" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#C4956A" text-anchor="middle" font-weight="bold">Hermes</text>
+
+    <path fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1" d="M703,386 H807 A18,18 0 0 1 825,404 V404 A18,18 0 0 1 807,422 H703 A18,18 0 0 1 685,404 V404 A18,18 0 0 1 703,386 Z" />
+    <text x="755" y="410" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#C4956A" text-anchor="middle" font-weight="bold">Vibe Coding</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M863,386 H957 A18,18 0 0 1 975,404 V404 A18,18 0 0 1 957,422 H863 A18,18 0 0 1 845,404 V404 A18,18 0 0 1 863,386 Z" />
+    <text x="910" y="410" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" text-anchor="middle" font-weight="bold">Fine-tuning</text>
+  </g>
+
+  <g id="bottom-info">
+    <text x="640" y="520" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B7D6B" text-anchor="middle">这些词你能准确说出它们的含义吗？</text>
+    <text x="640" y="550" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B" text-anchor="middle">能否区分它们跟 DeepSeek、豆包等软件有什么关系？</text>
+  </g>
+
+  
+  <g id="footer">
+    <text x="40" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">AI大家学 · 大模型技术篇</text>
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">2</text>
+  </g>
+</svg>

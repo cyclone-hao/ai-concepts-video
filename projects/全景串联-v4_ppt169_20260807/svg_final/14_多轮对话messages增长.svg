@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8" />
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">多轮对话的真相</text>
+    <path fill="#E8A87C" d="M61.50,78 H138.50 A1.50,1.50 0 0 1 140,79.50 V79.50 A1.50,1.50 0 0 1 138.50,81 H61.50 A1.50,1.50 0 0 1 60,79.50 V79.50 A1.50,1.50 0 0 1 61.50,78 Z" />
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">每次请求都重新发送全部历史</text>
+  </g>
+
+  
+  <g id="round-1">
+    <text x="80" y="120" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" font-weight="bold">第一轮请求</text>
+
+    <path fill="#F0EBE0" stroke="#EDE5D5" stroke-width="1" d="M90,132 H570 A10,10 0 0 1 580,142 V222 A10,10 0 0 1 570,232 H90 A10,10 0 0 1 80,222 V142 A10,10 0 0 1 90,132 Z" />
+    <text x="100" y="158" font-family="Consolas, Courier New, monospace" font-size="13" fill="#8B7D6B">messages: [</text>
+    <text x="120" y="180" font-family="Consolas, Courier New, monospace" font-size="13" fill="#5D4E37">{ role: <tspan fill="#E8A87C">"user"</tspan>,</text>
+    <text x="140" y="200" font-family="Consolas, Courier New, monospace" font-size="13" fill="#5D4E37">content: <tspan fill="#8FBC8F">"帮我写Python的快速排序"</tspan> }</text>
+    <text x="100" y="220" font-family="Consolas, Courier New, monospace" font-size="13" fill="#8B7D6B">]</text>
+
+    <text x="440" y="165" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">1 条消息</text>
+  </g>
+
+  
+  <text x="310" y="260" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#E8A87C" text-anchor="middle">↓ 模型返回回答后，用户继续追问</text>
+
+  
+  <g id="round-2">
+    <text x="80" y="295" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#E8A87C" font-weight="bold">第二轮请求</text>
+
+    <path fill="#F0EBE0" stroke="#EDE5D5" stroke-width="1" d="M90,307 H570 A10,10 0 0 1 580,317 V527 A10,10 0 0 1 570,537 H90 A10,10 0 0 1 80,527 V317 A10,10 0 0 1 90,307 Z" />
+
+    <text x="100" y="333" font-family="Consolas, Courier New, monospace" font-size="13" fill="#8B7D6B">messages: [</text>
+
+    
+    <path fill="#EDE5D5" fill-opacity="0.4" d="M114,342 H556 A4,4 0 0 1 560,346 V380 A4,4 0 0 1 556,384 H114 A4,4 0 0 1 110,380 V346 A4,4 0 0 1 114,342 Z" />
+    <text x="120" y="358" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8B7D6B">{ role: "user",</text>
+    <text x="140" y="375" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8B7D6B">content: "帮我写Python的快速排序" },</text>
+
+    
+    <path fill="#EDE5D5" fill-opacity="0.4" d="M114,390 H556 A4,4 0 0 1 560,394 V428 A4,4 0 0 1 556,432 H114 A4,4 0 0 1 110,428 V394 A4,4 0 0 1 114,390 Z" />
+    <text x="120" y="406" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8B7D6B">{ role: "assistant",</text>
+    <text x="140" y="423" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8B7D6B">content: "def quick_sort(arr): ..." },</text>
+
+    
+    <path fill="#E8A87C" fill-opacity="0.1" stroke="#E8A87C" stroke-width="1" d="M114,440 H556 A4,4 0 0 1 560,444 V478 A4,4 0 0 1 556,482 H114 A4,4 0 0 1 110,478 V444 A4,4 0 0 1 114,440 Z" />
+    <text x="120" y="456" font-family="Consolas, Courier New, monospace" font-size="13" fill="#5D4E37">{ role: <tspan fill="#E8A87C">"user"</tspan>,</text>
+    <text x="140" y="475" font-family="Consolas, Courier New, monospace" font-size="13" fill="#5D4E37">content: <tspan fill="#8FBC8F">"把它改成降序排列"</tspan> }</text>
+
+    <text x="100" y="505" font-family="Consolas, Courier New, monospace" font-size="13" fill="#8B7D6B">]</text>
+
+    <text x="440" y="325" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#E8A87C">3 条消息</text>
+  </g>
+
+  
+  <g id="key-insight">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M656,120 H1184 A16,16 0 0 1 1200,136 V524 A16,16 0 0 1 1184,540 H656 A16,16 0 0 1 640,524 V136 A16,16 0 0 1 656,120 Z" />
+
+    
+  <g transform="translate(670.0, 145.0) scale(1.3333333333333333)" fill="#D4837F">
+    <path d="M12 1.67c.955 0 1.845 .467 2.39 1.247l.105 .16l8.114 13.548a2.914 2.914 0 0 1 -2.307 4.363l-.195 .008h-16.225a2.914 2.914 0 0 1 -2.582 -4.2l.099 -.185l8.11 -13.538a2.914 2.914 0 0 1 2.491 -1.403zm.01 13.33l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -7a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
+  </g>
+    <text x="715" y="168" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#D4837F" font-weight="bold">关键发现</text>
+
+    <text x="670" y="215" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37">模型并没有"回忆"起上一轮</text>
+
+    <line x1="670" y1="235" x2="1160" y2="235" stroke="#EDE5D5" stroke-width="1" />
+
+    <text x="670" y="270" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">你的客户端在<tspan fill="#E8A87C" font-weight="bold">每一轮对话</tspan>时</text>
+    <text x="670" y="298" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">都把前面<tspan fill="#E8A87C" font-weight="bold">所有记录重新发送</tspan></text>
+    <text x="670" y="326" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">给模型</text>
+
+    <line x1="670" y1="350" x2="1160" y2="350" stroke="#EDE5D5" stroke-width="1" />
+
+    <text x="670" y="380" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">模型每次收到的都是完整的对话历史</text>
+    <text x="670" y="405" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">然后只生成最新一轮的回答</text>
+
+    
+    <path fill="none" stroke="#D4837F" stroke-width="1.5" stroke-dasharray="6,4" d="M96,340 H564 A4,4 0 0 1 568,344 V436 A4,4 0 0 1 564,440 H96 A4,4 0 0 1 92,436 V344 A4,4 0 0 1 96,340 Z" />
+    <text x="330" y="460" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#D4837F" text-anchor="middle">↑ 第一轮的内容全部重新发送</text>
+
+    <path fill="#8B6F47" fill-opacity="0.06" d="M680,440 H1160 A10,10 0 0 1 1170,450 V495 A10,10 0 0 1 1160,505 H680 A10,10 0 0 1 670,495 V450 A10,10 0 0 1 680,440 Z" />
+    
+  <g transform="translate(690.0, 455.0)" fill="#8B6F47">
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z" />
+    <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z" />
+    <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z" />
+    <path d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z" />
+  </g>
+    <text x="725" y="470" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37" font-weight="bold">Context（上下文）</text>
+    <text x="725" y="492" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B">你发给模型的整段输入内容</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">14</text>
+  </g>
+</svg>

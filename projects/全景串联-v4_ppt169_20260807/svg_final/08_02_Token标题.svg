@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="secGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B6F47" />
+      <stop offset="100%" stop-color="#6B5535" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#secGrad2)" />
+  <circle cx="1100" cy="600" r="200" fill="#FAF7F2" fill-opacity="0.05" />
+  <circle cx="180" cy="140" r="120" fill="#FAF7F2" fill-opacity="0.04" />
+
+  <g id="content">
+    <text x="640" y="260" font-family="Georgia, Microsoft YaHei, serif" font-size="120" fill="#FAF7F2" fill-opacity="0.15" text-anchor="middle" font-weight="bold">02</text>
+    <text x="640" y="340" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="48" fill="#FAF7F2" text-anchor="middle" font-weight="bold">Token — 模型的最小阅读单位</text>
+    <path fill="#E8A87C" d="M522,365 H758 A2,2 0 0 1 760,367 V367 A2,2 0 0 1 758,369 H522 A2,2 0 0 1 520,367 V367 A2,2 0 0 1 522,365 Z" />
+    <text x="640" y="420" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#FAF7F2" fill-opacity="0.8" text-anchor="middle">模型不认识"字"，它认识的是 Token</text>
+    
+  <g transform="translate(610.0, 450.0) scale(1.5)" fill="#E8A87C">
+    <path d="M20.894 13.553a1 1 0 0 1 -.447 1.341l-8 4a1 1 0 0 1 -.894 0l-8 -4a1 1 0 0 1 .894 -1.788l7.553 3.774l7.554 -3.775a1 1 0 0 1 1.341 .447m-8.887 -8.552q .056 0 .111 .007l.111 .02l.086 .024l.012 .006l.012 .002l.029 .014l.05 .019l.016 .009l.012 .005l8 4a1 1 0 0 1 0 1.788l-8 4a1 1 0 0 1 -.894 0l-8 -4a1 1 0 0 1 0 -1.788l8 -4l.011 -.005l.018 -.01l.078 -.032l.011 -.002l.013 -.006l.086 -.024l.11 -.02l.056 -.005z" />
+  </g>
+  </g>
+
+  <g id="footer">
+    <text x="40" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#FAF7F2" fill-opacity="0.5">AI大家学 · 大模型技术篇</text>
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#FAF7F2" fill-opacity="0.5" text-anchor="end">8</text>
+  </g>
+</svg>

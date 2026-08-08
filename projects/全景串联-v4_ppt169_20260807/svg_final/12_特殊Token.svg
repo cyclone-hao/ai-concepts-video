@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8" />
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">特殊 Token</text>
+    <path fill="#E8A87C" d="M61.50,78 H138.50 A1.50,1.50 0 0 1 140,79.50 V79.50 A1.50,1.50 0 0 1 138.50,81 H61.50 A1.50,1.50 0 0 1 60,79.50 V79.50 A1.50,1.50 0 0 1 61.50,78 Z" />
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">你看不到的控制信号</text>
+  </g>
+
+  
+  <g id="token-sequence">
+    
+    <path fill="#C4956A" fill-opacity="0.2" stroke="#C4956A" stroke-width="2" d="M108,180 H192 A8,8 0 0 1 200,188 V228 A8,8 0 0 1 192,236 H108 A8,8 0 0 1 100,228 V188 A8,8 0 0 1 108,180 Z" />
+    <text x="150" y="216" font-family="Consolas, Courier New, monospace" font-size="16" fill="#C4956A" text-anchor="middle" font-weight="bold">&lt;bos&gt;</text>
+
+    
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M228,180 H284 A8,8 0 0 1 292,188 V228 A8,8 0 0 1 284,236 H228 A8,8 0 0 1 220,228 V188 A8,8 0 0 1 228,180 Z" />
+    <text x="256" y="216" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">我</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M310,180 H366 A8,8 0 0 1 374,188 V228 A8,8 0 0 1 366,236 H310 A8,8 0 0 1 302,228 V188 A8,8 0 0 1 310,180 Z" />
+    <text x="338" y="216" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">喜</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M392,180 H448 A8,8 0 0 1 456,188 V228 A8,8 0 0 1 448,236 H392 A8,8 0 0 1 384,228 V188 A8,8 0 0 1 392,180 Z" />
+    <text x="420" y="216" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">欢</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M474,180 H530 A8,8 0 0 1 538,188 V228 A8,8 0 0 1 530,236 H474 A8,8 0 0 1 466,228 V188 A8,8 0 0 1 474,180 Z" />
+    <text x="502" y="216" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">吃</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M556,180 H612 A8,8 0 0 1 620,188 V228 A8,8 0 0 1 612,236 H556 A8,8 0 0 1 548,228 V188 A8,8 0 0 1 556,180 Z" />
+    <text x="584" y="216" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">苹</text>
+
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M638,180 H694 A8,8 0 0 1 702,188 V228 A8,8 0 0 1 694,236 H638 A8,8 0 0 1 630,228 V188 A8,8 0 0 1 638,180 Z" />
+    <text x="666" y="216" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">果</text>
+
+    
+    <path fill="#C4956A" fill-opacity="0.2" stroke="#C4956A" stroke-width="2" d="M730,180 H814 A8,8 0 0 1 822,188 V228 A8,8 0 0 1 814,236 H730 A8,8 0 0 1 722,228 V188 A8,8 0 0 1 730,180 Z" />
+    <text x="772" y="216" font-family="Consolas, Courier New, monospace" font-size="16" fill="#C4956A" text-anchor="middle" font-weight="bold">&lt;eos&gt;</text>
+
+    
+    <path fill="#8B7D6B" fill-opacity="0.15" stroke="#8B7D6B" stroke-width="1.5" stroke-dasharray="4,3" d="M850,180 H934 A8,8 0 0 1 942,188 V228 A8,8 0 0 1 934,236 H850 A8,8 0 0 1 842,228 V188 A8,8 0 0 1 850,180 Z" />
+    <text x="892" y="216" font-family="Consolas, Courier New, monospace" font-size="16" fill="#8B7D6B" text-anchor="middle">&lt;pad&gt;</text>
+
+    <path fill="#8B7D6B" fill-opacity="0.15" stroke="#8B7D6B" stroke-width="1.5" stroke-dasharray="4,3" d="M970,180 H1054 A8,8 0 0 1 1062,188 V228 A8,8 0 0 1 1054,236 H970 A8,8 0 0 1 962,228 V188 A8,8 0 0 1 970,180 Z" />
+    <text x="1012" y="216" font-family="Consolas, Courier New, monospace" font-size="16" fill="#8B7D6B" text-anchor="middle">&lt;pad&gt;</text>
+  </g>
+
+  
+  <g id="annotations">
+    
+    <line x1="150" y1="240" x2="150" y2="310" stroke="#C4956A" stroke-width="1" stroke-dasharray="4,3" />
+    <path fill="#FAF7F2" stroke="#C4956A" stroke-width="1" d="M52,310 H248 A12,12 0 0 1 260,322 V388 A12,12 0 0 1 248,400 H52 A12,12 0 0 1 40,388 V322 A12,12 0 0 1 52,310 Z" />
+    <text x="150" y="340" font-family="Consolas, Courier New, monospace" font-size="14" fill="#C4956A" text-anchor="middle" font-weight="bold">&lt;bos&gt;</text>
+    <text x="150" y="362" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" text-anchor="middle">Beginning of Sequence</text>
+    <text x="150" y="382" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">标记一段文本的开头</text>
+
+    
+    <line x1="772" y1="240" x2="772" y2="310" stroke="#C4956A" stroke-width="1" stroke-dasharray="4,3" />
+    <path fill="#FAF7F2" stroke="#C4956A" stroke-width="1" d="M674,310 H870 A12,12 0 0 1 882,322 V388 A12,12 0 0 1 870,400 H674 A12,12 0 0 1 662,388 V322 A12,12 0 0 1 674,310 Z" />
+    <text x="772" y="340" font-family="Consolas, Courier New, monospace" font-size="14" fill="#C4956A" text-anchor="middle" font-weight="bold">&lt;eos&gt;</text>
+    <text x="772" y="362" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" text-anchor="middle">End of Sequence</text>
+    <text x="772" y="382" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">模型看到就停止生成</text>
+
+    
+    <line x1="952" y1="240" x2="952" y2="310" stroke="#8B7D6B" stroke-width="1" stroke-dasharray="4,3" />
+    <path fill="#FAF7F2" stroke="#8B7D6B" stroke-width="1" d="M912,310 H1108 A12,12 0 0 1 1120,322 V388 A12,12 0 0 1 1108,400 H912 A12,12 0 0 1 900,388 V322 A12,12 0 0 1 912,310 Z" />
+    <text x="1010" y="340" font-family="Consolas, Courier New, monospace" font-size="14" fill="#8B7D6B" text-anchor="middle" font-weight="bold">&lt;pad&gt;</text>
+    <text x="1010" y="362" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" text-anchor="middle">Padding</text>
+    <text x="1010" y="382" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">补齐对齐用</text>
+  </g>
+
+  
+  <g id="insight">
+    <path fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1" d="M116,460 H1164 A16,16 0 0 1 1180,476 V564 A16,16 0 0 1 1164,580 H116 A16,16 0 0 1 100,564 V476 A16,16 0 0 1 116,460 Z" />
+    
+  <g transform="translate(130.0, 485.0) scale(1.3333333333333333)" fill="#8B6F47">
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z" />
+    <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z" />
+    <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z" />
+    <path d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z" />
+  </g>
+    <text x="180" y="505" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#5D4E37" font-weight="bold">模型生成回答的运行机制</text>
+    <text x="180" y="540" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">不断预测下一个 Token → 追加到序列末尾 → 再预测下一个 → 直到预测出 <tspan fill="#C4956A" font-weight="bold">&lt;eos&gt;</tspan> 才停止</text>
+    <text x="180" y="565" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B">这些特殊 Token 不承载语义，但对模型的运行机制至关重要</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">12</text>
+  </g>
+</svg>

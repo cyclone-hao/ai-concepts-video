@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <marker id="arrowRag" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#8B6F47" />
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="#F5F0E8" />
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">RAG 三步流程</text>
+    <path fill="#E8A87C" d="M61.50,78 H138.50 A1.50,1.50 0 0 1 140,79.50 V79.50 A1.50,1.50 0 0 1 138.50,81 H61.50 A1.50,1.50 0 0 1 60,79.50 V79.50 A1.50,1.50 0 0 1 61.50,78 Z" />
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">检索增强生成</text>
+  </g>
+
+  
+  <g id="step-1">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M76,110 H384 A16,16 0 0 1 400,126 V494 A16,16 0 0 1 384,510 H76 A16,16 0 0 1 60,494 V126 A16,16 0 0 1 76,110 Z" />
+    <path fill="#8B6F47" d="M63,110 H397 A3,3 0 0 1 400,113 V113 A3,3 0 0 1 397,116 H63 A3,3 0 0 1 60,113 V113 A3,3 0 0 1 63,110 Z" />
+
+    <path fill="#8B6F47" d="M115,135 H115 A25,25 0 0 1 140,160 V160 A25,25 0 0 1 115,185 H115 A25,25 0 0 1 90,160 V160 A25,25 0 0 1 115,135 Z" />
+    <text x="115" y="168" font-family="Georgia, serif" font-size="22" fill="#FAF7F2" text-anchor="middle" font-weight="bold">1</text>
+
+    <text x="155" y="165" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#8B6F47" font-weight="bold">建库</text>
+
+    
+    <g id="step1-flow">
+      
+  <g transform="translate(100.0, 200.0) scale(1.1666666666666667)" fill="#8B6F47">
+    <path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm3 14h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2m0 -4h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2m-5 -4h-1a1 1 0 1 0 0 2h1a1 1 0 0 0 0 -2" />
+    <path d="M19 7h-4l-.001 -4.001z" />
+  </g>
+      <text x="140" y="220" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">文档集合</text>
+
+      <text x="235" y="220" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B7D6B">→</text>
+
+      <text x="260" y="220" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">✂️ 切片</text>
+
+      <text x="125" y="265" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B7D6B">↓</text>
+
+      <text x="100" y="300" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">🔢 Embedding 向量化</text>
+
+      <text x="125" y="340" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B7D6B">↓</text>
+
+      
+  <g transform="translate(100.0, 355.0) scale(1.1666666666666667)" fill="#8B6F47">
+    <path d="M3 15.731c1.968 1.507 5.234 2.269 9 2.269c3.76 0 7.025 -.76 9 -2.252v2.252c0 2.425 -3.895 3.936 -8.693 3.998l-.307 .002c-4.938 0 -9 -1.523 -9 -4z" />
+    <path d="M3 9.731c1.968 1.507 5.234 2.269 9 2.269c3.76 0 7.025 -.76 9 -2.252v2.252c0 2.477 -4.062 4 -9 4c-4.798 0 -8.77 -1.438 -8.979 -3.795l-.016 -.101l-.005 -.104z" />
+    <path d="M12 2c1.041 0 2.044 .068 2.977 .198l.469 .071q .84 .14 1.586 .348l.44 .131l.075 .024a11 11 0 0 1 .805 .3l.199 .086q .535 .242 .967 .53q .165 .11 .313 .225a3.8 3.8 0 0 1 .669 .668l.091 .128q .07 .105 .129 .211l.07 .139q .163 .35 .2 .73l.01 .211c0 2.477 -4.062 4 -9 4c-4.798 0 -8.77 -1.438 -8.979 -3.795a1 1 0 0 1 -.021 -.205l.005 -.104l.016 -.1c.205 -2.306 4.01 -3.733 8.667 -3.794z" />
+  </g>
+      <text x="140" y="375" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37" font-weight="bold">向量数据库</text>
+      <text x="140" y="395" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">Pinecone / Milvus / Chroma</text>
+
+      <text x="100" y="430" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">存的是向量，靠距离搜索</text>
+      <text x="100" y="450" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">（不是关键词匹配）</text>
+    </g>
+  </g>
+
+  
+  <line x1="410" y1="310" x2="440" y2="310" stroke="#8B6F47" stroke-width="2.5" marker-end="url(#arrowRag)" />
+
+  
+  <g id="step-2">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M466,110 H774 A16,16 0 0 1 790,126 V494 A16,16 0 0 1 774,510 H466 A16,16 0 0 1 450,494 V126 A16,16 0 0 1 466,110 Z" />
+    <path fill="#E8A87C" d="M453,110 H787 A3,3 0 0 1 790,113 V113 A3,3 0 0 1 787,116 H453 A3,3 0 0 1 450,113 V113 A3,3 0 0 1 453,110 Z" />
+
+    <path fill="#E8A87C" d="M505,135 H505 A25,25 0 0 1 530,160 V160 A25,25 0 0 1 505,185 H505 A25,25 0 0 1 480,160 V160 A25,25 0 0 1 505,135 Z" />
+    <text x="505" y="168" font-family="Georgia, serif" font-size="22" fill="#FAF7F2" text-anchor="middle" font-weight="bold">2</text>
+
+    <text x="545" y="165" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#E8A87C" font-weight="bold">检索</text>
+
+    <g id="step2-flow">
+      <text x="490" y="210" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">❓ 用户问题</text>
+
+      <text x="525" y="245" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B7D6B">↓</text>
+
+      <text x="490" y="280" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">🔢 问题 → 向量</text>
+
+      <text x="525" y="315" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B7D6B">↓</text>
+
+      
+  <g transform="translate(490.0, 330.0) scale(1.1666666666666667)" fill="#E8A87C">
+    <path d="M14 3.072a8 8 0 0 1 2.32 11.834l5.387 5.387a1 1 0 0 1 -1.414 1.414l-5.388 -5.387a8 8 0 1 1 -.905 -13.249" />
+  </g>
+      <text x="530" y="350" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">语义搜索</text>
+      <text x="530" y="370" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">在向量数据库中找最近的</text>
+
+      <text x="525" y="400" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B7D6B">↓</text>
+
+      <text x="490" y="435" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37" font-weight="bold">📑 Top-K 相关文档</text>
+      <text x="490" y="460" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">取最相关的 K 段文档</text>
+    </g>
+  </g>
+
+  
+  <line x1="800" y1="310" x2="830" y2="310" stroke="#8B6F47" stroke-width="2.5" marker-end="url(#arrowRag)" />
+
+  
+  <g id="step-3">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M856,110 H1204 A16,16 0 0 1 1220,126 V494 A16,16 0 0 1 1204,510 H856 A16,16 0 0 1 840,494 V126 A16,16 0 0 1 856,110 Z" />
+    <path fill="#8FBC8F" d="M843,110 H1217 A3,3 0 0 1 1220,113 V113 A3,3 0 0 1 1217,116 H843 A3,3 0 0 1 840,113 V113 A3,3 0 0 1 843,110 Z" />
+
+    <path fill="#8FBC8F" d="M895,135 H895 A25,25 0 0 1 920,160 V160 A25,25 0 0 1 895,185 H895 A25,25 0 0 1 870,160 V160 A25,25 0 0 1 895,135 Z" />
+    <text x="895" y="168" font-family="Georgia, serif" font-size="22" fill="#FAF7F2" text-anchor="middle" font-weight="bold">3</text>
+
+    <text x="935" y="165" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#8B6F47" font-weight="bold">生成</text>
+
+    <g id="step3-flow">
+      <text x="880" y="210" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">📑 Top-K 文档</text>
+      <text x="880" y="232" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">+ ❓ 用户问题</text>
+
+      <text x="915" y="265" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B7D6B">↓</text>
+
+      <text x="880" y="295" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">塞入 Context Window</text>
+
+      <text x="915" y="325" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B7D6B">↓</text>
+
+      
+  <g transform="translate(880.0, 340.0) scale(1.1666666666666667)" fill="#8B6F47">
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z" />
+    <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z" />
+    <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z" />
+    <path d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z" />
+  </g>
+      <text x="920" y="360" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">LLM 基于参考资料回答</text>
+
+      <text x="915" y="395" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B7D6B">↓</text>
+
+      <path fill="#8FBC8F" fill-opacity="0.15" stroke="#8FBC8F" stroke-width="1" d="M878,410 H1182 A8,8 0 0 1 1190,418 V447 A8,8 0 0 1 1182,455 H878 A8,8 0 0 1 870,447 V418 A8,8 0 0 1 878,410 Z" />
+      <text x="1030" y="440" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" text-anchor="middle" font-weight="bold">💬 有据可查的回答</text>
+
+      <text x="880" y="480" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">不是凭空编造，基于真实文档</text>
+    </g>
+  </g>
+
+  
+  <g id="summary">
+    <path fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1" d="M72,540 H1208 A12,12 0 0 1 1220,552 V598 A12,12 0 0 1 1208,610 H72 A12,12 0 0 1 60,598 V552 A12,12 0 0 1 72,540 Z" />
+    <text x="640" y="572" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#8B6F47" text-anchor="middle" font-weight="bold">RAG = 搜索引擎 + 大模型</text>
+    <text x="640" y="598" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B" text-anchor="middle">搜索引擎负责找到相关资料，大模型负责把资料"翻译"成人话回答你</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">25</text>
+  </g>
+</svg>

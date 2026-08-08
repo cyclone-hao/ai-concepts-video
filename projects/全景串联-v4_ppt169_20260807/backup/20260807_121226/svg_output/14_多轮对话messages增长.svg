@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">多轮对话的真相</text>
+    <rect x="60" y="78" width="80" height="3" rx="1.5" fill="#E8A87C"/>
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">每次请求都重新发送全部历史</text>
+  </g>
+
+  <!-- Round 1 -->
+  <g id="round-1">
+    <text x="80" y="120" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" font-weight="bold">第一轮请求</text>
+
+    <rect x="80" y="132" width="500" height="100" rx="10" fill="#F0EBE0" stroke="#EDE5D5" stroke-width="1"/>
+    <text x="100" y="158" font-family="Consolas, Courier New, monospace" font-size="13" fill="#8B7D6B">messages: [</text>
+    <text x="120" y="180" font-family="Consolas, Courier New, monospace" font-size="13" fill="#5D4E37">{ role: <tspan fill="#E8A87C">"user"</tspan>,</text>
+    <text x="140" y="200" font-family="Consolas, Courier New, monospace" font-size="13" fill="#5D4E37">content: <tspan fill="#8FBC8F">"帮我写Python的快速排序"</tspan> }</text>
+    <text x="100" y="220" font-family="Consolas, Courier New, monospace" font-size="13" fill="#8B7D6B">]</text>
+
+    <text x="440" y="165" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">1 条消息</text>
+  </g>
+
+  <!-- Arrow -->
+  <text x="310" y="260" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#E8A87C" text-anchor="middle">↓ 模型返回回答后，用户继续追问</text>
+
+  <!-- Round 2 -->
+  <g id="round-2">
+    <text x="80" y="295" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#E8A87C" font-weight="bold">第二轮请求</text>
+
+    <rect x="80" y="307" width="500" height="230" rx="10" fill="#F0EBE0" stroke="#EDE5D5" stroke-width="1"/>
+
+    <text x="100" y="333" font-family="Consolas, Courier New, monospace" font-size="13" fill="#8B7D6B">messages: [</text>
+
+    <!-- Previous message (grayed) -->
+    <rect x="110" y="342" width="450" height="42" rx="4" fill="#EDE5D5" fill-opacity="0.4"/>
+    <text x="120" y="358" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8B7D6B">{ role: "user",</text>
+    <text x="140" y="375" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8B7D6B">content: "帮我写Python的快速排序" },</text>
+
+    <!-- Model's previous response (grayed) -->
+    <rect x="110" y="390" width="450" height="42" rx="4" fill="#EDE5D5" fill-opacity="0.4"/>
+    <text x="120" y="406" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8B7D6B">{ role: "assistant",</text>
+    <text x="140" y="423" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8B7D6B">content: "def quick_sort(arr): ..." },</text>
+
+    <!-- New user message -->
+    <rect x="110" y="440" width="450" height="42" rx="4" fill="#E8A87C" fill-opacity="0.1" stroke="#E8A87C" stroke-width="1"/>
+    <text x="120" y="456" font-family="Consolas, Courier New, monospace" font-size="13" fill="#5D4E37">{ role: <tspan fill="#E8A87C">"user"</tspan>,</text>
+    <text x="140" y="475" font-family="Consolas, Courier New, monospace" font-size="13" fill="#5D4E37">content: <tspan fill="#8FBC8F">"把它改成降序排列"</tspan> }</text>
+
+    <text x="100" y="505" font-family="Consolas, Courier New, monospace" font-size="13" fill="#8B7D6B">]</text>
+
+    <text x="440" y="325" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#E8A87C">3 条消息</text>
+  </g>
+
+  <!-- Right side: Key insight -->
+  <g id="key-insight">
+    <rect x="640" y="120" width="560" height="420" rx="16" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+
+    <use data-icon="tabler-filled/alert-triangle" x="670" y="145" width="32" height="32" fill="#D4837F"/>
+    <text x="715" y="168" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#D4837F" font-weight="bold">关键发现</text>
+
+    <text x="670" y="215" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37">模型并没有"回忆"起上一轮</text>
+
+    <line x1="670" y1="235" x2="1160" y2="235" stroke="#EDE5D5" stroke-width="1"/>
+
+    <text x="670" y="270" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">你的客户端在<tspan fill="#E8A87C" font-weight="bold">每一轮对话</tspan>时</text>
+    <text x="670" y="298" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">都把前面<tspan fill="#E8A87C" font-weight="bold">所有记录重新发送</tspan></text>
+    <text x="670" y="326" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">给模型</text>
+
+    <line x1="670" y1="350" x2="1160" y2="350" stroke="#EDE5D5" stroke-width="1"/>
+
+    <text x="670" y="380" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">模型每次收到的都是完整的对话历史</text>
+    <text x="670" y="405" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">然后只生成最新一轮的回答</text>
+
+    <!-- Dashed outline on round 2 showing resend -->
+    <rect x="92" y="340" width="476" height="100" rx="4" fill="none" stroke="#D4837F" stroke-width="1.5" stroke-dasharray="6,4"/>
+    <text x="330" y="460" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#D4837F" text-anchor="middle">↑ 第一轮的内容全部重新发送</text>
+
+    <rect x="670" y="440" width="500" height="65" rx="10" fill="#8B6F47" fill-opacity="0.06"/>
+    <use data-icon="tabler-filled/bulb" x="690" y="455" width="24" height="24" fill="#8B6F47"/>
+    <text x="725" y="470" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37" font-weight="bold">Context（上下文）</text>
+    <text x="725" y="492" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B">你发给模型的整段输入内容</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">14</text>
+  </g>
+</svg>

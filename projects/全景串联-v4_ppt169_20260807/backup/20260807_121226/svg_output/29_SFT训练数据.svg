@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">SFT — 监督微调</text>
+    <rect x="60" y="78" width="80" height="3" rx="1.5" fill="#E8A87C"/>
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">知识"烧进"模型权重</text>
+  </g>
+
+  <!-- Left: Training data example -->
+  <g id="training-data">
+    <rect x="60" y="105" width="560" height="380" rx="16" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <rect x="60" y="105" width="560" height="6" rx="3" fill="#E8A87C"/>
+
+    <use data-icon="tabler-filled/file-text" x="85" y="128" width="28" height="28" fill="#E8A87C"/>
+    <text x="125" y="148" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#8B6F47" font-weight="bold">训练数据示例（Question-Answer 对）</text>
+
+    <!-- Q1 -->
+    <rect x="85" y="170" width="510" height="60" rx="8" fill="#F0EBE0"/>
+    <text x="100" y="195" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" font-weight="bold">Q: 什么是 RAG？</text>
+    <text x="100" y="218" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">A: RAG 是检索增强生成，让 AI 先查资料再回答...</text>
+
+    <!-- Q2 -->
+    <rect x="85" y="245" width="510" height="60" rx="8" fill="#F0EBE0"/>
+    <text x="100" y="270" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" font-weight="bold">Q: Fine-tuning 和 RAG 有什么区别？</text>
+    <text x="100" y="293" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">A: Fine-tuning 像上课学习，RAG 像开卷考试...</text>
+
+    <!-- Q3 -->
+    <rect x="85" y="320" width="510" height="60" rx="8" fill="#F0EBE0"/>
+    <text x="100" y="345" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" font-weight="bold">Q: 什么场景适合 Fine-tuning？</text>
+    <text x="100" y="368" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">A: 需要学习行业术语、表达风格或特定任务能力时...</text>
+
+    <text x="340" y="415" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B" text-anchor="middle" font-style="italic">... 数千到数万条高质量 QA 对 ...</text>
+
+    <rect x="85" y="430" width="510" height="30" rx="6" fill="#E8A87C" fill-opacity="0.1"/>
+    <text x="340" y="451" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B6F47" text-anchor="middle" font-weight="bold">数据质量 &gt; 数据数量</text>
+  </g>
+
+  <!-- Right: Process and effect -->
+  <g id="process">
+    <rect x="660" y="105" width="560" height="380" rx="16" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <rect x="660" y="105" width="560" height="6" rx="3" fill="#8B6F47"/>
+
+    <use data-icon="tabler-filled/bulb" x="685" y="128" width="28" height="28" fill="#8B6F47"/>
+    <text x="725" y="148" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#8B6F47" font-weight="bold">微调过程</text>
+
+    <!-- Before vs After -->
+    <text x="685" y="185" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37" font-weight="bold">训练前（基础模型）</text>
+    <rect x="685" y="198" width="510" height="45" rx="8" fill="#D4837F" fill-opacity="0.08"/>
+    <text x="700" y="215" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">问："项目里 SRE 负责什么？"</text>
+    <text x="700" y="236" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#D4837F">答：可能胡编或给出通用回答</text>
+
+    <text x="940" y="265" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#8B7D6B" text-anchor="middle">↓  SFT 训练</text>
+
+    <text x="685" y="300" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37" font-weight="bold">训练后（领域专家）</text>
+    <rect x="685" y="313" width="510" height="45" rx="8" fill="#8FBC8F" fill-opacity="0.08"/>
+    <text x="700" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">问："项目里 SRE 负责什么？"</text>
+    <text x="700" y="351" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8FBC8F">答：用行业术语精确回答（知识"烧进"权重）</text>
+
+    <line x1="685" y1="380" x2="1195" y2="380" stroke="#EDE5D5" stroke-width="1"/>
+
+    <text x="685" y="410" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37" font-weight="bold">成本：需要 GPU 训练</text>
+    <text x="685" y="435" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">更新知识 → 重新训练</text>
+    <text x="685" y="460" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#D4837F">无法引用来源（知识融合在权重中）</text>
+  </g>
+
+  <!-- Bottom: Real-world combination -->
+  <g id="combination">
+    <rect x="60" y="510" width="1160" height="65" rx="12" fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1"/>
+    <use data-icon="tabler-filled/bulb" x="90" y="525" width="28" height="28" fill="#8B6F47"/>
+    <text x="130" y="545" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">实际项目经常 SFT + RAG 结合</text>
+    <text x="130" y="567" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">SFT 学会行业术语和表达风格 + RAG 提供实时准确的事实信息 = 既懂行又不编造</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">29</text>
+  </g>
+</svg>

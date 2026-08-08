@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">Embedding — 语义空间可视化</text>
+    <rect x="60" y="78" width="80" height="3" rx="1.5" fill="#E8A87C"/>
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">语义越近，距离越近</text>
+  </g>
+
+  <!-- 2D coordinate system -->
+  <g id="vector-space">
+    <!-- Faint axis lines -->
+    <line x1="100" y1="600" x2="100" y2="100" stroke="#EDE5D5" stroke-width="1" stroke-dasharray="4,4"/>
+    <line x1="100" y1="600" x2="750" y2="600" stroke="#EDE5D5" stroke-width="1" stroke-dasharray="4,4"/>
+
+    <!-- Fruit cluster (upper-left area) -->
+    <g id="cluster-fruit">
+      <circle cx="220" cy="200" r="40" fill="#E8A87C" fill-opacity="0.08"/>
+      <circle cx="220" cy="200" r="8" fill="#E8A87C"/>
+      <text x="240" y="195" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">苹果</text>
+
+      <circle cx="300" cy="170" r="8" fill="#E8A87C"/>
+      <text x="320" y="165" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">香蕉</text>
+
+      <circle cx="340" cy="240" r="8" fill="#E8A87C"/>
+      <text x="360" y="235" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">橙子</text>
+
+      <circle cx="250" cy="280" r="10" fill="#C4956A"/>
+      <text x="270" y="275" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#C4956A" font-weight="bold">水果</text>
+
+      <!-- Faint connecting lines within cluster -->
+      <line x1="220" y1="200" x2="300" y2="170" stroke="#E8A87C" stroke-width="0.5" stroke-opacity="0.3"/>
+      <line x1="220" y1="200" x2="340" y2="240" stroke="#E8A87C" stroke-width="0.5" stroke-opacity="0.3"/>
+      <line x1="300" y1="170" x2="340" y2="240" stroke="#E8A87C" stroke-width="0.5" stroke-opacity="0.3"/>
+    </g>
+
+    <!-- Vehicle cluster (lower-right area) -->
+    <g id="cluster-vehicle">
+      <circle cx="550" cy="450" r="35" fill="#8FBC8F" fill-opacity="0.08"/>
+      <circle cx="530" cy="430" r="8" fill="#8FBC8F"/>
+      <text x="550" y="425" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">汽车</text>
+
+      <circle cx="600" cy="470" r="8" fill="#8FBC8F"/>
+      <text x="620" y="465" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">卡车</text>
+
+      <circle cx="560" cy="520" r="8" fill="#8FBC8F"/>
+      <text x="580" y="515" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">公交</text>
+
+      <line x1="530" y1="430" x2="600" y2="470" stroke="#8FBC8F" stroke-width="0.5" stroke-opacity="0.3"/>
+      <line x1="600" y1="470" x2="560" y2="520" stroke="#8FBC8F" stroke-width="0.5" stroke-opacity="0.3"/>
+    </g>
+
+    <!-- Distance annotations -->
+    <!-- 苹果 → 水果: NEAR (green) -->
+    <line x1="220" y1="200" x2="250" y2="280" stroke="#8FBC8F" stroke-width="2" stroke-dasharray="6,3"/>
+    <rect x="180" y="235" width="55" height="24" rx="12" fill="#8FBC8F" fill-opacity="0.2"/>
+    <text x="207" y="252" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8FBC8F" text-anchor="middle" font-weight="bold">近 ✓</text>
+
+    <!-- 苹果 → 汽车: FAR (red) -->
+    <line x1="220" y1="200" x2="530" y2="430" stroke="#D4837F" stroke-width="2" stroke-dasharray="6,3"/>
+    <rect x="340" y="300" width="55" height="24" rx="12" fill="#D4837F" fill-opacity="0.2"/>
+    <text x="367" y="317" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#D4837F" text-anchor="middle" font-weight="bold">远 ✗</text>
+  </g>
+
+  <!-- Right: Explanation -->
+  <g id="explanation">
+    <rect x="790" y="100" width="430" height="520" rx="16" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+
+    <use data-icon="tabler-filled/world" x="820" y="125" width="32" height="32" fill="#8B6F47"/>
+    <text x="865" y="148" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#8B6F47" font-weight="bold">Embedding 原理</text>
+
+    <line x1="820" y1="165" x2="1180" y2="165" stroke="#EDE5D5" stroke-width="1"/>
+
+    <text x="820" y="200" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">把每个 Token 映射成</text>
+    <text x="820" y="225" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37"><tspan fill="#E8A87C" font-weight="bold">高维空间里的坐标点</tspan></text>
+
+    <text x="820" y="265" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">实际维度：1536维（这里简化为2D）</text>
+
+    <line x1="820" y1="285" x2="1180" y2="285" stroke="#EDE5D5" stroke-width="1"/>
+
+    <text x="820" y="315" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37" font-weight="bold">对比学习训练</text>
+    <text x="820" y="345" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">语义相似的文本对 → <tspan fill="#8FBC8F" font-weight="bold">拉近</tspan></text>
+    <text x="820" y="370" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">语义不相似的文本对 → <tspan fill="#D4837F" font-weight="bold">推远</tspan></text>
+
+    <line x1="820" y1="390" x2="1180" y2="390" stroke="#EDE5D5" stroke-width="1"/>
+
+    <text x="820" y="420" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37" font-weight="bold">外部应用：语义搜索</text>
+    <text x="820" y="450" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">文档 → Embedding → 向量 → 存库</text>
+    <text x="820" y="475" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">问题 → Embedding → 向量 → 搜索</text>
+    <text x="820" y="500" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">靠<tspan fill="#E8A87C" font-weight="bold">向量距离</tspan>找到语义最相关的文档</text>
+
+    <line x1="820" y1="520" x2="1180" y2="520" stroke="#EDE5D5" stroke-width="1"/>
+
+    <rect x="820" y="540" width="380" height="55" rx="8" fill="#8B6F47" fill-opacity="0.06"/>
+    <text x="840" y="565" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37" font-weight="bold">记住这个概念</text>
+    <text x="840" y="585" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B">RAG 就是直接建立在 Embedding 之上</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">23</text>
+  </g>
+</svg>

@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8" />
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">MCP — N×M → N+M</text>
+    <path fill="#E8A87C" d="M61.50,78 H138.50 A1.50,1.50 0 0 1 140,79.50 V79.50 A1.50,1.50 0 0 1 138.50,81 H61.50 A1.50,1.50 0 0 1 60,79.50 V79.50 A1.50,1.50 0 0 1 61.50,78 Z" />
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">万能接口标准</text>
+  </g>
+
+  
+  <g id="before-mcp">
+    <path fill="#FAF7F2" stroke="#D4837F" stroke-width="1.5" d="M76,105 H604 A16,16 0 0 1 620,121 V419 A16,16 0 0 1 604,435 H76 A16,16 0 0 1 60,419 V121 A16,16 0 0 1 76,105 Z" />
+    <path fill="#D4837F" d="M63,105 H617 A3,3 0 0 1 620,108 V108 A3,3 0 0 1 617,111 H63 A3,3 0 0 1 60,108 V108 A3,3 0 0 1 63,105 Z" />
+
+    <text x="340" y="140" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#D4837F" text-anchor="middle" font-weight="bold">没有 MCP：N×M 个对接</text>
+
+    
+    <path fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1" d="M106,165 H194 A6,6 0 0 1 200,171 V194 A6,6 0 0 1 194,200 H106 A6,6 0 0 1 100,194 V171 A6,6 0 0 1 106,165 Z" />
+    <text x="150" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">Claude Code</text>
+
+    <path fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1" d="M236,165 H324 A6,6 0 0 1 330,171 V194 A6,6 0 0 1 324,200 H236 A6,6 0 0 1 230,194 V171 A6,6 0 0 1 236,165 Z" />
+    <text x="280" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">ChatGPT</text>
+
+    <path fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1" d="M366,165 H454 A6,6 0 0 1 460,171 V194 A6,6 0 0 1 454,200 H366 A6,6 0 0 1 360,194 V171 A6,6 0 0 1 366,165 Z" />
+    <text x="410" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">Cursor</text>
+
+    <path fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1" d="M496,165 H584 A6,6 0 0 1 590,171 V194 A6,6 0 0 1 584,200 H496 A6,6 0 0 1 490,194 V171 A6,6 0 0 1 496,165 Z" />
+    <text x="540" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">自建App</text>
+
+    
+    <line x1="150" y1="200" x2="130" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="150" y1="200" x2="250" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="150" y1="200" x2="370" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="150" y1="200" x2="490" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="280" y1="200" x2="130" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="280" y1="200" x2="250" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="280" y1="200" x2="370" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="280" y1="200" x2="490" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="410" y1="200" x2="130" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="410" y1="200" x2="250" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="410" y1="200" x2="370" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="410" y1="200" x2="490" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="540" y1="200" x2="130" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="540" y1="200" x2="250" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="540" y1="200" x2="370" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+    <line x1="540" y1="200" x2="490" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" />
+
+    
+    <path fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1" d="M86,320 H174 A6,6 0 0 1 180,326 V349 A6,6 0 0 1 174,355 H86 A6,6 0 0 1 80,349 V326 A6,6 0 0 1 86,320 Z" />
+    <text x="130" y="343" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">GitHub</text>
+
+    <path fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1" d="M206,320 H294 A6,6 0 0 1 300,326 V349 A6,6 0 0 1 294,355 H206 A6,6 0 0 1 200,349 V326 A6,6 0 0 1 206,320 Z" />
+    <text x="250" y="343" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">Slack</text>
+
+    <path fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1" d="M326,320 H414 A6,6 0 0 1 420,326 V349 A6,6 0 0 1 414,355 H326 A6,6 0 0 1 320,349 V326 A6,6 0 0 1 326,320 Z" />
+    <text x="370" y="343" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">数据库</text>
+
+    <path fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1" d="M446,320 H534 A6,6 0 0 1 540,326 V349 A6,6 0 0 1 534,355 H446 A6,6 0 0 1 440,349 V326 A6,6 0 0 1 446,320 Z" />
+    <text x="490" y="343" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">日历</text>
+
+    <text x="340" y="400" font-family="Georgia, serif" font-size="28" fill="#D4837F" text-anchor="middle" font-weight="bold">4 × 4 = 16 个对接</text>
+    <text x="340" y="420" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">每加一个工具或 AI，对接量翻倍</text>
+  </g>
+
+  
+  <g id="with-mcp">
+    <path fill="#FAF7F2" stroke="#8FBC8F" stroke-width="1.5" d="M676,105 H1204 A16,16 0 0 1 1220,121 V419 A16,16 0 0 1 1204,435 H676 A16,16 0 0 1 660,419 V121 A16,16 0 0 1 676,105 Z" />
+    <path fill="#8FBC8F" d="M663,105 H1217 A3,3 0 0 1 1220,108 V108 A3,3 0 0 1 1217,111 H663 A3,3 0 0 1 660,108 V108 A3,3 0 0 1 663,105 Z" />
+
+    <text x="940" y="140" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#8FBC8F" text-anchor="middle" font-weight="bold">有了 MCP：N+M 个对接</text>
+
+    
+    <path fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1" d="M706,165 H794 A6,6 0 0 1 800,171 V194 A6,6 0 0 1 794,200 H706 A6,6 0 0 1 700,194 V171 A6,6 0 0 1 706,165 Z" />
+    <text x="750" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">Claude Code</text>
+
+    <path fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1" d="M836,165 H924 A6,6 0 0 1 930,171 V194 A6,6 0 0 1 924,200 H836 A6,6 0 0 1 830,194 V171 A6,6 0 0 1 836,165 Z" />
+    <text x="880" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">ChatGPT</text>
+
+    <path fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1" d="M966,165 H1054 A6,6 0 0 1 1060,171 V194 A6,6 0 0 1 1054,200 H966 A6,6 0 0 1 960,194 V171 A6,6 0 0 1 966,165 Z" />
+    <text x="1010" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">Cursor</text>
+
+    <path fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1" d="M1096,165 H1184 A6,6 0 0 1 1190,171 V194 A6,6 0 0 1 1184,200 H1096 A6,6 0 0 1 1090,194 V171 A6,6 0 0 1 1096,165 Z" />
+    <text x="1140" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">自建App</text>
+
+    
+    <line x1="750" y1="200" x2="750" y2="255" stroke="#8FBC8F" stroke-width="1.5" />
+    <line x1="880" y1="200" x2="880" y2="255" stroke="#8FBC8F" stroke-width="1.5" />
+    <line x1="1010" y1="200" x2="1010" y2="255" stroke="#8FBC8F" stroke-width="1.5" />
+    <line x1="1140" y1="200" x2="1140" y2="255" stroke="#8FBC8F" stroke-width="1.5" />
+
+    
+    <path fill="#8B6F47" stroke="#8B6F47" stroke-width="2" d="M708,255 H1172 A8,8 0 0 1 1180,263 V287 A8,8 0 0 1 1172,295 H708 A8,8 0 0 1 700,287 V263 A8,8 0 0 1 708,255 Z" />
+    <text x="940" y="281" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#FAF7F2" text-anchor="middle" font-weight="bold">MCP 统一协议</text>
+
+    
+    <line x1="750" y1="295" x2="750" y2="340" stroke="#8FBC8F" stroke-width="1.5" />
+    <line x1="870" y1="295" x2="870" y2="340" stroke="#8FBC8F" stroke-width="1.5" />
+    <line x1="990" y1="295" x2="990" y2="340" stroke="#8FBC8F" stroke-width="1.5" />
+    <line x1="1110" y1="295" x2="1110" y2="340" stroke="#8FBC8F" stroke-width="1.5" />
+
+    
+    <path fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1" d="M706,340 H794 A6,6 0 0 1 800,346 V369 A6,6 0 0 1 794,375 H706 A6,6 0 0 1 700,369 V346 A6,6 0 0 1 706,340 Z" />
+    <text x="750" y="363" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">GitHub</text>
+
+    <path fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1" d="M826,340 H914 A6,6 0 0 1 920,346 V369 A6,6 0 0 1 914,375 H826 A6,6 0 0 1 820,369 V346 A6,6 0 0 1 826,340 Z" />
+    <text x="870" y="363" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">Slack</text>
+
+    <path fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1" d="M946,340 H1034 A6,6 0 0 1 1040,346 V369 A6,6 0 0 1 1034,375 H946 A6,6 0 0 1 940,369 V346 A6,6 0 0 1 946,340 Z" />
+    <text x="990" y="363" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">数据库</text>
+
+    <path fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1" d="M1066,340 H1154 A6,6 0 0 1 1160,346 V369 A6,6 0 0 1 1154,375 H1066 A6,6 0 0 1 1060,369 V346 A6,6 0 0 1 1066,340 Z" />
+    <text x="1110" y="363" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">日历</text>
+
+    <text x="940" y="415" font-family="Georgia, serif" font-size="28" fill="#8FBC8F" text-anchor="middle" font-weight="bold">4 + 4 = 8 个对接</text>
+    <text x="940" y="435" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">每加一个工具或 AI，只需对接一次</text>
+  </g>
+
+  
+  <g id="analogy">
+    <path fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1" d="M72,460 H1208 A12,12 0 0 1 1220,472 V513 A12,12 0 0 1 1208,525 H72 A12,12 0 0 1 60,513 V472 A12,12 0 0 1 72,460 Z" />
+    
+  <g transform="translate(90.0, 475.0) scale(1.1666666666666667)" fill="#8B6F47">
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z" />
+    <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z" />
+    <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z" />
+    <path d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z" />
+  </g>
+    <text x="130" y="495" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">类比 USB 标准</text>
+    <text x="280" y="495" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">以前每个设备一根专用线，USB 之后所有设备共用一个接口</text>
+    <text x="130" y="515" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" font-weight="bold">MCP = AI 工具世界的 USB</text>
+  </g>
+
+  
+  <g id="key-message">
+    <path fill="#E8A87C" fill-opacity="0.1" stroke="#E8A87C" stroke-width="1.5" d="M72,545 H1208 A12,12 0 0 1 1220,557 V588 A12,12 0 0 1 1208,600 H72 A12,12 0 0 1 60,588 V557 A12,12 0 0 1 72,545 Z" />
+    <text x="640" y="578" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B6F47" text-anchor="middle" font-weight="bold">2025年 Anthropic 发布，现在已成为行业事实标准 — 几乎所有 AI 工具都支持 MCP</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">31</text>
+  </g>
+</svg>

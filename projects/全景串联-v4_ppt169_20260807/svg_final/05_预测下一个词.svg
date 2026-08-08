@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+  <rect width="1280" height="720" fill="#F5F0E8" />
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="34" fill="#8B6F47" font-weight="bold">LLM 的核心：预测下一个词</text>
+    <path fill="#E8A87C" d="M61.50,78 H138.50 A1.50,1.50 0 0 1 140,79.50 V79.50 A1.50,1.50 0 0 1 138.50,81 H61.50 A1.50,1.50 0 0 1 60,79.50 V79.50 A1.50,1.50 0 0 1 61.50,78 Z" />
+  </g>
+
+  <g id="sentence">
+    
+    <text x="640" y="180" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="32" fill="#5D4E37" text-anchor="middle">今天天气真好，我们去公园</text>
+    
+    <path fill="none" stroke="#E8A87C" stroke-width="2.5" stroke-dasharray="8,4" d="M878,150 H962 A8,8 0 0 1 970,158 V186 A8,8 0 0 1 962,194 H878 A8,8 0 0 1 870,186 V158 A8,8 0 0 1 878,150 Z" />
+    <text x="920" y="180" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="28" fill="#E8A87C" text-anchor="middle">___</text>
+  </g>
+
+  <g id="candidates">
+    
+    <g id="bubble-1">
+      <path fill="#FAF7F2" stroke="#E8A87C" stroke-width="2" d="M220,280 H400 A20,20 0 0 1 420,300 V420 A20,20 0 0 1 400,440 H220 A20,20 0 0 1 200,420 V300 A20,20 0 0 1 220,280 Z" />
+      <text x="310" y="340" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="36" fill="#5D4E37" text-anchor="middle" font-weight="bold">散步</text>
+      <text x="310" y="395" font-family="Georgia, serif" font-size="42" fill="#E8A87C" text-anchor="middle" font-weight="bold">45%</text>
+      <text x="310" y="420" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">最高概率</text>
+    </g>
+
+    
+    <g id="bubble-2">
+      <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M500,280 H680 A20,20 0 0 1 700,300 V420 A20,20 0 0 1 680,440 H500 A20,20 0 0 1 480,420 V300 A20,20 0 0 1 500,280 Z" />
+      <text x="590" y="340" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="36" fill="#5D4E37" text-anchor="middle" font-weight="bold">玩</text>
+      <text x="590" y="395" font-family="Georgia, serif" font-size="42" fill="#8B6F47" text-anchor="middle" font-weight="bold">30%</text>
+    </g>
+
+    
+    <g id="bubble-3">
+      <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M780,280 H960 A20,20 0 0 1 980,300 V420 A20,20 0 0 1 960,440 H780 A20,20 0 0 1 760,420 V300 A20,20 0 0 1 780,280 Z" />
+      <text x="870" y="340" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="36" fill="#5D4E37" text-anchor="middle" font-weight="bold">跑步</text>
+      <text x="870" y="395" font-family="Georgia, serif" font-size="42" fill="#8B6F47" text-anchor="middle" font-weight="bold">15%</text>
+    </g>
+
+    
+    <text x="1050" y="370" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">其他 ~10%</text>
+  </g>
+
+  <g id="explanation">
+    <path fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1" d="M116,500 H1164 A16,16 0 0 1 1180,516 V584 A16,16 0 0 1 1164,600 H116 A16,16 0 0 1 100,584 V516 A16,16 0 0 1 116,500 Z" />
+    
+  <g transform="translate(130.0, 525.0) scale(1.5)" fill="#8B6F47">
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z" />
+    <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z" />
+    <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z" />
+    <path d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z" />
+  </g>
+    <text x="185" y="540" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#5D4E37" font-weight="bold">LLM 做的事情和你一样</text>
+    <text x="185" y="572" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">通过一个复杂的数学函数，基于训练时看过的<tspan fill="#8B6F47" font-weight="bold">几千亿字</tspan>的文本，算出每个候选词的概率</text>
+  </g>
+
+  
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">5</text>
+  </g>
+</svg>

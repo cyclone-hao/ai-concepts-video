@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8" />
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">Context Window — 上下文窗口</text>
+    <path fill="#E8A87C" d="M61.50,78 H138.50 A1.50,1.50 0 0 1 140,79.50 V79.50 A1.50,1.50 0 0 1 138.50,81 H61.50 A1.50,1.50 0 0 1 60,79.50 V79.50 A1.50,1.50 0 0 1 61.50,78 Z" />
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">模型一次能"读"的最大 Token 数</text>
+  </g>
+
+  
+  <g id="model-cards">
+    
+    <g id="card-gpt">
+      <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M76,120 H314 A16,16 0 0 1 330,136 V384 A16,16 0 0 1 314,400 H76 A16,16 0 0 1 60,384 V136 A16,16 0 0 1 76,120 Z" />
+      <path fill="#8B6F47" d="M63,120 H327 A3,3 0 0 1 330,123 V123 A3,3 0 0 1 327,126 H63 A3,3 0 0 1 60,123 V123 A3,3 0 0 1 63,120 Z" />
+      <text x="195" y="170" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#8B6F47" text-anchor="middle" font-weight="bold">GPT-5.6</text>
+      <text x="195" y="240" font-family="Georgia, serif" font-size="42" fill="#8B6F47" text-anchor="middle" font-weight="bold">105万</text>
+      <text x="195" y="270" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37" text-anchor="middle">Token</text>
+      <line x1="100" y1="290" x2="290" y2="290" stroke="#EDE5D5" stroke-width="1" />
+      <text x="195" y="320" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">≈ 三四本书的内容</text>
+      
+  <g transform="translate(175.0, 340.0) scale(1.1666666666666667)" fill="#E8A87C">
+    <path d="M13 2l.018 .001l.016 .001l.083 .005l.011 .002h.011l.038 .009l.052 .008l.016 .006l.011 .001l.029 .011l.052 .014l.019 .009l.015 .004l.028 .014l.04 .017l.021 .012l.022 .01l.023 .015l.031 .017l.034 .024l.018 .011l.013 .012l.024 .017l.038 .034l.022 .017l.008 .01l.014 .012l.036 .041l.026 .027l.006 .009c.12 .147 .196 .322 .218 .513l.001 .012l.002 .041l.004 .064v6h5a1 1 0 0 1 .868 1.497l-.06 .091l-8 11c-.568 .783 -1.808 .38 -1.808 -.588v-6h-5a1 1 0 0 1 -.868 -1.497l.06 -.091l8 -11l.01 -.013l.018 -.024l.033 -.038l.018 -.022l.009 -.008l.013 -.014l.04 -.036l.028 -.026l.008 -.006a1 1 0 0 1 .402 -.199l.011 -.001l.027 -.005l.074 -.013l.011 -.001l.041 -.002z" />
+  </g>
+    </g>
+
+    
+    <g id="card-claude">
+      <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M376,120 H614 A16,16 0 0 1 630,136 V384 A16,16 0 0 1 614,400 H376 A16,16 0 0 1 360,384 V136 A16,16 0 0 1 376,120 Z" />
+      <path fill="#C4956A" d="M363,120 H627 A3,3 0 0 1 630,123 V123 A3,3 0 0 1 627,126 H363 A3,3 0 0 1 360,123 V123 A3,3 0 0 1 363,120 Z" />
+      <text x="495" y="170" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#C4956A" text-anchor="middle" font-weight="bold">Claude Opus 5</text>
+      <text x="495" y="240" font-family="Georgia, serif" font-size="42" fill="#C4956A" text-anchor="middle" font-weight="bold">100万</text>
+      <text x="495" y="270" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37" text-anchor="middle">Token</text>
+      <line x1="400" y1="290" x2="590" y2="290" stroke="#EDE5D5" stroke-width="1" />
+      <text x="495" y="320" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">≈ 三四本书的内容</text>
+      
+  <g transform="translate(475.0, 340.0) scale(1.1666666666666667)" fill="#E8A87C">
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z" />
+    <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z" />
+    <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z" />
+    <path d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z" />
+  </g>
+    </g>
+
+    
+    <g id="card-gemini">
+      <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M676,120 H914 A16,16 0 0 1 930,136 V384 A16,16 0 0 1 914,400 H676 A16,16 0 0 1 660,384 V136 A16,16 0 0 1 676,120 Z" />
+      <path fill="#E8A87C" d="M663,120 H927 A3,3 0 0 1 930,123 V123 A3,3 0 0 1 927,126 H663 A3,3 0 0 1 660,123 V123 A3,3 0 0 1 663,120 Z" />
+      <text x="795" y="170" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#E8A87C" text-anchor="middle" font-weight="bold">Gemini</text>
+      <text x="795" y="240" font-family="Georgia, serif" font-size="42" fill="#E8A87C" text-anchor="middle" font-weight="bold">100万+</text>
+      <text x="795" y="270" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37" text-anchor="middle">Token</text>
+      <line x1="700" y1="290" x2="890" y2="290" stroke="#EDE5D5" stroke-width="1" />
+      <text x="795" y="320" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">百万级上下文</text>
+      
+  <g transform="translate(775.0, 340.0) scale(1.1666666666666667)" fill="#E8A87C">
+    <path d="M21.165 16a10 10 0 0 1 -8.434 5.973a1 1 0 0 0 .617 -.444a18 18 0 0 0 2.28 -5.528z" />
+    <path d="M8.372 16a18 18 0 0 0 2.28 5.53a1 1 0 0 0 .616 .443a10 10 0 0 1 -8.433 -5.973z" />
+    <path d="M13.57 16a16 16 0 0 1 -1.57 3.884a16 16 0 0 1 -1.57 -3.884" />
+    <path d="M8.034 10a18 18 0 0 0 0 4h-5.832a10 10 0 0 1 -.002 -4z" />
+    <path d="M13.952 10a16 16 0 0 1 0 4h-3.904a16 16 0 0 1 0 -4z" />
+    <path d="M21.8 10a10.05 10.05 0 0 1 -.002 4h-5.832c.149 -1.329 .149 -2.67 0 -4z" />
+    <path d="M11.267 2.027a1 1 0 0 0 -.615 .444a18 18 0 0 0 -2.28 5.529h-5.54a10.01 10.01 0 0 1 8.334 -5.967z" />
+    <path d="M12 4.116a16 16 0 0 1 1.57 3.885h-3.14c.34 -1.317 .85 -2.6 1.53 -3.817z" />
+    <path d="M12.733 2.026a10.01 10.01 0 0 1 8.435 5.974h-5.54a18 18 0 0 0 -2.28 -5.53a1 1 0 0 0 -.517 -.414z" />
+  </g>
+    </g>
+
+    
+    <g id="card-domestic">
+      <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M976,120 H1214 A16,16 0 0 1 1230,136 V384 A16,16 0 0 1 1214,400 H976 A16,16 0 0 1 960,384 V136 A16,16 0 0 1 976,120 Z" />
+      <path fill="#8FBC8F" d="M963,120 H1227 A3,3 0 0 1 1230,123 V123 A3,3 0 0 1 1227,126 H963 A3,3 0 0 1 960,123 V123 A3,3 0 0 1 963,120 Z" />
+      <text x="1095" y="165" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B6F47" text-anchor="middle" font-weight="bold">DeepSeek-V3</text>
+      <text x="1095" y="185" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B" text-anchor="middle">/ Kimi K3</text>
+      <text x="1095" y="245" font-family="Georgia, serif" font-size="42" fill="#8B6F47" text-anchor="middle" font-weight="bold">128K</text>
+      <text x="1095" y="275" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37" text-anchor="middle">Token</text>
+      <line x1="1000" y1="295" x2="1190" y2="295" stroke="#EDE5D5" stroke-width="1" />
+      <text x="1095" y="325" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">≈ 10万汉字</text>
+      
+  <g transform="translate(1075.0, 340.0) scale(1.1666666666666667)" fill="#8FBC8F">
+    <path d="M3 15.731c1.968 1.507 5.234 2.269 9 2.269c3.76 0 7.025 -.76 9 -2.252v2.252c0 2.425 -3.895 3.936 -8.693 3.998l-.307 .002c-4.938 0 -9 -1.523 -9 -4z" />
+    <path d="M3 9.731c1.968 1.507 5.234 2.269 9 2.269c3.76 0 7.025 -.76 9 -2.252v2.252c0 2.477 -4.062 4 -9 4c-4.798 0 -8.77 -1.438 -8.979 -3.795l-.016 -.101l-.005 -.104z" />
+    <path d="M12 2c1.041 0 2.044 .068 2.977 .198l.469 .071q .84 .14 1.586 .348l.44 .131l.075 .024a11 11 0 0 1 .805 .3l.199 .086q .535 .242 .967 .53q .165 .11 .313 .225a3.8 3.8 0 0 1 .669 .668l.091 .128q .07 .105 .129 .211l.07 .139q .163 .35 .2 .73l.01 .211c0 2.477 -4.062 4 -9 4c-4.798 0 -8.77 -1.438 -8.979 -3.795a1 1 0 0 1 -.021 -.205l.005 -.104l.016 -.1c.205 -2.306 4.01 -3.733 8.667 -3.794z" />
+  </g>
+    </g>
+  </g>
+
+  
+  <g id="warning">
+    <path fill="#D4837F" fill-opacity="0.08" stroke="#D4837F" stroke-width="1" d="M72,440 H1208 A12,12 0 0 1 1220,452 V508 A12,12 0 0 1 1208,520 H72 A12,12 0 0 1 60,508 V452 A12,12 0 0 1 72,440 Z" />
+    
+  <g transform="translate(90.0, 458.0) scale(1.1666666666666667)" fill="#D4837F">
+    <path d="M12 1.67c.955 0 1.845 .467 2.39 1.247l.105 .16l8.114 13.548a2.914 2.914 0 0 1 -2.307 4.363l-.195 .008h-16.225a2.914 2.914 0 0 1 -2.582 -4.2l.099 -.185l8.11 -13.538a2.914 2.914 0 0 1 2.491 -1.403zm.01 13.33l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -7a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
+  </g>
+    <text x="130" y="476" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">窗口大 ≠ 每个位置都能完美关注</text>
+    <text x="130" y="502" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">模型对不同位置的注意力是不均匀的 — 后面讲 Prompt 时会给出实用技巧</text>
+  </g>
+
+  
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">15</text>
+  </g>
+</svg>

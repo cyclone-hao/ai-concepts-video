@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">Harness 六大部件</text>
+    <rect x="60" y="78" width="80" height="3" rx="1.5" fill="#E8A87C"/>
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">驾驭 AI 的系统工程</text>
+  </g>
+
+  <!-- Central: LLM -->
+  <g id="center-llm">
+    <circle cx="640" cy="360" r="60" fill="#8B6F47" stroke="#8B6F47" stroke-width="2"/>
+    <use data-icon="tabler-filled/bulb" x="618" y="335" width="44" height="44" fill="#FAF7F2"/>
+    <text x="640" y="395" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#FAF7F2" text-anchor="middle" font-weight="bold">LLM</text>
+  </g>
+
+  <!-- Component 1: System Prompt (top-left) -->
+  <g id="comp-1">
+    <rect x="100" y="110" width="260" height="110" rx="12" fill="#FAF7F2" stroke="#8B6F47" stroke-width="1.5"/>
+    <use data-icon="tabler-filled/file-text" x="120" y="125" width="28" height="28" fill="#8B6F47"/>
+    <text x="158" y="146" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B6F47" font-weight="bold">① System Prompt</text>
+    <text x="120" y="172" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">人设、行为规则、输出格式</text>
+    <text x="120" y="195" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" font-style="italic">"你是一个专业的AI助手..."</text>
+    <line x1="360" y1="165" x2="580" y2="310" stroke="#8B6F47" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- Component 2: Memory (top-right) -->
+  <g id="comp-2">
+    <rect x="920" y="110" width="260" height="110" rx="12" fill="#FAF7F2" stroke="#E8A87C" stroke-width="1.5"/>
+    <use data-icon="tabler-filled/database" x="940" y="125" width="28" height="28" fill="#E8A87C"/>
+    <text x="978" y="146" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#E8A87C" font-weight="bold">② Memory 记忆</text>
+    <text x="940" y="172" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">跨会话记忆、用户偏好</text>
+    <text x="940" y="195" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" font-style="italic">"这个用户喜欢用中文回答"</text>
+    <line x1="920" y1="165" x2="700" y2="310" stroke="#E8A87C" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- Component 3: Tools (left) -->
+  <g id="comp-3">
+    <rect x="60" y="305" width="260" height="110" rx="12" fill="#FAF7F2" stroke="#8FBC8F" stroke-width="1.5"/>
+    <use data-icon="tabler-filled/pencil" x="80" y="320" width="28" height="28" fill="#8FBC8F"/>
+    <text x="118" y="341" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B6F47" font-weight="bold">③ Tools 工具</text>
+    <text x="80" y="367" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">Bash、文件读写、API 调用</text>
+    <text x="80" y="390" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" font-style="italic">Function Calling + MCP</text>
+    <line x1="320" y1="360" x2="580" y2="360" stroke="#8FBC8F" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- Component 4: Skills (right) -->
+  <g id="comp-4">
+    <rect x="960" y="305" width="260" height="110" rx="12" fill="#FAF7F2" stroke="#C4956A" stroke-width="1.5"/>
+    <use data-icon="tabler-filled/puzzle" x="980" y="320" width="28" height="28" fill="#C4956A"/>
+    <text x="1018" y="341" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#C4956A" font-weight="bold">④ Skills 技能</text>
+    <text x="980" y="367" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">按需加载的专业能力包</text>
+    <text x="980" y="390" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" font-style="italic">ppt-master、代码审查等</text>
+    <line x1="960" y1="360" x2="700" y2="360" stroke="#C4956A" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- Component 5: Hooks (bottom-left) -->
+  <g id="comp-5">
+    <rect x="100" y="500" width="260" height="110" rx="12" fill="#FAF7F2" stroke="#D4837F" stroke-width="1.5"/>
+    <use data-icon="tabler-filled/bolt" x="120" y="515" width="28" height="28" fill="#D4837F"/>
+    <text x="158" y="536" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#D4837F" font-weight="bold">⑤ Hooks 钩子</text>
+    <text x="120" y="562" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">工具调用前后的自动检查</text>
+    <text x="120" y="585" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" font-style="italic">"写入前先跑 lint 检查"</text>
+    <line x1="360" y1="540" x2="580" y2="410" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- Component 6: Sub-agents (bottom-right) -->
+  <g id="comp-6">
+    <rect x="920" y="500" width="260" height="110" rx="12" fill="#FAF7F2" stroke="#8B6F47" stroke-width="1.5"/>
+    <use data-icon="tabler-filled/user" x="940" y="515" width="28" height="28" fill="#8B6F47"/>
+    <text x="978" y="536" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B6F47" font-weight="bold">⑥ Sub-agents 子代理</text>
+    <text x="940" y="562" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">拆分任务给专门的子代理</text>
+    <text x="940" y="585" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" font-style="italic">"让搜索专家去找资料"</text>
+    <line x1="920" y1="540" x2="700" y2="410" stroke="#8B6F47" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="4,3"/>
+  </g>
+
+  <!-- Bottom insight -->
+  <g id="insight">
+    <rect x="60" y="635" width="1160" height="50" rx="10" fill="#E8A87C" fill-opacity="0.1" stroke="#E8A87C" stroke-width="1.5"/>
+    <use data-icon="tabler-filled/bulb" x="85" y="647" width="24" height="24" fill="#E8A87C"/>
+    <text x="120" y="665" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37" font-weight="bold">Harness = 把 AI 从"聊天玩具"变成"生产力工具"的整套工程体系</text>
+    <text x="1000" y="665" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B">Claude Code 就是一个完整的 Harness</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">37</text>
+  </g>
+</svg>

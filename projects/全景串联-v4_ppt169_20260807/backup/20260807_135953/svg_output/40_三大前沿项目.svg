@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">2026 三大前沿项目</text>
+    <rect x="60" y="78" width="80" height="3" rx="1.5" fill="#E8A87C"/>
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">正在重塑 AI 开发方式</text>
+  </g>
+
+  <!-- Card 1: OpenClaw -->
+  <g id="card-openclaw">
+    <rect x="60" y="105" width="360" height="380" rx="16" fill="#FAF7F2" stroke="#8B6F47" stroke-width="2"/>
+    <rect x="60" y="105" width="360" height="6" rx="3" fill="#8B6F47"/>
+
+    <use data-icon="tabler-filled/world" x="90" y="130" width="32" height="32" fill="#8B6F47"/>
+    <text x="135" y="153" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#8B6F47" font-weight="bold">OpenClaw</text>
+
+    <rect x="80" y="170" width="320" height="30" rx="6" fill="#8B6F47" fill-opacity="0.08"/>
+    <text x="240" y="191" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B6F47" text-anchor="middle" font-weight="bold">开源 Agent 基础设施联盟</text>
+
+    <line x1="80" y1="215" x2="400" y2="215" stroke="#EDE5D5" stroke-width="1"/>
+
+    <text x="90" y="240" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" font-weight="bold">是什么：</text>
+    <text x="90" y="260" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">阿里、腾讯、字节等联合发起</text>
+    <text x="90" y="280" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">统一 Agent 工具协议和标准</text>
+
+    <text x="90" y="310" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" font-weight="bold">为什么重要：</text>
+    <text x="90" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">避免各家各自造轮子</text>
+    <text x="90" y="350" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">MCP 的中国版扩展</text>
+
+    <rect x="80" y="375" width="320" height="35" rx="6" fill="#E8A87C" fill-opacity="0.1"/>
+    <text x="240" y="398" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">类比：Android 统一了手机系统</text>
+
+    <rect x="80" y="425" width="120" height="30" rx="6" fill="#8B6F47" fill-opacity="0.1"/>
+    <text x="140" y="445" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B6F47" text-anchor="middle">🦞 龙虾 = Claw</text>
+
+    <rect x="80" y="460" width="320" height="20" rx="4" fill="#8B6F47" fill-opacity="0.04"/>
+    <text x="240" y="474" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="middle">2026年7月 正式发布</text>
+  </g>
+
+  <!-- Card 2: Hermes -->
+  <g id="card-hermes">
+    <rect x="460" y="105" width="360" height="380" rx="16" fill="#FAF7F2" stroke="#E8A87C" stroke-width="2"/>
+    <rect x="460" y="105" width="360" height="6" rx="3" fill="#E8A87C"/>
+
+    <use data-icon="tabler-filled/message" x="490" y="130" width="32" height="32" fill="#E8A87C"/>
+    <text x="535" y="153" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#E8A87C" font-weight="bold">Hermes</text>
+
+    <rect x="480" y="170" width="320" height="30" rx="6" fill="#E8A87C" fill-opacity="0.08"/>
+    <text x="640" y="191" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#E8A87C" text-anchor="middle" font-weight="bold">Agent 间通信协议</text>
+
+    <line x1="480" y1="215" x2="800" y2="215" stroke="#EDE5D5" stroke-width="1"/>
+
+    <text x="490" y="240" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" font-weight="bold">是什么：</text>
+    <text x="490" y="260" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">让多个 Agent 互相沟通</text>
+    <text x="490" y="280" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">协作完成更复杂的任务</text>
+
+    <text x="490" y="310" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" font-weight="bold">为什么重要：</text>
+    <text x="490" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">单个 Agent 能力有限</text>
+    <text x="490" y="350" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">多 Agent = AI 团队协作</text>
+
+    <rect x="480" y="375" width="320" height="35" rx="6" fill="#E8A87C" fill-opacity="0.1"/>
+    <text x="640" y="398" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">类比：一个人干活 vs 一个团队</text>
+
+    <rect x="480" y="425" width="120" height="30" rx="6" fill="#E8A87C" fill-opacity="0.1"/>
+    <text x="540" y="445" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#E8A87C" text-anchor="middle">🏛️ 希腊信使之神</text>
+
+    <rect x="480" y="460" width="320" height="20" rx="4" fill="#E8A87C" fill-opacity="0.04"/>
+    <text x="640" y="474" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="middle">Anthropic 2025年底提出</text>
+  </g>
+
+  <!-- Card 3: Vibe Coding -->
+  <g id="card-vibe">
+    <rect x="860" y="105" width="360" height="380" rx="16" fill="#FAF7F2" stroke="#8FBC8F" stroke-width="2"/>
+    <rect x="860" y="105" width="360" height="6" rx="3" fill="#8FBC8F"/>
+
+    <use data-icon="tabler-filled/code-circle" x="890" y="130" width="32" height="32" fill="#8FBC8F"/>
+    <text x="935" y="153" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#8B6F47" font-weight="bold">Vibe Coding</text>
+
+    <rect x="880" y="170" width="320" height="30" rx="6" fill="#8FBC8F" fill-opacity="0.08"/>
+    <text x="1040" y="191" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B6F47" text-anchor="middle" font-weight="bold">氛围编程</text>
+
+    <line x1="880" y1="215" x2="1200" y2="215" stroke="#EDE5D5" stroke-width="1"/>
+
+    <text x="890" y="240" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" font-weight="bold">是什么：</text>
+    <text x="890" y="260" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">用自然语言描述需求</text>
+    <text x="890" y="280" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">AI 直接写出完整代码</text>
+
+    <text x="890" y="310" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" font-weight="bold">为什么重要：</text>
+    <text x="890" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">非程序员也能"编程"</text>
+    <text x="890" y="350" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">人负责方向，AI 负责实现</text>
+
+    <rect x="880" y="375" width="320" height="35" rx="6" fill="#8FBC8F" fill-opacity="0.1"/>
+    <text x="1040" y="398" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">类比：打车代替学开车</text>
+
+    <rect x="880" y="425" width="120" height="30" rx="6" fill="#8FBC8F" fill-opacity="0.1"/>
+    <text x="940" y="445" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8FBC8F" text-anchor="middle">✨ Vibe = 感觉</text>
+
+    <rect x="880" y="460" width="320" height="20" rx="4" fill="#8FBC8F" fill-opacity="0.04"/>
+    <text x="1040" y="474" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="middle">Claude Code 就是 Vibe Coding 工具</text>
+  </g>
+
+  <!-- Bottom summary -->
+  <g id="summary">
+    <rect x="60" y="510" width="1160" height="55" rx="12" fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1"/>
+    <use data-icon="tabler-filled/bulb" x="85" y="522" width="24" height="24" fill="#8B6F47"/>
+    <text x="120" y="540" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37" font-weight="bold">共同趋势：AI 从"工具"变成"同事"</text>
+    <text x="470" y="540" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">标准化（OpenClaw）+ 协作化（Hermes）+ 民主化（Vibe Coding）</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">40</text>
+  </g>
+</svg>

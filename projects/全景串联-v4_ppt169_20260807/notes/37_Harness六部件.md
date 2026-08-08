@@ -1,0 +1,1 @@
+Agent 听起来很美好对吧？但实际用起来你会发现一个大问题——不稳定。同一个任务，跑一次成功了，跑一次失败了。这不是模型不够聪明的问题——是模型周围的环境没搭好。Harness Engineering 就是模型以外的一切。Anthropic 把它拆成了六个部分：System Prompt 人设规则、Memory 记忆管理、Tools 工具调用、Skills 技能系统、Hooks 钩子检查、Sub-agents 子代理。前四个决定了 Agent 能做什么，后两个决定了它做得稳不稳。同一个 LLM，配上简陋的 Harness 可能删掉你的数据库；配上精心设计的 Harness 就是可靠的生产力工具。模型没变，变的是 Harness。Claude Code 就是一个完整的 Harness 实例。

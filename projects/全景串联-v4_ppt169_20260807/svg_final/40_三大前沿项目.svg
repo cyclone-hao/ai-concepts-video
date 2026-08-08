@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8" />
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">2026 三大前沿项目</text>
+    <path fill="#E8A87C" d="M61.50,78 H138.50 A1.50,1.50 0 0 1 140,79.50 V79.50 A1.50,1.50 0 0 1 138.50,81 H61.50 A1.50,1.50 0 0 1 60,79.50 V79.50 A1.50,1.50 0 0 1 61.50,78 Z" />
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">正在重塑 AI 开发方式</text>
+  </g>
+
+  
+  <g id="card-openclaw">
+    <path fill="#FAF7F2" stroke="#8B6F47" stroke-width="2" d="M76,105 H404 A16,16 0 0 1 420,121 V469 A16,16 0 0 1 404,485 H76 A16,16 0 0 1 60,469 V121 A16,16 0 0 1 76,105 Z" />
+    <path fill="#8B6F47" d="M63,105 H417 A3,3 0 0 1 420,108 V108 A3,3 0 0 1 417,111 H63 A3,3 0 0 1 60,108 V108 A3,3 0 0 1 63,105 Z" />
+
+    
+  <g transform="translate(90.0, 130.0) scale(1.3333333333333333)" fill="#8B6F47">
+    <path d="M21.165 16a10 10 0 0 1 -8.434 5.973a1 1 0 0 0 .617 -.444a18 18 0 0 0 2.28 -5.528z" />
+    <path d="M8.372 16a18 18 0 0 0 2.28 5.53a1 1 0 0 0 .616 .443a10 10 0 0 1 -8.433 -5.973z" />
+    <path d="M13.57 16a16 16 0 0 1 -1.57 3.884a16 16 0 0 1 -1.57 -3.884" />
+    <path d="M8.034 10a18 18 0 0 0 0 4h-5.832a10 10 0 0 1 -.002 -4z" />
+    <path d="M13.952 10a16 16 0 0 1 0 4h-3.904a16 16 0 0 1 0 -4z" />
+    <path d="M21.8 10a10.05 10.05 0 0 1 -.002 4h-5.832c.149 -1.329 .149 -2.67 0 -4z" />
+    <path d="M11.267 2.027a1 1 0 0 0 -.615 .444a18 18 0 0 0 -2.28 5.529h-5.54a10.01 10.01 0 0 1 8.334 -5.967z" />
+    <path d="M12 4.116a16 16 0 0 1 1.57 3.885h-3.14c.34 -1.317 .85 -2.6 1.53 -3.817z" />
+    <path d="M12.733 2.026a10.01 10.01 0 0 1 8.435 5.974h-5.54a18 18 0 0 0 -2.28 -5.53a1 1 0 0 0 -.517 -.414z" />
+  </g>
+    <text x="135" y="153" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#8B6F47" font-weight="bold">OpenClaw</text>
+
+    <path fill="#8B6F47" fill-opacity="0.08" d="M86,170 H394 A6,6 0 0 1 400,176 V194 A6,6 0 0 1 394,200 H86 A6,6 0 0 1 80,194 V176 A6,6 0 0 1 86,170 Z" />
+    <text x="240" y="191" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B6F47" text-anchor="middle" font-weight="bold">开源 Agent 基础设施联盟</text>
+
+    <line x1="80" y1="215" x2="400" y2="215" stroke="#EDE5D5" stroke-width="1" />
+
+    <text x="90" y="240" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" font-weight="bold">是什么：</text>
+    <text x="90" y="260" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">阿里、腾讯、字节等联合发起</text>
+    <text x="90" y="280" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">统一 Agent 工具协议和标准</text>
+
+    <text x="90" y="310" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" font-weight="bold">为什么重要：</text>
+    <text x="90" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">避免各家各自造轮子</text>
+    <text x="90" y="350" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">MCP 的中国版扩展</text>
+
+    <path fill="#E8A87C" fill-opacity="0.1" d="M86,375 H394 A6,6 0 0 1 400,381 V404 A6,6 0 0 1 394,410 H86 A6,6 0 0 1 80,404 V381 A6,6 0 0 1 86,375 Z" />
+    <text x="240" y="398" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">类比：Android 统一了手机系统</text>
+
+    <path fill="#8B6F47" fill-opacity="0.1" d="M86,425 H194 A6,6 0 0 1 200,431 V449 A6,6 0 0 1 194,455 H86 A6,6 0 0 1 80,449 V431 A6,6 0 0 1 86,425 Z" />
+    <text x="140" y="445" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B6F47" text-anchor="middle">🦞 龙虾 = Claw</text>
+
+    <path fill="#8B6F47" fill-opacity="0.04" d="M84,460 H396 A4,4 0 0 1 400,464 V476 A4,4 0 0 1 396,480 H84 A4,4 0 0 1 80,476 V464 A4,4 0 0 1 84,460 Z" />
+    <text x="240" y="474" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="middle">2026年7月 正式发布</text>
+  </g>
+
+  
+  <g id="card-hermes">
+    <path fill="#FAF7F2" stroke="#E8A87C" stroke-width="2" d="M476,105 H804 A16,16 0 0 1 820,121 V469 A16,16 0 0 1 804,485 H476 A16,16 0 0 1 460,469 V121 A16,16 0 0 1 476,105 Z" />
+    <path fill="#E8A87C" d="M463,105 H817 A3,3 0 0 1 820,108 V108 A3,3 0 0 1 817,111 H463 A3,3 0 0 1 460,108 V108 A3,3 0 0 1 463,105 Z" />
+
+    
+  <g transform="translate(490.0, 130.0) scale(1.3333333333333333)" fill="#E8A87C">
+    <path d="M18 3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-4.724l-4.762 2.857a1 1 0 0 1 -1.508 -.743l-.006 -.114v-2h-1a4 4 0 0 1 -3.995 -3.8l-.005 -.2v-8a4 4 0 0 1 4 -4zm-4 9h-6a1 1 0 0 0 0 2h6a1 1 0 0 0 0 -2m2 -4h-8a1 1 0 1 0 0 2h8a1 1 0 0 0 0 -2" />
+  </g>
+    <text x="535" y="153" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#E8A87C" font-weight="bold">Hermes</text>
+
+    <path fill="#E8A87C" fill-opacity="0.08" d="M486,170 H794 A6,6 0 0 1 800,176 V194 A6,6 0 0 1 794,200 H486 A6,6 0 0 1 480,194 V176 A6,6 0 0 1 486,170 Z" />
+    <text x="640" y="191" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#E8A87C" text-anchor="middle" font-weight="bold">Agent 间通信协议</text>
+
+    <line x1="480" y1="215" x2="800" y2="215" stroke="#EDE5D5" stroke-width="1" />
+
+    <text x="490" y="240" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" font-weight="bold">是什么：</text>
+    <text x="490" y="260" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">让多个 Agent 互相沟通</text>
+    <text x="490" y="280" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">协作完成更复杂的任务</text>
+
+    <text x="490" y="310" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" font-weight="bold">为什么重要：</text>
+    <text x="490" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">单个 Agent 能力有限</text>
+    <text x="490" y="350" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">多 Agent = AI 团队协作</text>
+
+    <path fill="#E8A87C" fill-opacity="0.1" d="M486,375 H794 A6,6 0 0 1 800,381 V404 A6,6 0 0 1 794,410 H486 A6,6 0 0 1 480,404 V381 A6,6 0 0 1 486,375 Z" />
+    <text x="640" y="398" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">类比：一个人干活 vs 一个团队</text>
+
+    <path fill="#E8A87C" fill-opacity="0.1" d="M486,425 H594 A6,6 0 0 1 600,431 V449 A6,6 0 0 1 594,455 H486 A6,6 0 0 1 480,449 V431 A6,6 0 0 1 486,425 Z" />
+    <text x="540" y="445" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#E8A87C" text-anchor="middle">🏛️ 希腊信使之神</text>
+
+    <path fill="#E8A87C" fill-opacity="0.04" d="M484,460 H796 A4,4 0 0 1 800,464 V476 A4,4 0 0 1 796,480 H484 A4,4 0 0 1 480,476 V464 A4,4 0 0 1 484,460 Z" />
+    <text x="640" y="474" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="middle">Anthropic 2025年底提出</text>
+  </g>
+
+  
+  <g id="card-vibe">
+    <path fill="#FAF7F2" stroke="#8FBC8F" stroke-width="2" d="M876,105 H1204 A16,16 0 0 1 1220,121 V469 A16,16 0 0 1 1204,485 H876 A16,16 0 0 1 860,469 V121 A16,16 0 0 1 876,105 Z" />
+    <path fill="#8FBC8F" d="M863,105 H1217 A3,3 0 0 1 1220,108 V108 A3,3 0 0 1 1217,111 H863 A3,3 0 0 1 860,108 V108 A3,3 0 0 1 863,105 Z" />
+
+    
+  <g transform="translate(890.0, 130.0) scale(1.3333333333333333)" fill="#8FBC8F">
+    <path d="M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-6.293 5.953a1 1 0 0 0 -1.414 0l-2 2a1 1 0 0 0 0 1.414l2 2a1 1 0 0 0 1.414 0l.083 -.094a1 1 0 0 0 -.083 -1.32l-1.292 -1.293l1.292 -1.293a1 1 0 0 0 0 -1.414m4 0a1 1 0 0 0 -1.414 0l-.083 .094a1 1 0 0 0 .083 1.32l1.292 1.293l-1.292 1.293a1 1 0 0 0 1.414 1.414l2 -2a1 1 0 0 0 0 -1.414z" />
+  </g>
+    <text x="935" y="153" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#8B6F47" font-weight="bold">Vibe Coding</text>
+
+    <path fill="#8FBC8F" fill-opacity="0.08" d="M886,170 H1194 A6,6 0 0 1 1200,176 V194 A6,6 0 0 1 1194,200 H886 A6,6 0 0 1 880,194 V176 A6,6 0 0 1 886,170 Z" />
+    <text x="1040" y="191" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B6F47" text-anchor="middle" font-weight="bold">氛围编程</text>
+
+    <line x1="880" y1="215" x2="1200" y2="215" stroke="#EDE5D5" stroke-width="1" />
+
+    <text x="890" y="240" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" font-weight="bold">是什么：</text>
+    <text x="890" y="260" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">用自然语言描述需求</text>
+    <text x="890" y="280" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">AI 直接写出完整代码</text>
+
+    <text x="890" y="310" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37" font-weight="bold">为什么重要：</text>
+    <text x="890" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">非程序员也能"编程"</text>
+    <text x="890" y="350" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">人负责方向，AI 负责实现</text>
+
+    <path fill="#8FBC8F" fill-opacity="0.1" d="M886,375 H1194 A6,6 0 0 1 1200,381 V404 A6,6 0 0 1 1194,410 H886 A6,6 0 0 1 880,404 V381 A6,6 0 0 1 886,375 Z" />
+    <text x="1040" y="398" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">类比：打车代替学开车</text>
+
+    <path fill="#8FBC8F" fill-opacity="0.1" d="M886,425 H994 A6,6 0 0 1 1000,431 V449 A6,6 0 0 1 994,455 H886 A6,6 0 0 1 880,449 V431 A6,6 0 0 1 886,425 Z" />
+    <text x="940" y="445" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8FBC8F" text-anchor="middle">✨ Vibe = 感觉</text>
+
+    <path fill="#8FBC8F" fill-opacity="0.04" d="M884,460 H1196 A4,4 0 0 1 1200,464 V476 A4,4 0 0 1 1196,480 H884 A4,4 0 0 1 880,476 V464 A4,4 0 0 1 884,460 Z" />
+    <text x="1040" y="474" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="middle">Claude Code 就是 Vibe Coding 工具</text>
+  </g>
+
+  
+  <g id="summary">
+    <path fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1" d="M72,510 H1208 A12,12 0 0 1 1220,522 V553 A12,12 0 0 1 1208,565 H72 A12,12 0 0 1 60,553 V522 A12,12 0 0 1 72,510 Z" />
+    
+  <g transform="translate(85.0, 522.0)" fill="#8B6F47">
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z" />
+    <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z" />
+    <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z" />
+    <path d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z" />
+  </g>
+    <text x="120" y="540" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37" font-weight="bold">共同趋势：AI 从"工具"变成"同事"</text>
+    <text x="470" y="540" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">标准化（OpenClaw）+ 协作化（Hermes）+ 民主化（Vibe Coding）</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">40</text>
+  </g>
+</svg>

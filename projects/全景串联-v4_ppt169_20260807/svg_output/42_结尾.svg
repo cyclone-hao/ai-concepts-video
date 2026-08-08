@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="closingGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B6F47"/>
+      <stop offset="100%" stop-color="#6B5535"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#closingGrad)"/>
+  <circle cx="1100" cy="600" r="200" fill="#FAF7F2" fill-opacity="0.05"/>
+  <circle cx="180" cy="140" r="120" fill="#FAF7F2" fill-opacity="0.04"/>
+  <circle cx="640" cy="360" r="300" fill="#FAF7F2" fill-opacity="0.03"/>
+
+  <g id="content">
+    <text x="640" y="220" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="42" fill="#FAF7F2" text-anchor="middle" font-weight="bold">从 Token 到 Agent</text>
+    <rect x="480" y="240" width="320" height="4" rx="2" fill="#E8A87C"/>
+    <text x="640" y="280" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#FAF7F2" fill-opacity="0.8" text-anchor="middle">你已经掌握了 AI 的全景地图</text>
+
+    <!-- Key takeaway -->
+    <rect x="280" y="320" width="720" height="100" rx="16" fill="#FAF7F2" fill-opacity="0.1" stroke="#FAF7F2" stroke-opacity="0.2" stroke-width="1"/>
+    <text x="640" y="355" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#FAF7F2" text-anchor="middle">LLM 预测下一个词 → Token 是阅读单位 → Embedding 赋予语义</text>
+    <text x="640" y="380" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#FAF7F2" text-anchor="middle">RAG 检索真实信息 → Tool 让 AI 行动 → Agent 自主完成任务</text>
+    <text x="640" y="405" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#FAF7F2" text-anchor="middle">Harness 驾驭一切 → 你就是那个指挥 AI 的人</text>
+
+    <!-- CTA -->
+    <text x="640" y="475" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#E8A87C" text-anchor="middle" font-weight="bold">关注 AI大家学，下一期 VibeCoding 实战见！</text>
+
+    <!-- Decorative tags -->
+    <rect x="340" y="510" width="110" height="32" rx="16" fill="#FAF7F2" fill-opacity="0.12"/>
+    <text x="395" y="531" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#FAF7F2" text-anchor="middle">👍 点赞</text>
+
+    <rect x="480" y="510" width="110" height="32" rx="16" fill="#FAF7F2" fill-opacity="0.12"/>
+    <text x="535" y="531" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#FAF7F2" text-anchor="middle">⭐ 收藏</text>
+
+    <rect x="620" y="510" width="110" height="32" rx="16" fill="#FAF7F2" fill-opacity="0.12"/>
+    <text x="675" y="531" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#FAF7F2" text-anchor="middle">🔄 转发</text>
+
+    <rect x="760" y="510" width="110" height="32" rx="16" fill="#FAF7F2" fill-opacity="0.12"/>
+    <text x="815" y="531" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#FAF7F2" text-anchor="middle">💬 评论</text>
+  </g>
+
+  <g id="footer">
+    <text x="40" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#FAF7F2" fill-opacity="0.5">AI大家学 · 大模型技术篇</text>
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#FAF7F2" fill-opacity="0.5" text-anchor="end">42</text>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="secGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B6F47" />
+      <stop offset="100%" stop-color="#6B5535" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#secGrad1)" />
+
+  
+  <g id="decoration">
+    <circle cx="1050" cy="580" r="200" fill="#FAF7F2" fill-opacity="0.05" />
+    <circle cx="200" cy="140" r="120" fill="#FAF7F2" fill-opacity="0.04" />
+  </g>
+
+  <g id="content">
+    
+    <text x="640" y="260" font-family="Georgia, Microsoft YaHei, serif" font-size="120" fill="#FAF7F2" fill-opacity="0.15" text-anchor="middle" font-weight="bold">01</text>
+
+    
+    <text x="640" y="340" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="52" fill="#FAF7F2" text-anchor="middle" font-weight="bold">LLM — 大语言模型</text>
+    <path fill="#E8A87C" d="M522,365 H758 A2,2 0 0 1 760,367 V367 A2,2 0 0 1 758,369 H522 A2,2 0 0 1 520,367 V367 A2,2 0 0 1 522,365 Z" />
+
+    
+    <text x="640" y="430" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#FAF7F2" fill-opacity="0.8" text-anchor="middle">给一段文字，预测下一个最可能出现的词</text>
+
+    
+    
+  <g transform="translate(610.0, 465.0) scale(1.5)" fill="#E8A87C">
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z" />
+    <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z" />
+    <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z" />
+    <path d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z" />
+  </g>
+  </g>
+
+  
+  <g id="footer">
+    <text x="40" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#FAF7F2" fill-opacity="0.5">AI大家学 · 大模型技术篇</text>
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#FAF7F2" fill-opacity="0.5" text-anchor="end">4</text>
+  </g>
+</svg>

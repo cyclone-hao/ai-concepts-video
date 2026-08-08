@@ -1,0 +1,1 @@
+Agent Skill 就是把这些"最佳实践"封装成可复用的标准化模块。你可以把 Skill 理解成一本操作手册。Agent 就像是一个全能型员工，基础能力很强，但不知道怎么生成一份专业 PPT。Skill 就是一本岗位培训手册——告诉它工作流程、规范约束、工具调用方式。Agent 读完就知道该怎么干活。比如你现在用的 ppt-master 就是一个 Skill！它教会 Claude 怎么一步步生成 42 页 PPT。Skill 和 Prompt 的关系——Prompt 是你临时写的，Skill 是预先封装好、反复使用的。如果说 Prompt 是即兴发言，Skill 就是排练过的演讲稿。

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8" />
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">两个实用技巧</text>
+    <path fill="#E8A87C" d="M61.50,78 H138.50 A1.50,1.50 0 0 1 140,79.50 V79.50 A1.50,1.50 0 0 1 138.50,81 H61.50 A1.50,1.50 0 0 1 60,79.50 V79.50 A1.50,1.50 0 0 1 61.50,78 Z" />
+  </g>
+
+  
+  <g id="few-shot">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M76,100 H604 A16,16 0 0 1 620,116 V364 A16,16 0 0 1 604,380 H76 A16,16 0 0 1 60,364 V116 A16,16 0 0 1 76,100 Z" />
+    <path fill="#E8A87C" d="M63,100 H63 A3,3 0 0 1 66,103 V377 A3,3 0 0 1 63,380 H63 A3,3 0 0 1 60,377 V103 A3,3 0 0 1 63,100 Z" />
+    <text x="90" y="132" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#E8A87C" font-weight="bold">Few-shot 少样本学习</text>
+    <text x="90" y="155" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B">在 Prompt 里给几个示范，模型照着来</text>
+
+    
+    <path fill="#F0EBE0" d="M98,175 H582 A8,8 0 0 1 590,183 V307 A8,8 0 0 1 582,315 H98 A8,8 0 0 1 90,307 V183 A8,8 0 0 1 98,175 Z" />
+    <text x="110" y="200" font-family="Consolas, Courier New, monospace" font-size="14" fill="#5D4E37">把以下中文翻译成英文：</text>
+    <text x="110" y="228" font-family="Consolas, Courier New, monospace" font-size="14" fill="#8B7D6B">中文：你好 → 英文：Hello</text>
+    <text x="110" y="253" font-family="Consolas, Courier New, monospace" font-size="14" fill="#8B7D6B">中文：谢谢 → 英文：Thank you</text>
+    <text x="110" y="283" font-family="Consolas, Courier New, monospace" font-size="14" fill="#5D4E37">中文：再见 → 英文：<tspan fill="#E8A87C" font-weight="bold">Goodbye</tspan></text>
+
+    <text x="90" y="345" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">给 0 个例子 = Zero-shot</text>
+    <text x="90" y="368" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">给几个例子 = Few-shot（无需训练）</text>
+  </g>
+
+  
+  <g id="cot">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M76,400 H604 A16,16 0 0 1 620,416 V644 A16,16 0 0 1 604,660 H76 A16,16 0 0 1 60,644 V416 A16,16 0 0 1 76,400 Z" />
+    <path fill="#8FBC8F" d="M63,400 H63 A3,3 0 0 1 66,403 V657 A3,3 0 0 1 63,660 H63 A3,3 0 0 1 60,657 V403 A3,3 0 0 1 63,400 Z" />
+    <text x="90" y="432" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#8B6F47" font-weight="bold">CoT 思维链（Chain of Thought）</text>
+    <text x="90" y="455" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B">让模型"一步步想"，而不是直接猜答案</text>
+
+    
+    <path fill="#F0EBE0" d="M98,475 H312 A8,8 0 0 1 320,483 V557 A8,8 0 0 1 312,565 H98 A8,8 0 0 1 90,557 V483 A8,8 0 0 1 98,475 Z" />
+    <text x="100" y="498" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">普通问法</text>
+    <text x="100" y="520" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">"30人，男多女6人，</text>
+    <text x="100" y="540" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">男生几人？"</text>
+
+    <text x="345" y="525" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#8B7D6B">→</text>
+
+    <path fill="#E8A87C" fill-opacity="0.08" d="M388,475 H602 A8,8 0 0 1 610,483 V557 A8,8 0 0 1 602,565 H388 A8,8 0 0 1 380,557 V483 A8,8 0 0 1 388,475 Z" />
+    <text x="390" y="498" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#E8A87C">CoT 问法</text>
+    <text x="390" y="520" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">"<tspan fill="#E8A87C" font-weight="bold">请一步一步思考</tspan>。</text>
+    <text x="390" y="540" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#5D4E37">30人，男多女6人..."</text>
+
+    
+    <g id="accuracy">
+      <text x="160" y="605" font-family="Georgia, serif" font-size="36" fill="#D4837F" text-anchor="middle" font-weight="bold">17.7%</text>
+      <text x="160" y="635" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">直接回答</text>
+
+      <text x="340" y="610" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="28" fill="#8B6F47" text-anchor="middle">→</text>
+
+      <text x="500" y="605" font-family="Georgia, serif" font-size="36" fill="#8FBC8F" text-anchor="middle" font-weight="bold">78.7%</text>
+      <text x="500" y="635" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">一步步思考</text>
+    </g>
+  </g>
+
+  
+  <g id="explanation">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M676,100 H1204 A16,16 0 0 1 1220,116 V644 A16,16 0 0 1 1204,660 H676 A16,16 0 0 1 660,644 V116 A16,16 0 0 1 676,100 Z" />
+
+    
+  <g transform="translate(690.0, 125.0) scale(1.3333333333333333)" fill="#8B6F47">
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z" />
+    <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z" />
+    <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z" />
+    <path d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z" />
+  </g>
+    <text x="735" y="148" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#8B6F47" font-weight="bold">为什么 CoT 效果这么好？</text>
+
+    <line x1="690" y1="165" x2="1180" y2="165" stroke="#EDE5D5" stroke-width="1" />
+
+    <text x="690" y="200" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">直接回答时，模型在</text>
+    <text x="690" y="225" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#D4837F" font-weight="bold">"猜最终答案"</text>
+
+    <line x1="690" y1="245" x2="1180" y2="245" stroke="#EDE5D5" stroke-width="1" />
+
+    <text x="690" y="280" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">CoT 让模型在</text>
+    <text x="690" y="305" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#8FBC8F" font-weight="bold">"推理每一步"</text>
+
+    <line x1="690" y1="325" x2="1180" y2="325" stroke="#EDE5D5" stroke-width="1" />
+
+    <text x="690" y="365" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37">推理比猜测容易得多</text>
+
+    <path fill="#E8A87C" fill-opacity="0.08" d="M700,400 H1180 A10,10 0 0 1 1190,410 V470 A10,10 0 0 1 1180,480 H700 A10,10 0 0 1 690,470 V410 A10,10 0 0 1 700,400 Z" />
+    <text x="710" y="428" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">CoT 示例：设女生 x 人，男生 x+6 人</text>
+    <text x="710" y="453" font-family="Consolas, Courier New, monospace" font-size="13" fill="#8B7D6B">x + (x+6) = 30 → 2x = 24 → x = 12</text>
+    <text x="710" y="470" font-family="Consolas, Courier New, monospace" font-size="13" fill="#8B6F47">男生 = 18 ✓</text>
+
+    <line x1="690" y1="500" x2="1180" y2="500" stroke="#EDE5D5" stroke-width="1" />
+
+    <text x="690" y="535" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B">GSM8K 数学推理数据集</text>
+    <text x="690" y="558" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B">原始论文实验结果</text>
+
+    <path fill="#8B6F47" fill-opacity="0.06" d="M700,580 H1180 A10,10 0 0 1 1190,590 V620 A10,10 0 0 1 1180,630 H700 A10,10 0 0 1 690,620 V590 A10,10 0 0 1 700,580 Z" />
+    <text x="710" y="611" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">只需加一句<tspan fill="#E8A87C" font-weight="bold">"请一步一步思考"</tspan>即可</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">19</text>
+  </g>
+</svg>

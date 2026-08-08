@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">同样的模型，不同的问法</text>
+    <rect x="60" y="78" width="80" height="3" rx="1.5" fill="#E8A87C"/>
+  </g>
+
+  <!-- Left: Vague prompt -->
+  <g id="vague-prompt">
+    <rect x="60" y="110" width="550" height="340" rx="16" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <text x="90" y="148" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B7D6B" font-weight="bold">模糊 Prompt</text>
+
+    <rect x="90" y="165" width="490" height="80" rx="10" fill="#F0EBE0"/>
+    <text x="110" y="195" font-family="Consolas, Courier New, monospace" font-size="16" fill="#5D4E37">"帮我写个排序算法"</text>
+
+    <text x="335" y="290" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="60" fill="#EDE5D5" text-anchor="middle">❓</text>
+
+    <text x="335" y="360" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B" text-anchor="middle">冒泡？插入？快速？不确定</text>
+    <text x="335" y="385" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B" text-anchor="middle">看模型心情</text>
+
+    <rect x="160" y="410" width="350" height="28" rx="14" fill="#D4837F" fill-opacity="0.1"/>
+    <text x="335" y="430" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#D4837F" text-anchor="middle">搜索空间大 → 结果不确定</text>
+  </g>
+
+  <!-- Right: Precise prompt -->
+  <g id="precise-prompt">
+    <rect x="670" y="110" width="550" height="340" rx="16" fill="#FAF7F2" stroke="#E8A87C" stroke-width="2"/>
+    <text x="700" y="148" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#E8A87C" font-weight="bold">精确 Prompt</text>
+
+    <rect x="700" y="165" width="490" height="120" rx="10" fill="#F0EBE0"/>
+    <text x="720" y="195" font-family="Consolas, Courier New, monospace" font-size="14" fill="#5D4E37">"用 <tspan fill="#E8A87C" font-weight="bold">Python</tspan> 实现<tspan fill="#E8A87C" font-weight="bold">快速排序</tspan>，</text>
+    <text x="720" y="218" font-family="Consolas, Courier New, monospace" font-size="14" fill="#5D4E37">输入是<tspan fill="#E8A87C" font-weight="bold">整数列表</tspan>，</text>
+    <text x="720" y="241" font-family="Consolas, Courier New, monospace" font-size="14" fill="#5D4E37">要求<tspan fill="#E8A87C" font-weight="bold">原地排序</tspan>，返回<tspan fill="#E8A87C" font-weight="bold">升序</tspan>结果，</text>
+    <text x="720" y="264" font-family="Consolas, Courier New, monospace" font-size="14" fill="#5D4E37">时间复杂度 <tspan fill="#E8A87C" font-weight="bold">O(n log n)</tspan>"</text>
+
+    <text x="945" y="330" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="60" fill="#8FBC8F" text-anchor="middle">✓</text>
+
+    <text x="945" y="385" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37" text-anchor="middle" font-weight="bold">结果确定，质量可控</text>
+
+    <rect x="770" y="410" width="350" height="28" rx="14" fill="#8FBC8F" fill-opacity="0.15"/>
+    <text x="945" y="430" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8FBC8F" text-anchor="middle" font-weight="bold">约束条件缩小搜索空间</text>
+  </g>
+
+  <!-- VS label -->
+  <rect x="585" y="240" width="110" height="40" rx="20" fill="#8B6F47"/>
+  <text x="640" y="267" font-family="Georgia, serif" font-size="20" fill="#FAF7F2" text-anchor="middle" font-weight="bold">VS</text>
+
+  <!-- Bottom insight -->
+  <g id="insight">
+    <rect x="60" y="480" width="1160" height="100" rx="16" fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1"/>
+    <use data-icon="tabler-filled/bulb" x="90" y="505" width="32" height="32" fill="#8B6F47"/>
+    <text x="140" y="520" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#5D4E37" font-weight="bold">Prompt Engineering（提示词工程）</text>
+    <text x="140" y="550" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">研究怎么把需求说得更精确、更结构化</text>
+    <text x="140" y="572" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">让模型更容易给出你想要的答案</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">18</text>
+  </g>
+</svg>

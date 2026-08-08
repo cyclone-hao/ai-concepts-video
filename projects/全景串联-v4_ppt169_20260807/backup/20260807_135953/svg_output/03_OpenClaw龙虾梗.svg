@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="content">
+    <!-- Left: News card collage -->
+    <g id="news-cards">
+      <!-- Card 1 -->
+      <rect x="60" y="100" width="480" height="120" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+      <rect x="60" y="100" width="4" height="120" rx="2" fill="#D4837F"/>
+      <text x="85" y="130" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">阿里云</text>
+      <text x="85" y="158" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">免费安装<tspan fill="#D4837F"> 阿里Claw</tspan>，一键部署AI Agent</text>
+      <text x="85" y="185" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">2026年3月 · 科技新闻</text>
+
+      <!-- Card 2 -->
+      <rect x="60" y="240" width="480" height="120" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+      <rect x="60" y="240" width="4" height="120" rx="2" fill="#D4837F"/>
+      <text x="85" y="270" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">腾讯云</text>
+      <text x="85" y="298" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">免费安装<tspan fill="#D4837F"> 腾讯Claw</tspan>，企业级AI助手</text>
+      <text x="85" y="325" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">2026年3月 · 科技新闻</text>
+
+      <!-- Card 3 -->
+      <rect x="60" y="380" width="480" height="120" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+      <rect x="60" y="380" width="4" height="120" rx="2" fill="#D4837F"/>
+      <text x="85" y="410" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">字节跳动</text>
+      <text x="85" y="438" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">免费安装<tspan fill="#D4837F"> 字节Claw</tspan>，全民养虾时代</text>
+      <text x="85" y="465" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">2026年4月 · 科技新闻</text>
+    </g>
+
+    <!-- Right: OpenClaw logo placeholder -->
+    <g id="logo-placeholder">
+      <rect x="620" y="120" width="580" height="300" rx="16" fill="none" stroke="#8B7D6B" stroke-width="2" stroke-dasharray="8,4"/>
+      <text x="910" y="250" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#8B7D6B" text-anchor="middle">OpenClaw Logo</text>
+      <text x="910" y="280" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B" text-anchor="middle">🦞 开源AI Agent工具</text>
+      <use data-icon="tabler-filled/flame" x="870" y="300" width="48" height="48" fill="#E8A87C" fill-opacity="0.4"/>
+    </g>
+
+    <!-- Bottom text -->
+    <g id="bottom-text">
+      <text x="640" y="580" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#5D4E37" text-anchor="middle">各家改个名字也叫 <tspan fill="#D4837F" font-weight="bold">XXClaw</tspan>，硬生生炒成了全民养虾运动</text>
+      <text x="640" y="615" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B7D6B" text-anchor="middle">今天从最底层的技术视角，把这些概念讲清楚</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">3</text>
+  </g>
+</svg>

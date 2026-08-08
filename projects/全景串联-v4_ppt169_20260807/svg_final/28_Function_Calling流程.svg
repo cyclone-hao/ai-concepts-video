@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8" />
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">Function Calling 工作流程</text>
+    <path fill="#E8A87C" d="M61.50,78 H138.50 A1.50,1.50 0 0 1 140,79.50 V79.50 A1.50,1.50 0 0 1 138.50,81 H61.50 A1.50,1.50 0 0 1 60,79.50 V79.50 A1.50,1.50 0 0 1 61.50,78 Z" />
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">AI 学会用工具</text>
+  </g>
+
+  
+  <g id="user-question">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M72,105 H1208 A12,12 0 0 1 1220,117 V153 A12,12 0 0 1 1208,165 H72 A12,12 0 0 1 60,153 V117 A12,12 0 0 1 72,105 Z" />
+    
+  <g transform="translate(85.0, 117.0) scale(1.1666666666666667)" fill="#8B6F47">
+    <path d="M12 2a5 5 0 1 1 -5 5l.005 -.217a5 5 0 0 1 4.995 -4.783z" />
+    <path d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z" />
+  </g>
+    <text x="125" y="142" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">用户提问：</text>
+    <text x="250" y="142" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37">"北京今天天气怎么样？"</text>
+  </g>
+
+  
+  <g id="step-1">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M76,185 H404 A16,16 0 0 1 420,201 V449 A16,16 0 0 1 404,465 H76 A16,16 0 0 1 60,449 V201 A16,16 0 0 1 76,185 Z" />
+    <path fill="#8B6F47" d="M63,185 H417 A3,3 0 0 1 420,188 V188 A3,3 0 0 1 417,191 H63 A3,3 0 0 1 60,188 V188 A3,3 0 0 1 63,185 Z" />
+
+    <path fill="#8B6F47" d="M100,210 H100 A20,20 0 0 1 120,230 V230 A20,20 0 0 1 100,250 H100 A20,20 0 0 1 80,230 V230 A20,20 0 0 1 100,210 Z" />
+    <text x="100" y="238" font-family="Georgia, serif" font-size="18" fill="#FAF7F2" text-anchor="middle" font-weight="bold">1</text>
+    <text x="135" y="236" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#8B6F47" font-weight="bold">模型识别</text>
+
+    <text x="80" y="275" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">模型知道自己不知道天气</text>
+    <text x="80" y="300" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">但看到可用的工具列表：</text>
+
+    <path fill="#F0EBE0" d="M88,320 H392 A8,8 0 0 1 400,328 V422 A8,8 0 0 1 392,430 H88 A8,8 0 0 1 80,422 V328 A8,8 0 0 1 88,320 Z" />
+    <text x="95" y="345" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8B6F47" font-weight="bold">tools: [</text>
+    <text x="110" y="365" font-family="Consolas, Courier New, monospace" font-size="12" fill="#5D4E37">{ "name": "get_weather",</text>
+    <text x="120" y="385" font-family="Consolas, Courier New, monospace" font-size="12" fill="#5D4E37">  "desc": "获取城市天气",</text>
+    <text x="120" y="405" font-family="Consolas, Courier New, monospace" font-size="12" fill="#E8A87C">  "params": {"city": "str"}</text>
+    <text x="95" y="425" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8B6F47" font-weight="bold">}</text>
+  </g>
+
+  
+  <text x="430" y="340" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#8B7D6B">→</text>
+
+  
+  <g id="step-2">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M476,185 H804 A16,16 0 0 1 820,201 V449 A16,16 0 0 1 804,465 H476 A16,16 0 0 1 460,449 V201 A16,16 0 0 1 476,185 Z" />
+    <path fill="#E8A87C" d="M463,185 H817 A3,3 0 0 1 820,188 V188 A3,3 0 0 1 817,191 H463 A3,3 0 0 1 460,188 V188 A3,3 0 0 1 463,185 Z" />
+
+    <path fill="#E8A87C" d="M500,210 H500 A20,20 0 0 1 520,230 V230 A20,20 0 0 1 500,250 H500 A20,20 0 0 1 480,230 V230 A20,20 0 0 1 500,210 Z" />
+    <text x="500" y="238" font-family="Georgia, serif" font-size="18" fill="#FAF7F2" text-anchor="middle" font-weight="bold">2</text>
+    <text x="535" y="236" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#E8A87C" font-weight="bold">生成调用指令</text>
+
+    <text x="480" y="275" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">模型不直接回答，</text>
+    <text x="480" y="300" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">而是输出一段 JSON：</text>
+
+    <path fill="#F0EBE0" d="M488,320 H792 A8,8 0 0 1 800,328 V422 A8,8 0 0 1 792,430 H488 A8,8 0 0 1 480,422 V328 A8,8 0 0 1 488,320 Z" />
+    <text x="495" y="345" font-family="Consolas, Courier New, monospace" font-size="12" fill="#E8A87C" font-weight="bold">tool_call: {</text>
+    <text x="510" y="365" font-family="Consolas, Courier New, monospace" font-size="12" fill="#5D4E37">  "function": "get_weather",</text>
+    <text x="510" y="385" font-family="Consolas, Courier New, monospace" font-size="12" fill="#5D4E37">  "arguments": {</text>
+    <text x="520" y="405" font-family="Consolas, Courier New, monospace" font-size="12" fill="#5D4E37">    "city": "北京"</text>
+    <text x="510" y="425" font-family="Consolas, Courier New, monospace" font-size="12" fill="#5D4E37">  }</text>
+  </g>
+
+  
+  <text x="830" y="340" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#8B7D6B">→</text>
+
+  
+  <g id="step-3">
+    <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M876,185 H1204 A16,16 0 0 1 1220,201 V449 A16,16 0 0 1 1204,465 H876 A16,16 0 0 1 860,449 V201 A16,16 0 0 1 876,185 Z" />
+    <path fill="#8FBC8F" d="M863,185 H1217 A3,3 0 0 1 1220,188 V188 A3,3 0 0 1 1217,191 H863 A3,3 0 0 1 860,188 V188 A3,3 0 0 1 863,185 Z" />
+
+    <path fill="#8FBC8F" d="M900,210 H900 A20,20 0 0 1 920,230 V230 A20,20 0 0 1 900,250 H900 A20,20 0 0 1 880,230 V230 A20,20 0 0 1 900,210 Z" />
+    <text x="900" y="238" font-family="Georgia, serif" font-size="18" fill="#FAF7F2" text-anchor="middle" font-weight="bold">3</text>
+    <text x="935" y="236" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#8B6F47" font-weight="bold">执行并回答</text>
+
+    <text x="880" y="275" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">你的代码调用真实 API</text>
+    <text x="880" y="300" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">把结果喂回模型：</text>
+
+    <path fill="#F0EBE0" d="M888,320 H1192 A8,8 0 0 1 1200,328 V422 A8,8 0 0 1 1192,430 H888 A8,8 0 0 1 880,422 V328 A8,8 0 0 1 888,320 Z" />
+    <text x="895" y="345" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8FBC8F" font-weight="bold">tool_result: {</text>
+    <text x="910" y="365" font-family="Consolas, Courier New, monospace" font-size="12" fill="#5D4E37">  "temp": "28°C",</text>
+    <text x="910" y="385" font-family="Consolas, Courier New, monospace" font-size="12" fill="#5D4E37">  "condition": "晴",</text>
+    <text x="910" y="405" font-family="Consolas, Courier New, monospace" font-size="12" fill="#5D4E37">  "humidity": "45%"</text>
+    <text x="895" y="425" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8FBC8F" font-weight="bold">}</text>
+
+    <text x="880" y="455" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">模型基于真实数据生成回答</text>
+  </g>
+
+  
+  <g id="summary">
+    <path fill="#E8A87C" fill-opacity="0.1" stroke="#E8A87C" stroke-width="1.5" d="M72,490 H1208 A12,12 0 0 1 1220,502 V538 A12,12 0 0 1 1208,550 H72 A12,12 0 0 1 60,538 V502 A12,12 0 0 1 72,490 Z" />
+    
+  <g transform="translate(90.0, 505.0) scale(1.1666666666666667)" fill="#E8A87C">
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z" />
+    <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z" />
+    <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z" />
+    <path d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z" />
+  </g>
+    <text x="130" y="522" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">模型自己不会查天气</text>
+    <text x="360" y="522" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#8B7D6B">它只是学会了"在合适的时候调用工具"，然后把结果整合成自然语言</text>
+  </g>
+
+  
+  <g id="keypoint">
+    <path fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1" d="M72,570 H1208 A12,12 0 0 1 1220,582 V613 A12,12 0 0 1 1208,625 H72 A12,12 0 0 1 60,613 V582 A12,12 0 0 1 72,570 Z" />
+    <text x="640" y="603" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B6F47" text-anchor="middle" font-weight="bold">Function Calling = 模型输出 JSON 指令 → 外部代码执行 → 结果返回模型 → 模型生成最终回答</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">28</text>
+  </g>
+</svg>

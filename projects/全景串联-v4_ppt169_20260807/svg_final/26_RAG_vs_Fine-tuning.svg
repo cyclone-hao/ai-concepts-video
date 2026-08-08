@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8" />
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">RAG vs Fine-tuning</text>
+    <path fill="#E8A87C" d="M61.50,78 H138.50 A1.50,1.50 0 0 1 140,79.50 V79.50 A1.50,1.50 0 0 1 138.50,81 H61.50 A1.50,1.50 0 0 1 60,79.50 V79.50 A1.50,1.50 0 0 1 61.50,78 Z" />
+  </g>
+
+  
+  <path fill="#8B6F47" d="M605,270 H675 A20,20 0 0 1 695,290 V290 A20,20 0 0 1 675,310 H605 A20,20 0 0 1 585,290 V290 A20,20 0 0 1 605,270 Z" />
+  <text x="640" y="297" font-family="Georgia, serif" font-size="20" fill="#FAF7F2" text-anchor="middle" font-weight="bold">VS</text>
+
+  
+  <g id="rag-side">
+    <path fill="#FAF7F2" stroke="#8FBC8F" stroke-width="2" d="M76,110 H544 A16,16 0 0 1 560,126 V514 A16,16 0 0 1 544,530 H76 A16,16 0 0 1 60,514 V126 A16,16 0 0 1 76,110 Z" />
+    <path fill="#8FBC8F" d="M63,110 H557 A3,3 0 0 1 560,113 V113 A3,3 0 0 1 557,116 H63 A3,3 0 0 1 60,113 V113 A3,3 0 0 1 63,110 Z" />
+
+    
+  <g transform="translate(90.0, 135.0) scale(1.5)" fill="#8FBC8F">
+    <path d="M21.5 5.134a1 1 0 0 1 .493 .748l.007 .118v13a1 1 0 0 1 -1.5 .866a8 8 0 0 0 -7.5 -.266v-15.174a10 10 0 0 1 8.5 .708m-10.5 -.707l.001 15.174a8 8 0 0 0 -7.234 .117l-.327 .18l-.103 .044l-.049 .016l-.11 .026l-.061 .01l-.117 .006h-.042l-.11 -.012l-.077 -.014l-.108 -.032l-.126 -.056l-.095 -.056l-.089 -.067l-.06 -.056l-.073 -.082l-.064 -.089l-.022 -.036l-.032 -.06l-.044 -.103l-.016 -.049l-.026 -.11l-.01 -.061l-.004 -.049l-.002 -13.068a1 1 0 0 1 .5 -.866a10 10 0 0 1 8.5 -.707" />
+  </g>
+    <text x="140" y="160" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#8B6F47" font-weight="bold">RAG</text>
+
+    <path fill="#8FBC8F" fill-opacity="0.1" d="M100,180 H520 A10,10 0 0 1 530,190 V220 A10,10 0 0 1 520,230 H100 A10,10 0 0 1 90,220 V190 A10,10 0 0 1 100,180 Z" />
+    <text x="310" y="212" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#8B6F47" text-anchor="middle" font-weight="bold">= 开卷考试 📖</text>
+
+    <text x="90" y="265" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">给你参考资料，照着回答</text>
+
+    <line x1="90" y1="285" x2="530" y2="285" stroke="#EDE5D5" stroke-width="1" />
+
+    <text x="90" y="315" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">✅ 成本低（无需 GPU 训练）</text>
+    <text x="90" y="345" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">✅ 可随时更新资料</text>
+    <text x="90" y="375" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">✅ 有引用来源，可追溯</text>
+    <text x="90" y="405" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#D4837F">⚠ 回答速度受检索影响</text>
+    <text x="90" y="435" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#D4837F">⚠ 检索质量直接决定回答质量</text>
+
+    <path fill="#8FBC8F" fill-opacity="0.08" d="M98,465 H522 A8,8 0 0 1 530,473 V492 A8,8 0 0 1 522,500 H98 A8,8 0 0 1 90,492 V473 A8,8 0 0 1 98,465 Z" />
+    <text x="310" y="488" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">2025-2026 企业 AI 落地最多的场景</text>
+  </g>
+
+  
+  <g id="finetune-side">
+    <path fill="#FAF7F2" stroke="#E8A87C" stroke-width="2" d="M736,110 H1204 A16,16 0 0 1 1220,126 V514 A16,16 0 0 1 1204,530 H736 A16,16 0 0 1 720,514 V126 A16,16 0 0 1 736,110 Z" />
+    <path fill="#E8A87C" d="M723,110 H1217 A3,3 0 0 1 1220,113 V113 A3,3 0 0 1 1217,116 H723 A3,3 0 0 1 720,113 V113 A3,3 0 0 1 723,110 Z" />
+
+    
+  <g transform="translate(750.0, 135.0) scale(1.5)" fill="#E8A87C">
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z" />
+    <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z" />
+    <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z" />
+    <path d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z" />
+  </g>
+    <text x="800" y="160" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#8B6F47" font-weight="bold">Fine-tuning</text>
+
+    <path fill="#E8A87C" fill-opacity="0.1" d="M760,180 H1180 A10,10 0 0 1 1190,190 V220 A10,10 0 0 1 1180,230 H760 A10,10 0 0 1 750,220 V190 A10,10 0 0 1 760,180 Z" />
+    <text x="970" y="212" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#8B6F47" text-anchor="middle" font-weight="bold">= 上课学习 🎓</text>
+
+    <text x="750" y="265" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">用数据继续训练，知识"烧进"权重</text>
+
+    <line x1="750" y1="285" x2="1190" y2="285" stroke="#EDE5D5" stroke-width="1" />
+
+    <text x="750" y="315" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">✅ 回答更快更自然</text>
+    <text x="750" y="345" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">✅ 学会行业术语和表达风格</text>
+    <text x="750" y="375" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#D4837F">⚠ 成本高（需要 GPU 训练）</text>
+    <text x="750" y="405" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#D4837F">⚠ 更新知识得重新训练</text>
+    <text x="750" y="435" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#D4837F">⚠ 无法引用来源</text>
+
+    <path fill="#E8A87C" fill-opacity="0.08" d="M758,465 H1182 A8,8 0 0 1 1190,473 V492 A8,8 0 0 1 1182,500 H758 A8,8 0 0 1 750,492 V473 A8,8 0 0 1 758,465 Z" />
+    <text x="970" y="488" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">适合学习领域术语和表达风格</text>
+  </g>
+
+  
+  <g id="insight">
+    <path fill="#E8A87C" fill-opacity="0.1" stroke="#E8A87C" stroke-width="1.5" d="M72,555 H1208 A12,12 0 0 1 1220,567 V608 A12,12 0 0 1 1208,620 H72 A12,12 0 0 1 60,608 V567 A12,12 0 0 1 72,555 Z" />
+    
+  <g transform="translate(90.0, 570.0) scale(1.1666666666666667)" fill="#E8A87C">
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" />
+    <path d="M4.893 4.893a1 1 0 0 1 1.32 -.083l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 0 -1.414z" />
+    <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7z" />
+    <path d="M14 18a1 1 0 0 1 1 1a3 3 0 0 1 -6 0a1 1 0 0 1 .883 -.993l.117 -.007h4z" />
+    <path d="M12 6a6 6 0 0 1 3.6 10.8a1 1 0 0 1 -.471 .192l-.129 .008h-6a1 1 0 0 1 -.6 -.2a6 6 0 0 1 3.6 -10.8z" />
+  </g>
+    <text x="130" y="594" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">实际项目经常结合使用</text>
+    <text x="390" y="594" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">Fine-tuning 学会术语风格 + RAG 提供具体事实信息</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">26</text>
+  </g>
+</svg>

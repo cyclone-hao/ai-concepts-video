@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">AI 进化时间轴</text>
+    <rect x="60" y="78" width="80" height="3" rx="1.5" fill="#E8A87C"/>
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">从聊天到自主工作</text>
+  </g>
+
+  <!-- Timeline axis -->
+  <line x1="100" y1="340" x2="1180" y2="340" stroke="#8B6F47" stroke-width="3"/>
+
+  <!-- 2023 -->
+  <g id="year-2023">
+    <circle cx="180" cy="340" r="12" fill="#8B6F47"/>
+    <text x="180" y="310" font-family="Georgia, serif" font-size="24" fill="#8B6F47" text-anchor="middle" font-weight="bold">2023</text>
+
+    <rect x="100" y="370" width="200" height="140" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <text x="115" y="395" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" font-weight="bold">ChatGPT 时代</text>
+    <text x="115" y="420" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">• 问答式交互</text>
+    <text x="115" y="442" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">• 纯文本生成</text>
+    <text x="115" y="464" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">• 无工具调用</text>
+    <text x="115" y="486" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">能力：聊天对话</text>
+    <text x="115" y="503" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#D4837F">局限：一次问一次答</text>
+  </g>
+
+  <!-- 2024 -->
+  <g id="year-2024">
+    <circle cx="460" cy="340" r="12" fill="#E8A87C"/>
+    <text x="460" y="310" font-family="Georgia, serif" font-size="24" fill="#E8A87C" text-anchor="middle" font-weight="bold">2024</text>
+
+    <rect x="360" y="140" width="200" height="170" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <text x="375" y="165" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#E8A87C" font-weight="bold">Function Calling 时代</text>
+    <text x="375" y="190" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">• 学会调用工具</text>
+    <text x="375" y="212" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">• RAG 检索增强</text>
+    <text x="375" y="234" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">• 多模态输入</text>
+    <text x="375" y="256" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">能力：查资料 + 回答</text>
+    <text x="375" y="278" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#D4837F">局限：被动执行指令</text>
+
+    <line x1="460" y1="310" x2="460" y2="328" stroke="#E8A87C" stroke-width="2"/>
+  </g>
+
+  <!-- 2025 -->
+  <g id="year-2025">
+    <circle cx="740" cy="340" r="12" fill="#8FBC8F"/>
+    <text x="740" y="310" font-family="Georgia, serif" font-size="24" fill="#8FBC8F" text-anchor="middle" font-weight="bold">2025</text>
+
+    <rect x="640" y="370" width="200" height="170" rx="12" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <text x="655" y="395" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8FBC8F" font-weight="bold">Agent 时代</text>
+    <text x="655" y="420" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">• 自主规划任务</text>
+    <text x="655" y="442" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">• MCP 统一接口</text>
+    <text x="655" y="464" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">• ReAct 循环执行</text>
+    <text x="655" y="486" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">能力：拆解复杂任务</text>
+    <text x="655" y="508" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#D4837F">局限：仍需人类启动</text>
+
+    <line x1="740" y1="352" x2="740" y2="370" stroke="#8FBC8F" stroke-width="2"/>
+  </g>
+
+  <!-- 2026 -->
+  <g id="year-2026">
+    <circle cx="1020" cy="340" r="12" fill="#C4956A"/>
+    <text x="1020" y="310" font-family="Georgia, serif" font-size="24" fill="#C4956A" text-anchor="middle" font-weight="bold">2026</text>
+
+    <rect x="920" y="140" width="220" height="170" rx="12" fill="#FAF7F2" stroke="#C4956A" stroke-width="1.5"/>
+    <rect x="920" y="140" width="220" height="6" rx="3" fill="#C4956A"/>
+    <text x="935" y="170" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#C4956A" font-weight="bold">Harness 时代</text>
+    <text x="935" y="195" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">• Vibe Coding</text>
+    <text x="935" y="217" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">• 多 Agent 协作</text>
+    <text x="935" y="239" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37">• Skill 按需加载</text>
+    <text x="935" y="261" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">能力：独立完成复杂工作</text>
+    <text x="935" y="283" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#C4956A">人类 = 指挥，AI = 执行</text>
+
+    <line x1="1020" y1="310" x2="1020" y2="328" stroke="#C4956A" stroke-width="2"/>
+  </g>
+
+  <!-- Evolution arrow -->
+  <g id="evolution-arrow">
+    <rect x="100" y="570" width="1080" height="50" rx="10" fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1"/>
+    <text x="200" y="600" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" font-weight="bold">进化方向：</text>
+    <text x="310" y="600" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">被动回答 → 工具调用 → 自主任务 → 系统工程化协作</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">38</text>
+  </g>
+</svg>

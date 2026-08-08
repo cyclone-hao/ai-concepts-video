@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">Token 计费实例</text>
+    <rect x="60" y="78" width="80" height="3" rx="1.5" fill="#E8A87C"/>
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">DeepSeek-V3 官方定价</text>
+  </g>
+
+  <!-- Calculator card -->
+  <g id="calc-card">
+    <rect x="140" y="110" width="1000" height="440" rx="20" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1.5"/>
+
+    <!-- Pricing header -->
+    <rect x="140" y="110" width="1000" height="60" rx="20" fill="#8B6F47"/>
+    <rect x="140" y="150" width="1000" height="20" fill="#8B6F47"/>
+    <use data-icon="tabler-filled/cash-banknote" x="175" y="120" width="32" height="32" fill="#FAF7F2"/>
+    <text x="220" y="147" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#FAF7F2" font-weight="bold">DeepSeek-V3 调用费用计算</text>
+
+    <!-- Input line -->
+    <g id="calc-input">
+      <rect x="180" y="195" width="90" height="30" rx="6" fill="#8FBC8F" fill-opacity="0.15"/>
+      <text x="225" y="216" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8FBC8F" text-anchor="middle" font-weight="bold">输入</text>
+      <text x="290" y="216" font-family="Consolas, Courier New, monospace" font-size="16" fill="#5D4E37">50 Token × ¥2 / 百万 Token</text>
+      <text x="880" y="216" font-family="Consolas, Courier New, monospace" font-size="16" fill="#5D4E37">=</text>
+      <text x="920" y="216" font-family="Georgia, serif" font-size="20" fill="#8B6F47" font-weight="bold">¥0.0001</text>
+    </g>
+
+    <!-- Output line -->
+    <g id="calc-output">
+      <rect x="180" y="245" width="90" height="30" rx="6" fill="#E8A87C" fill-opacity="0.15"/>
+      <text x="225" y="266" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#E8A87C" text-anchor="middle" font-weight="bold">输出</text>
+      <text x="290" y="266" font-family="Consolas, Courier New, monospace" font-size="16" fill="#5D4E37">500 Token × ¥8 / 百万 Token</text>
+      <text x="880" y="266" font-family="Consolas, Courier New, monospace" font-size="16" fill="#5D4E37">=</text>
+      <text x="920" y="266" font-family="Georgia, serif" font-size="20" fill="#8B6F47" font-weight="bold">¥0.004</text>
+    </g>
+
+    <!-- Divider -->
+    <line x1="180" y1="300" x2="1100" y2="300" stroke="#EDE5D5" stroke-width="1.5"/>
+
+    <!-- Total -->
+    <g id="calc-total">
+      <text x="290" y="340" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#5D4E37" font-weight="bold">单次调用合计：</text>
+      <text x="920" y="345" font-family="Georgia, serif" font-size="32" fill="#E8A87C" font-weight="bold">¥0.004</text>
+      <text x="1060" y="340" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">不到半分钱</text>
+    </g>
+
+    <!-- Monthly scale -->
+    <g id="calc-monthly">
+      <rect x="180" y="370" width="920" height="60" rx="10" fill="#E8A87C" fill-opacity="0.08" stroke="#E8A87C" stroke-width="1"/>
+      <text x="210" y="395" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">每日 <tspan font-weight="bold">10万次</tspan> 调用 × 30天 ≈</text>
+      <text x="820" y="402" font-family="Georgia, serif" font-size="28" fill="#C4956A" font-weight="bold">¥12,000 / 月</text>
+    </g>
+
+    <!-- Note -->
+    <text x="210" y="465" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">换成 GPT-5.6 同样的调用量一个月要好几万</text>
+    <text x="210" y="492" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#D4837F">⚠ 同样的内容，中文消耗 Token 通常比英文多 1.5 到 2 倍</text>
+  </g>
+
+  <!-- Bottom insight -->
+  <g id="insight">
+    <rect x="140" y="575" width="1000" height="65" rx="12" fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1"/>
+    <use data-icon="tabler-filled/bulb" x="165" y="590" width="28" height="28" fill="#8B6F47"/>
+    <text x="205" y="607" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37" font-weight="bold">Token 直接决定使用成本</text>
+    <text x="205" y="628" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B">中文场景下成本控制更重要 — 选对模型和 Tokenizer 是关键</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">11</text>
+  </g>
+</svg>

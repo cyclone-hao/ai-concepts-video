@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">MCP — N×M → N+M</text>
+    <rect x="60" y="78" width="80" height="3" rx="1.5" fill="#E8A87C"/>
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">万能接口标准</text>
+  </g>
+
+  <!-- Left: Before MCP (N×M) -->
+  <g id="before-mcp">
+    <rect x="60" y="105" width="560" height="330" rx="16" fill="#FAF7F2" stroke="#D4837F" stroke-width="1.5"/>
+    <rect x="60" y="105" width="560" height="6" rx="3" fill="#D4837F"/>
+
+    <text x="340" y="140" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#D4837F" text-anchor="middle" font-weight="bold">没有 MCP：N×M 个对接</text>
+
+    <!-- AI apps on top -->
+    <rect x="100" y="165" width="100" height="35" rx="6" fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1"/>
+    <text x="150" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">Claude Code</text>
+
+    <rect x="230" y="165" width="100" height="35" rx="6" fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1"/>
+    <text x="280" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">ChatGPT</text>
+
+    <rect x="360" y="165" width="100" height="35" rx="6" fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1"/>
+    <text x="410" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">Cursor</text>
+
+    <rect x="490" y="165" width="100" height="35" rx="6" fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1"/>
+    <text x="540" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">自建App</text>
+
+    <!-- Messy connections (many crossing lines) -->
+    <line x1="150" y1="200" x2="130" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="150" y1="200" x2="250" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="150" y1="200" x2="370" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="150" y1="200" x2="490" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="280" y1="200" x2="130" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="280" y1="200" x2="250" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="280" y1="200" x2="370" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="280" y1="200" x2="490" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="410" y1="200" x2="130" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="410" y1="200" x2="250" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="410" y1="200" x2="370" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="410" y1="200" x2="490" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="540" y1="200" x2="130" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="540" y1="200" x2="250" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="540" y1="200" x2="370" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="540" y1="200" x2="490" y2="320" stroke="#D4837F" stroke-width="1" stroke-opacity="0.4"/>
+
+    <!-- Tools on bottom -->
+    <rect x="80" y="320" width="100" height="35" rx="6" fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1"/>
+    <text x="130" y="343" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">GitHub</text>
+
+    <rect x="200" y="320" width="100" height="35" rx="6" fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1"/>
+    <text x="250" y="343" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">Slack</text>
+
+    <rect x="320" y="320" width="100" height="35" rx="6" fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1"/>
+    <text x="370" y="343" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">数据库</text>
+
+    <rect x="440" y="320" width="100" height="35" rx="6" fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1"/>
+    <text x="490" y="343" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">日历</text>
+
+    <text x="340" y="400" font-family="Georgia, serif" font-size="28" fill="#D4837F" text-anchor="middle" font-weight="bold">4 × 4 = 16 个对接</text>
+    <text x="340" y="420" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">每加一个工具或 AI，对接量翻倍</text>
+  </g>
+
+  <!-- Right: With MCP (N+M) -->
+  <g id="with-mcp">
+    <rect x="660" y="105" width="560" height="330" rx="16" fill="#FAF7F2" stroke="#8FBC8F" stroke-width="1.5"/>
+    <rect x="660" y="105" width="560" height="6" rx="3" fill="#8FBC8F"/>
+
+    <text x="940" y="140" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#8FBC8F" text-anchor="middle" font-weight="bold">有了 MCP：N+M 个对接</text>
+
+    <!-- AI apps on top -->
+    <rect x="700" y="165" width="100" height="35" rx="6" fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1"/>
+    <text x="750" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">Claude Code</text>
+
+    <rect x="830" y="165" width="100" height="35" rx="6" fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1"/>
+    <text x="880" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">ChatGPT</text>
+
+    <rect x="960" y="165" width="100" height="35" rx="6" fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1"/>
+    <text x="1010" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">Cursor</text>
+
+    <rect x="1090" y="165" width="100" height="35" rx="6" fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1"/>
+    <text x="1140" y="188" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B6F47" text-anchor="middle">自建App</text>
+
+    <!-- Clean lines to MCP bar -->
+    <line x1="750" y1="200" x2="750" y2="255" stroke="#8FBC8F" stroke-width="1.5"/>
+    <line x1="880" y1="200" x2="880" y2="255" stroke="#8FBC8F" stroke-width="1.5"/>
+    <line x1="1010" y1="200" x2="1010" y2="255" stroke="#8FBC8F" stroke-width="1.5"/>
+    <line x1="1140" y1="200" x2="1140" y2="255" stroke="#8FBC8F" stroke-width="1.5"/>
+
+    <!-- MCP Protocol Bar -->
+    <rect x="700" y="255" width="480" height="40" rx="8" fill="#8B6F47" stroke="#8B6F47" stroke-width="2"/>
+    <text x="940" y="281" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#FAF7F2" text-anchor="middle" font-weight="bold">MCP 统一协议</text>
+
+    <!-- Clean lines from MCP to tools -->
+    <line x1="750" y1="295" x2="750" y2="340" stroke="#8FBC8F" stroke-width="1.5"/>
+    <line x1="870" y1="295" x2="870" y2="340" stroke="#8FBC8F" stroke-width="1.5"/>
+    <line x1="990" y1="295" x2="990" y2="340" stroke="#8FBC8F" stroke-width="1.5"/>
+    <line x1="1110" y1="295" x2="1110" y2="340" stroke="#8FBC8F" stroke-width="1.5"/>
+
+    <!-- Tools on bottom -->
+    <rect x="700" y="340" width="100" height="35" rx="6" fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1"/>
+    <text x="750" y="363" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">GitHub</text>
+
+    <rect x="820" y="340" width="100" height="35" rx="6" fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1"/>
+    <text x="870" y="363" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">Slack</text>
+
+    <rect x="940" y="340" width="100" height="35" rx="6" fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1"/>
+    <text x="990" y="363" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">数据库</text>
+
+    <rect x="1060" y="340" width="100" height="35" rx="6" fill="#E8A87C" fill-opacity="0.15" stroke="#E8A87C" stroke-width="1"/>
+    <text x="1110" y="363" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#5D4E37" text-anchor="middle">日历</text>
+
+    <text x="940" y="415" font-family="Georgia, serif" font-size="28" fill="#8FBC8F" text-anchor="middle" font-weight="bold">4 + 4 = 8 个对接</text>
+    <text x="940" y="435" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="middle">每加一个工具或 AI，只需对接一次</text>
+  </g>
+
+  <!-- Bottom: Analogy -->
+  <g id="analogy">
+    <rect x="60" y="460" width="1160" height="65" rx="12" fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1"/>
+    <use data-icon="tabler-filled/bulb" x="90" y="475" width="28" height="28" fill="#8B6F47"/>
+    <text x="130" y="495" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">类比 USB 标准</text>
+    <text x="280" y="495" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">以前每个设备一根专用线，USB 之后所有设备共用一个接口</text>
+    <text x="130" y="515" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" font-weight="bold">MCP = AI 工具世界的 USB</text>
+  </g>
+
+  <!-- Key message -->
+  <g id="key-message">
+    <rect x="60" y="545" width="1160" height="55" rx="12" fill="#E8A87C" fill-opacity="0.1" stroke="#E8A87C" stroke-width="1.5"/>
+    <text x="640" y="578" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B6F47" text-anchor="middle" font-weight="bold">2025年 Anthropic 发布，现在已成为行业事实标准 — 几乎所有 AI 工具都支持 MCP</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">31</text>
+  </g>
+</svg>

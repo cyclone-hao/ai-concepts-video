@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">System Prompt — 给模型设"人设"和"规矩"</text>
+    <rect x="60" y="78" width="80" height="3" rx="1.5" fill="#E8A87C"/>
+  </g>
+
+  <!-- Code card -->
+  <g id="code-card">
+    <rect x="60" y="100" width="720" height="400" rx="16" fill="#F0EBE0" stroke="#EDE5D5" stroke-width="1"/>
+
+    <text x="90" y="130" font-family="Consolas, Courier New, monospace" font-size="13" fill="#8B7D6B">messages: [</text>
+
+    <!-- System message (highlighted) -->
+    <rect x="80" y="142" width="680" height="140" rx="8" fill="#E8A87C" fill-opacity="0.1" stroke="#E8A87C" stroke-width="1.5"/>
+    <text x="100" y="168" font-family="Consolas, Courier New, monospace" font-size="13" fill="#5D4E37">{</text>
+    <text x="120" y="193" font-family="Consolas, Courier New, monospace" font-size="13" fill="#5D4E37">role: <tspan fill="#E8A87C" font-weight="bold">"system"</tspan>,</text>
+    <text x="120" y="218" font-family="Consolas, Courier New, monospace" font-size="13" fill="#5D4E37">content: <tspan fill="#8FBC8F">"你是XX公司的智能客服。</tspan></text>
+    <text x="140" y="240" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8FBC8F">职责：帮助用户解决订单相关问题。</text>
+    <text x="140" y="260" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8FBC8F">规则：1.语气友好 2.不讨论竞品</text>
+    <text x="140" y="276" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8FBC8F">3.不确定的转人工 4.回答≤100字"</text>
+    <text x="100" y="276" font-family="Consolas, Courier New, monospace" font-size="13" fill="#5D4E37">}</text>
+    <text x="110" y="292" font-family="Consolas, Courier New, monospace" font-size="13" fill="#8B7D6B">,</text>
+
+    <!-- User message -->
+    <rect x="80" y="295" width="680" height="50" rx="8" fill="#EDE5D5" fill-opacity="0.5"/>
+    <text x="100" y="318" font-family="Consolas, Courier New, monospace" font-size="13" fill="#5D4E37">{ role: <tspan fill="#8B6F47">"user"</tspan>,</text>
+    <text x="310" y="318" font-family="Consolas, Courier New, monospace" font-size="13" fill="#5D4E37">content: <tspan fill="#8FBC8F">"我的订单怎么还没发货？"</tspan> }</text>
+
+    <text x="90" y="370" font-family="Consolas, Courier New, monospace" font-size="13" fill="#8B7D6B">]</text>
+  </g>
+
+  <!-- Right: Metaphor and explanation -->
+  <g id="explanation">
+    <!-- Handbook metaphor -->
+    <rect x="830" y="100" width="390" height="180" rx="16" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <use data-icon="tabler-filled/book" x="860" y="125" width="40" height="40" fill="#E8A87C"/>
+    <text x="915" y="148" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#8B6F47" font-weight="bold">= 新员工手册</text>
+
+    <text x="860" y="190" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">你是谁</text>
+    <text x="860" y="215" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">你的边界在哪里</text>
+    <text x="860" y="240" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">你不能做什么</text>
+    <text x="860" y="265" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">回答的风格要求</text>
+
+    <!-- Technical truth -->
+    <rect x="830" y="300" width="390" height="200" rx="16" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <use data-icon="tabler-filled/bulb" x="860" y="325" width="32" height="32" fill="#8B6F47"/>
+    <text x="905" y="348" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B6F47" font-weight="bold">技术真相</text>
+
+    <text x="860" y="385" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37">System Prompt 和 User Prompt</text>
+    <text x="860" y="410" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#5D4E37"><tspan fill="#D4837F" font-weight="bold">没有本质区别</tspan></text>
+    <text x="860" y="440" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B">都是 Token，都进入同一个 Context</text>
+    <text x="860" y="465" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B">role: "system" 只是 API 层面的标记</text>
+    <text x="860" y="488" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B">告诉模型"这段话优先级更高"</text>
+  </g>
+
+  <!-- Bottom summary -->
+  <g id="summary">
+    <rect x="60" y="530" width="1160" height="70" rx="12" fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1"/>
+    <text x="640" y="572" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#5D4E37" text-anchor="middle" font-weight="bold">System Prompt = 放在最前面的、优先级更高的 Prompt</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">21</text>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+Skill 只是 Harness 的一个组件。有了 Skill，Agent 有经验可用；但要让 Agent 真正稳定可靠地跑起来，还缺一整套系统。这就是 Harness Engineering。

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  
+  <rect width="1280" height="720" fill="#F5F0E8" />
+
+  <g id="content">
+    
+    <g id="news-cards">
+      
+      <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M72,100 H528 A12,12 0 0 1 540,112 V208 A12,12 0 0 1 528,220 H72 A12,12 0 0 1 60,208 V112 A12,12 0 0 1 72,100 Z" />
+      <path fill="#D4837F" d="M62,100 H62 A2,2 0 0 1 64,102 V218 A2,2 0 0 1 62,220 H62 A2,2 0 0 1 60,218 V102 A2,2 0 0 1 62,100 Z" />
+      <text x="85" y="130" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">阿里云</text>
+      <text x="85" y="158" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">免费安装<tspan fill="#D4837F"> 阿里Claw</tspan>，一键部署AI Agent</text>
+      <text x="85" y="185" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">2026年3月 · 科技新闻</text>
+
+      
+      <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M72,240 H528 A12,12 0 0 1 540,252 V348 A12,12 0 0 1 528,360 H72 A12,12 0 0 1 60,348 V252 A12,12 0 0 1 72,240 Z" />
+      <path fill="#D4837F" d="M62,240 H62 A2,2 0 0 1 64,242 V358 A2,2 0 0 1 62,360 H62 A2,2 0 0 1 60,358 V242 A2,2 0 0 1 62,240 Z" />
+      <text x="85" y="270" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">腾讯云</text>
+      <text x="85" y="298" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">免费安装<tspan fill="#D4837F"> 腾讯Claw</tspan>，企业级AI助手</text>
+      <text x="85" y="325" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">2026年3月 · 科技新闻</text>
+
+      
+      <path fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1" d="M72,380 H528 A12,12 0 0 1 540,392 V488 A12,12 0 0 1 528,500 H72 A12,12 0 0 1 60,488 V392 A12,12 0 0 1 72,380 Z" />
+      <path fill="#D4837F" d="M62,380 H62 A2,2 0 0 1 64,382 V498 A2,2 0 0 1 62,500 H62 A2,2 0 0 1 60,498 V382 A2,2 0 0 1 62,380 Z" />
+      <text x="85" y="410" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">字节跳动</text>
+      <text x="85" y="438" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">免费安装<tspan fill="#D4837F"> 字节Claw</tspan>，全民养虾时代</text>
+      <text x="85" y="465" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B">2026年4月 · 科技新闻</text>
+    </g>
+
+    
+    <g id="logo-placeholder">
+      <path fill="none" stroke="#8B7D6B" stroke-width="2" stroke-dasharray="8,4" d="M636,120 H1184 A16,16 0 0 1 1200,136 V404 A16,16 0 0 1 1184,420 H636 A16,16 0 0 1 620,404 V136 A16,16 0 0 1 636,120 Z" />
+      <text x="910" y="250" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#8B7D6B" text-anchor="middle">OpenClaw Logo</text>
+      <text x="910" y="280" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B" text-anchor="middle">🦞 开源AI Agent工具</text>
+      
+  <g transform="translate(870.0, 300.0) scale(2.0)" fill="#E8A87C">
+    <path d="M10 2c0 -.88 1.056 -1.331 1.692 -.722c1.958 1.876 3.096 5.995 1.75 9.12l-.08 .174l.012 .003c.625 .133 1.203 -.43 2.303 -2.173l.14 -.224a1 1 0 0 1 1.582 -.153c1.334 1.435 2.601 4.377 2.601 6.27c0 4.265 -3.591 7.705 -8 7.705s-8 -3.44 -8 -7.706c0 -2.252 1.022 -4.716 2.632 -6.301l.605 -.589c.241 -.236 .434 -.43 .618 -.624c1.43 -1.512 2.145 -2.924 2.145 -4.78" />
+  </g>
+    </g>
+
+    
+    <g id="bottom-text">
+      <text x="640" y="580" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#5D4E37" text-anchor="middle">各家改个名字也叫 <tspan fill="#D4837F" font-weight="bold">XXClaw</tspan>，硬生生炒成了全民养虾运动</text>
+      <text x="640" y="615" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#8B7D6B" text-anchor="middle">今天从最底层的技术视角，把这些概念讲清楚</text>
+    </g>
+  </g>
+
+  
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">3</text>
+  </g>
+</svg>

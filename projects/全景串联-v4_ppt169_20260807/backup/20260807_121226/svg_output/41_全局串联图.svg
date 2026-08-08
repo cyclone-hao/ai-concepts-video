@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">全景概念图</text>
+    <rect x="60" y="78" width="80" height="3" rx="1.5" fill="#E8A87C"/>
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">13 个概念的完整关系</text>
+  </g>
+
+  <!-- Core: LLM -->
+  <g id="core-llm">
+    <circle cx="640" cy="340" r="55" fill="#8B6F47"/>
+    <text x="640" y="335" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#FAF7F2" text-anchor="middle" font-weight="bold">LLM</text>
+    <text x="640" y="355" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#FAF7F2" text-anchor="middle" fill-opacity="0.8">大语言模型</text>
+  </g>
+
+  <!-- Layer 1: Foundation (Token, Embedding, Context) -->
+  <g id="layer-foundation">
+    <!-- Token -->
+    <rect x="280" y="160" width="120" height="50" rx="10" fill="#FAF7F2" stroke="#8B6F47" stroke-width="1.5"/>
+    <text x="340" y="185" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" text-anchor="middle" font-weight="bold">Token</text>
+    <text x="340" y="200" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="10" fill="#8B7D6B" text-anchor="middle">阅读单位</text>
+    <line x1="380" y1="210" x2="590" y2="300" stroke="#8B6F47" stroke-width="1" stroke-opacity="0.3"/>
+
+    <!-- Embedding -->
+    <rect x="560" y="130" width="160" height="50" rx="10" fill="#FAF7F2" stroke="#E8A87C" stroke-width="1.5"/>
+    <text x="640" y="155" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#E8A87C" text-anchor="middle" font-weight="bold">Embedding</text>
+    <text x="640" y="170" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="10" fill="#8B7D6B" text-anchor="middle">语义坐标</text>
+    <line x1="640" y1="180" x2="640" y2="285" stroke="#E8A87C" stroke-width="1" stroke-opacity="0.3"/>
+
+    <!-- Context -->
+    <rect x="880" y="160" width="120" height="50" rx="10" fill="#FAF7F2" stroke="#8FBC8F" stroke-width="1.5"/>
+    <text x="940" y="185" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" text-anchor="middle" font-weight="bold">Context</text>
+    <text x="940" y="200" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="10" fill="#8B7D6B" text-anchor="middle">对话记忆</text>
+    <line x1="900" y1="210" x2="690" y2="300" stroke="#8FBC8F" stroke-width="1" stroke-opacity="0.3"/>
+  </g>
+
+  <!-- Layer 2: Capabilities (Prompt, RAG, Tool) -->
+  <g id="layer-capabilities">
+    <!-- Prompt -->
+    <rect x="120" y="300" width="150" height="50" rx="10" fill="#FAF7F2" stroke="#C4956A" stroke-width="1.5"/>
+    <text x="195" y="325" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#C4956A" text-anchor="middle" font-weight="bold">Prompt</text>
+    <text x="195" y="340" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="10" fill="#8B7D6B" text-anchor="middle">指令设计</text>
+    <line x1="270" y1="325" x2="585" y2="340" stroke="#C4956A" stroke-width="1" stroke-opacity="0.3"/>
+
+    <!-- RAG + Vector DB -->
+    <rect x="120" y="420" width="170" height="50" rx="10" fill="#FAF7F2" stroke="#8B6F47" stroke-width="1.5"/>
+    <text x="205" y="445" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" text-anchor="middle" font-weight="bold">RAG + Vector DB</text>
+    <text x="205" y="460" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="10" fill="#8B7D6B" text-anchor="middle">检索增强生成</text>
+    <line x1="290" y1="440" x2="590" y2="370" stroke="#8B6F47" stroke-width="1" stroke-opacity="0.3"/>
+    <!-- Link to Embedding -->
+    <line x1="205" y1="420" x2="580" y2="180" stroke="#E8A87C" stroke-width="0.8" stroke-opacity="0.2" stroke-dasharray="4,3"/>
+
+    <!-- Function Calling / Tool -->
+    <rect x="1010" y="300" width="150" height="50" rx="10" fill="#FAF7F2" stroke="#E8A87C" stroke-width="1.5"/>
+    <text x="1085" y="325" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#E8A87C" text-anchor="middle" font-weight="bold">Tool</text>
+    <text x="1085" y="340" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="10" fill="#8B7D6B" text-anchor="middle">工具调用</text>
+    <line x1="1010" y1="325" x2="695" y2="340" stroke="#E8A87C" stroke-width="1" stroke-opacity="0.3"/>
+  </g>
+
+  <!-- Layer 3: Advanced (MCP, Agent, Skill, Harness) -->
+  <g id="layer-advanced">
+    <!-- MCP -->
+    <rect x="1010" y="420" width="130" height="50" rx="10" fill="#FAF7F2" stroke="#8FBC8F" stroke-width="1.5"/>
+    <text x="1075" y="445" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8FBC8F" text-anchor="middle" font-weight="bold">MCP</text>
+    <text x="1075" y="460" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="10" fill="#8B7D6B" text-anchor="middle">统一接口</text>
+    <line x1="1010" y1="440" x2="695" y2="370" stroke="#8FBC8F" stroke-width="1" stroke-opacity="0.3"/>
+    <!-- Link to Tool -->
+    <line x1="1075" y1="420" x2="1085" y2="350" stroke="#8FBC8F" stroke-width="0.8" stroke-opacity="0.3" stroke-dasharray="3,2"/>
+
+    <!-- Agent -->
+    <rect x="420" y="460" width="130" height="50" rx="10" fill="#FAF7F2" stroke="#D4837F" stroke-width="2"/>
+    <text x="485" y="485" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#D4837F" text-anchor="middle" font-weight="bold">Agent</text>
+    <text x="485" y="500" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="10" fill="#8B7D6B" text-anchor="middle">智能体</text>
+    <line x1="485" y1="460" x2="610" y2="395" stroke="#D4837F" stroke-width="1" stroke-opacity="0.3"/>
+
+    <!-- Skill -->
+    <rect x="680" y="460" width="130" height="50" rx="10" fill="#FAF7F2" stroke="#C4956A" stroke-width="1.5"/>
+    <text x="745" y="485" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#C4956A" text-anchor="middle" font-weight="bold">Skill</text>
+    <text x="745" y="500" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="10" fill="#8B7D6B" text-anchor="middle">技能系统</text>
+    <line x1="745" y1="460" x2="670" y2="395" stroke="#C4956A" stroke-width="1" stroke-opacity="0.3"/>
+
+    <!-- Harness -->
+    <rect x="480" y="550" width="320" height="55" rx="12" fill="#8B6F47" stroke="#8B6F47" stroke-width="2"/>
+    <text x="640" y="578" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#FAF7F2" text-anchor="middle" font-weight="bold">Harness Engineering</text>
+    <text x="640" y="596" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#FAF7F2" text-anchor="middle" fill-opacity="0.8">系统工程 · 驾驭 AI 的完整体系</text>
+    <!-- Links up -->
+    <line x1="540" y1="550" x2="485" y2="510" stroke="#8B6F47" stroke-width="1" stroke-opacity="0.4"/>
+    <line x1="740" y1="550" x2="745" y2="510" stroke="#8B6F47" stroke-width="1" stroke-opacity="0.4"/>
+  </g>
+
+  <!-- Layer labels -->
+  <text x="60" y="170" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B7D6B" font-weight="bold">基础层</text>
+  <text x="60" y="320" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B7D6B" font-weight="bold">能力层</text>
+  <text x="350" y="460" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B7D6B" font-weight="bold">系统层</text>
+
+  <!-- Arrow label -->
+  <text x="640" y="640" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B6F47" text-anchor="middle" font-weight="bold">从底层机制到顶层应用，层层递进</text>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">41</text>
+  </g>
+</svg>

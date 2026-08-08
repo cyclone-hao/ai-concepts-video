@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="header">
+    <text x="640" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="34" fill="#8B6F47" text-anchor="middle" font-weight="bold">Lost in the Middle</text>
+    <rect x="560" y="78" width="160" height="3" rx="1.5" fill="#E8A87C"/>
+  </g>
+
+  <!-- Main attention bar -->
+  <g id="attention-bar">
+    <!-- Background bar -->
+    <rect x="100" y="200" width="1080" height="100" rx="16" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+
+    <!-- Start zone (green) -->
+    <rect x="100" y="200" width="340" height="100" rx="16" fill="#8FBC8F" fill-opacity="0.2"/>
+    <rect x="420" y="200" width="20" height="100" fill="#8FBC8F" fill-opacity="0.2"/>
+    <text x="270" y="245" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#8FBC8F" text-anchor="middle" font-weight="bold">开头</text>
+    <text x="270" y="278" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="36" fill="#8FBC8F" text-anchor="middle">✓</text>
+
+    <!-- Middle zone (red) -->
+    <rect x="440" y="200" width="380" height="100" fill="#D4837F" fill-opacity="0.2"/>
+    <text x="630" y="245" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#D4837F" text-anchor="middle" font-weight="bold">中间</text>
+    <text x="630" y="278" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="36" fill="#D4837F" text-anchor="middle">⚠</text>
+
+    <!-- End zone (green) -->
+    <rect x="820" y="200" width="20" height="100" fill="#8FBC8F" fill-opacity="0.2"/>
+    <rect x="840" y="200" width="340" height="100" rx="16" fill="#8FBC8F" fill-opacity="0.2"/>
+    <rect x="820" y="200" width="380" height="100" fill="#8FBC8F" fill-opacity="0.2"/>
+    <text x="1010" y="245" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#8FBC8F" text-anchor="middle" font-weight="bold">结尾</text>
+    <text x="1010" y="278" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="36" fill="#8FBC8F" text-anchor="middle">✓</text>
+
+    <!-- Gradient overlay to show attention intensity -->
+    <text x="640" y="350" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B" text-anchor="middle">注意力强度：两端高，中间低</text>
+  </g>
+
+  <!-- Key message -->
+  <g id="key-message">
+    <text x="640" y="430" font-family="Georgia, serif" font-size="28" fill="#8B6F47" text-anchor="middle" font-weight="bold">128K ≠ 完美处理 128K 的信息</text>
+
+    <rect x="280" y="460" width="720" height="60" rx="12" fill="#E8A87C" fill-opacity="0.1" stroke="#E8A87C" stroke-width="1"/>
+    <text x="640" y="497" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#5D4E37" text-anchor="middle" font-weight="bold">关键信息放开头或结尾，别夹在中间</text>
+  </g>
+
+  <!-- Practical tip -->
+  <g id="tip">
+    <rect x="200" y="560" width="880" height="80" rx="16" fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1"/>
+    <use data-icon="tabler-filled/bulb" x="230" y="580" width="32" height="32" fill="#8B6F47"/>
+    <text x="280" y="598" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">如果你有很长的背景资料要喂给模型</text>
+    <text x="280" y="625" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37">把<tspan fill="#E8A87C" font-weight="bold">核心问题或指令</tspan>放在<tspan fill="#E8A87C" font-weight="bold">最前面或最后面</tspan></text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">20</text>
+  </g>
+</svg>

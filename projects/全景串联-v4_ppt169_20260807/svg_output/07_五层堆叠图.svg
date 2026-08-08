@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="header">
+    <text x="60" y="55" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">五层叠加产生质变</text>
+    <rect x="60" y="66" width="80" height="3" rx="1.5" fill="#E8A87C"/>
+    <text x="1220" y="50" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">GPT-3.5 爆火的真正原因</text>
+  </g>
+
+  <!-- Five stacked layers (bottom to top, y increases downward) -->
+  <g id="stack">
+    <!-- Layer 1 (bottom): 自回归架构 -->
+    <g id="layer-1">
+      <rect x="200" y="580" width="880" height="80" rx="12" fill="#8B6F47"/>
+      <use data-icon="tabler-filled/bolt" x="225" y="600" width="32" height="32" fill="#FAF7F2"/>
+      <text x="275" y="618" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#FAF7F2" font-weight="bold">① 自回归架构 — 让它能学</text>
+      <text x="275" y="644" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#FAF7F2" fill-opacity="0.8">预测下一个词，一步步生成</text>
+    </g>
+
+    <!-- Layer 2: 海量预训练 -->
+    <g id="layer-2">
+      <rect x="200" y="488" width="880" height="80" rx="12" fill="#9E7F57"/>
+      <use data-icon="tabler-filled/database" x="225" y="508" width="32" height="32" fill="#FAF7F2"/>
+      <text x="275" y="526" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#FAF7F2" font-weight="bold">② 海量预训练 — 让它学得广</text>
+      <text x="275" y="552" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#FAF7F2" fill-opacity="0.8">4500亿 Token 的文本训练</text>
+    </g>
+
+    <!-- Layer 3: 代码训练 -->
+    <g id="layer-3">
+      <rect x="200" y="396" width="880" height="80" rx="12" fill="#B08E67"/>
+      <use data-icon="tabler-filled/code-circle" x="225" y="416" width="32" height="32" fill="#FAF7F2"/>
+      <text x="275" y="434" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#FAF7F2" font-weight="bold">③ 代码训练 — 让它学得深</text>
+      <text x="275" y="460" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#FAF7F2" fill-opacity="0.8">逻辑推理、条件分支、变量追踪</text>
+    </g>
+
+    <!-- Layer 4: SFT 指令微调 -->
+    <g id="layer-4">
+      <rect x="200" y="304" width="880" height="80" rx="12" fill="#C4956A"/>
+      <use data-icon="tabler-filled/message" x="225" y="324" width="32" height="32" fill="#FAF7F2"/>
+      <text x="275" y="342" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#FAF7F2" font-weight="bold">④ SFT 指令微调 — 让它会对话</text>
+      <text x="275" y="368" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#FAF7F2" fill-opacity="0.8">从文本续写器变成对话助手</text>
+    </g>
+
+    <!-- Layer 5 (top): RLHF -->
+    <g id="layer-5">
+      <rect x="200" y="212" width="880" height="80" rx="12" fill="#E8A87C"/>
+      <use data-icon="tabler-filled/star" x="225" y="232" width="32" height="32" fill="#FAF7F2"/>
+      <text x="275" y="250" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#FAF7F2" font-weight="bold">⑤ RLHF — 让它说得好</text>
+      <text x="275" y="276" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#FAF7F2" fill-opacity="0.8">人类偏好调教，回答更像人</text>
+    </g>
+
+    <!-- Upward arrow on the left -->
+    <line x1="160" y1="640" x2="160" y2="220" stroke="#8B6F47" stroke-width="2" stroke-dasharray="6,4"/>
+    <polygon points="160,215 152,230 168,230" fill="#8B6F47"/>
+
+    <!-- Labels on arrow -->
+    <text x="140" y="660" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="end">基础</text>
+    <text x="140" y="225" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#8B7D6B" text-anchor="end">精调</text>
+  </g>
+
+  <!-- Bottom insight -->
+  <g id="insight">
+    <rect x="200" y="96" width="880" height="80" rx="12" fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1"/>
+    <use data-icon="tabler-filled/bulb" x="225" y="112" width="32" height="32" fill="#8B6F47"/>
+    <text x="275" y="130" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="16" fill="#5D4E37" font-weight="bold">五层叠在一起产生了质变</text>
+    <text x="275" y="156" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="14" fill="#8B7D6B">不是发明了某个新算法，而是工程化落地的五层创新叠加</text>
+  </g>
+
+  <!-- Footer -->
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">7</text>
+  </g>
+</svg>

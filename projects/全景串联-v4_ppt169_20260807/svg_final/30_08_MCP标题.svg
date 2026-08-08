@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="secGrad8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B6F47" />
+      <stop offset="100%" stop-color="#6B5535" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#secGrad8)" />
+  <circle cx="1100" cy="600" r="200" fill="#FAF7F2" fill-opacity="0.05" />
+  <circle cx="180" cy="140" r="120" fill="#FAF7F2" fill-opacity="0.04" />
+
+  <g id="content">
+    <text x="640" y="260" font-family="Georgia, Microsoft YaHei, serif" font-size="120" fill="#FAF7F2" fill-opacity="0.15" text-anchor="middle" font-weight="bold">08</text>
+    <text x="640" y="340" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="48" fill="#FAF7F2" text-anchor="middle" font-weight="bold">MCP — 万能接口标准</text>
+    <path fill="#E8A87C" d="M522,365 H758 A2,2 0 0 1 760,367 V367 A2,2 0 0 1 758,369 H522 A2,2 0 0 1 520,367 V367 A2,2 0 0 1 522,365 Z" />
+    <text x="640" y="420" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="20" fill="#FAF7F2" fill-opacity="0.8" text-anchor="middle">Model Context Protocol</text>
+    
+  <g transform="translate(610.0, 450.0) scale(1.5)" fill="#E8A87C">
+    <path d="M15.707 8.293a1 1 0 0 1 0 1.414l-6 6a1 1 0 1 1 -1.414 -1.414l6 -6a1 1 0 0 1 1.414 0" />
+    <path d="M19.242 4.757c2.343 2.344 2.342 6.143 -.052 8.534l-.534 .464a1 1 0 1 1 -1.312 -1.51l.483 -.416a4 4 0 0 0 0 -5.657c-1.562 -1.563 -4.095 -1.563 -5.607 -.054l-.463 .536a1 1 0 1 1 -1.514 -1.308l.513 -.59a6 6 0 0 1 8.486 .001" />
+    <path d="M6.75 10.338a1 1 0 0 1 -.088 1.411l-.483 .425a3.97 3.97 0 0 0 0 5.649a4.064 4.064 0 0 0 5.678 .038l.34 -.458a1 1 0 1 1 1.606 1.194l-.397 .534l-.1 .114a6.07 6.07 0 0 1 -8.533 0a5.97 5.97 0 0 1 -1.773 -4.247c0 -1.595 .638 -3.124 1.814 -4.284l.524 -.463a1 1 0 0 1 1.411 .087" />
+  </g>
+  </g>
+
+  <g id="footer">
+    <text x="40" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#FAF7F2" fill-opacity="0.5">AI大家学 · 大模型技术篇</text>
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#FAF7F2" fill-opacity="0.5" text-anchor="end">30</text>
+  </g>
+</svg>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#F5F0E8"/>
+
+  <g id="header">
+    <text x="60" y="65" font-family="Microsoft YaHei, PingFang SC, Georgia, serif" font-size="30" fill="#8B6F47" font-weight="bold">不同模型的 Tokenizer 也不一样</text>
+    <rect x="60" y="78" width="80" height="3" rx="1.5" fill="#E8A87C"/>
+    <text x="1220" y="60" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B" text-anchor="end">"我喜欢吃苹果" 切分对比</text>
+  </g>
+
+  <!-- Model 1: Qwen -->
+  <g id="row-qwen">
+    <rect x="60" y="110" width="1160" height="130" rx="16" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <text x="100" y="148" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#8B6F47" font-weight="bold">Qwen</text>
+    <text x="100" y="172" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8B7D6B">qwen-tokenizer</text>
+
+    <!-- 6 tokens -->
+    <rect x="340" y="125" width="72" height="48" rx="6" fill="#E8A87C" fill-opacity="0.2" stroke="#E8A87C" stroke-width="1"/>
+    <text x="376" y="157" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">我</text>
+
+    <rect x="422" y="125" width="72" height="48" rx="6" fill="#C4956A" fill-opacity="0.2" stroke="#C4956A" stroke-width="1"/>
+    <text x="458" y="157" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">喜</text>
+
+    <rect x="504" y="125" width="72" height="48" rx="6" fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1"/>
+    <text x="540" y="157" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">欢</text>
+
+    <rect x="586" y="125" width="72" height="48" rx="6" fill="#8FBC8F" fill-opacity="0.2" stroke="#8FBC8F" stroke-width="1"/>
+    <text x="622" y="157" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">吃</text>
+
+    <rect x="668" y="125" width="72" height="48" rx="6" fill="#E8A87C" fill-opacity="0.2" stroke="#E8A87C" stroke-width="1"/>
+    <text x="704" y="157" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">苹</text>
+
+    <rect x="750" y="125" width="72" height="48" rx="6" fill="#C4956A" fill-opacity="0.2" stroke="#C4956A" stroke-width="1"/>
+    <text x="786" y="157" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">果</text>
+
+    <text x="1080" y="155" font-family="Georgia, serif" font-size="28" fill="#8B6F47" text-anchor="middle" font-weight="bold">6</text>
+    <text x="1080" y="175" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">Tokens</text>
+  </g>
+
+  <!-- Model 2: GPT-4 -->
+  <g id="row-gpt4">
+    <rect x="60" y="260" width="1160" height="130" rx="16" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <text x="100" y="298" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#8B6F47" font-weight="bold">GPT-4</text>
+    <text x="100" y="322" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8B7D6B">tiktoken</text>
+
+    <!-- 5 tokens: 喜欢 merged -->
+    <rect x="340" y="275" width="72" height="48" rx="6" fill="#E8A87C" fill-opacity="0.2" stroke="#E8A87C" stroke-width="1"/>
+    <text x="376" y="307" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">我</text>
+
+    <rect x="422" y="275" width="144" height="48" rx="6" fill="#E8A87C" fill-opacity="0.3" stroke="#E8A87C" stroke-width="2"/>
+    <text x="494" y="307" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#C4956A" text-anchor="middle" font-weight="bold">喜欢</text>
+
+    <rect x="576" y="275" width="72" height="48" rx="6" fill="#8FBC8F" fill-opacity="0.2" stroke="#8FBC8F" stroke-width="1"/>
+    <text x="612" y="307" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">吃</text>
+
+    <rect x="658" y="275" width="72" height="48" rx="6" fill="#E8A87C" fill-opacity="0.2" stroke="#E8A87C" stroke-width="1"/>
+    <text x="694" y="307" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">苹</text>
+
+    <rect x="740" y="275" width="72" height="48" rx="6" fill="#C4956A" fill-opacity="0.2" stroke="#C4956A" stroke-width="1"/>
+    <text x="776" y="307" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">果</text>
+
+    <!-- Merge annotation -->
+    <text x="494" y="345" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="11" fill="#E8A87C" text-anchor="middle">GPT词表有"喜欢"合并项</text>
+
+    <text x="1080" y="305" font-family="Georgia, serif" font-size="28" fill="#E8A87C" text-anchor="middle" font-weight="bold">5</text>
+    <text x="1080" y="325" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">Tokens</text>
+  </g>
+
+  <!-- Model 3: Claude -->
+  <g id="row-claude">
+    <rect x="60" y="410" width="1160" height="130" rx="16" fill="#FAF7F2" stroke="#EDE5D5" stroke-width="1"/>
+    <text x="100" y="448" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="18" fill="#8B6F47" font-weight="bold">Claude</text>
+    <text x="100" y="472" font-family="Consolas, Courier New, monospace" font-size="12" fill="#8B7D6B">claude-tokenizer</text>
+
+    <!-- 6 tokens -->
+    <rect x="340" y="425" width="72" height="48" rx="6" fill="#E8A87C" fill-opacity="0.2" stroke="#E8A87C" stroke-width="1"/>
+    <text x="376" y="457" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">我</text>
+
+    <rect x="422" y="425" width="72" height="48" rx="6" fill="#C4956A" fill-opacity="0.2" stroke="#C4956A" stroke-width="1"/>
+    <text x="458" y="457" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">喜</text>
+
+    <rect x="504" y="425" width="72" height="48" rx="6" fill="#8B6F47" fill-opacity="0.15" stroke="#8B6F47" stroke-width="1"/>
+    <text x="540" y="457" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">欢</text>
+
+    <rect x="586" y="425" width="72" height="48" rx="6" fill="#8FBC8F" fill-opacity="0.2" stroke="#8FBC8F" stroke-width="1"/>
+    <text x="622" y="457" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">吃</text>
+
+    <rect x="668" y="425" width="72" height="48" rx="6" fill="#E8A87C" fill-opacity="0.2" stroke="#E8A87C" stroke-width="1"/>
+    <text x="704" y="457" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">苹</text>
+
+    <rect x="750" y="425" width="72" height="48" rx="6" fill="#C4956A" fill-opacity="0.2" stroke="#C4956A" stroke-width="1"/>
+    <text x="786" y="457" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="22" fill="#5D4E37" text-anchor="middle">果</text>
+
+    <text x="1080" y="455" font-family="Georgia, serif" font-size="28" fill="#8B6F47" text-anchor="middle" font-weight="bold">6</text>
+    <text x="1080" y="475" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="middle">Tokens</text>
+  </g>
+
+  <!-- Bottom insight -->
+  <g id="insight">
+    <rect x="60" y="570" width="1160" height="70" rx="12" fill="#8B6F47" fill-opacity="0.06" stroke="#8B6F47" stroke-width="1"/>
+    <use data-icon="tabler-filled/bulb" x="85" y="585" width="28" height="28" fill="#8B6F47"/>
+    <text x="125" y="603" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="15" fill="#5D4E37" font-weight="bold">训练数据不同 → BPE 高频组合不同 → 词表不同 → 同样的话 Token 数不同</text>
+    <text x="125" y="625" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="13" fill="#8B7D6B">中文消耗 Token 通常比英文多 1.5-2 倍</text>
+  </g>
+
+  <g id="footer">
+    <text x="1240" y="695" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="12" fill="#8B7D6B" text-anchor="end">10</text>
+  </g>
+</svg>
